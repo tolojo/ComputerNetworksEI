@@ -1,5 +1,5 @@
-# ComputerNetworks
-Computer Network Classes (Computer Engineering)
+# Redes de Computadores
+Conteudos da Unidade Curricular de Redes de Computadores (Engenharia Informática 1º ano).
 
 ## Classes
 Test
