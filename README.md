@@ -13,22 +13,6 @@ Os alunos deverão ainda efetuar um trabalho prático final que consiste em impl
 ### Horário 
 Test
 
-### Planeaamento previsto (pode sofrer alterações!)
-| Aula | Data | Aula |
-| ----------- | ----------- | ---------- |
-| Aula | Data | Aula |
-| 01 | 2022.02.14-19 | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
-| 02 | 2022.02.22-26 | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
-| 03 | 2022.02.22-26 | |
-| 04 | 2022.02.22-26 | |
-| 05 | 2022.02.22-26 | |
-| 06 | 2022.02.22-26 | |
-| 07 | 2022.02.22-26 | |
-| 08 | 2022.02.22-26 | |
-| 09 | 2022.02.22-26 | |
-| 10 | 2022.02.22-26 | |
-| 11 | 2022.02.22-26 | |
-
 ## Program
 ### Aulas Teóricas
 -	Introdução a Redes de Computadores & Aplicações 
@@ -53,6 +37,21 @@ Test
 - Utilização do simulador de rede Cisco Packet Tracer (ver [aqui]() onde fazer download e como instalar e utilizar). Existe um [roteiro]() para as aulas Packet Tracer;
 - Apoio a realização do trabalho prático sobre Networking/IoT em Cisco Packet Tracer (40%).
 
+### Planeamento previsto (pode sofrer alterações!)
+| Aula | Data | Aula |
+| ----------- | ----------- | ---------- |
+| Aula | Data | Aula |
+| 01 | 2022.02.14-19 | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
+| 02 | 2022.02.22-26 | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
+| 03 | 2022.02.22-26 | |
+| 04 | 2022.02.22-26 | |
+| 05 | 2022.02.22-26 | |
+| 06 | 2022.02.22-26 | |
+| 07 | 2022.02.22-26 | |
+| 08 | 2022.02.22-26 | |
+| 09 | 2022.02.22-26 | |
+| 10 | 2022.02.22-26 | |
+| 11 | 2022.02.22-26 | |
 
 ## Avaliação 
 - [Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TrabT.md) - Apresentação de um paper - 15%
