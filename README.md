@@ -1,5 +1,5 @@
 # Redes de Computadores
-*Conteudos da Unidade Curricular de Redes de Computadores (Engenharia Informática 1º ano) do IADE/Universidade Europeia*
+*Conteudos da Unidade Curricular de Redes de Computadores em exclusivo no curso de ***Engenharia Informática 1º ano*** do IADE/Universidade Europeia*
 
 O objectivo da cadeira é dotar os alunos de conhecimentos da concepção das componentes protocolares das redes de computadores, bem como de algumas componentes práticas de redes TCP/IP e de equipamentos activos de rede.
 
