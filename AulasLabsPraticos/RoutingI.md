@@ -44,6 +44,7 @@ $ /sbin/route
 Para verificar se tem conectividade poderá utilizar o `ping`:
 
 (a partir da UE01) `$ ping 192.168.1.2`
+
 (a partir da UE02) `$ ping 192.168.1.1`
 
 Deverá ter um output semelhante a este:
@@ -59,3 +60,5 @@ Ping reply ....
 
 
 Finally, create a third Network adapter in VM2 that is nat-ed with your physical address. This interface will be used to access the Internet.
+
+*Pedro Rosa - IADE/Universidade Europeia*
