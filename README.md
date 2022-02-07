@@ -33,7 +33,7 @@ Test
 -	IoT enquadrar com serviços de Cloud/associar a virtualização; Fog computing; necessidades de networking, armazenamento em IoT; exemplos práticos (smart homes, buildings, cities, veículos autónomos, etc); referencia a big data; referencia a segurança em IOT, nem que seja apenas com exemplos estilo Miai botnet, etc)
 
 ### Aulas Práticas:
-- [Laboratórios práticos]() de TCP/IP (endereçamento IP, routing)
+- [Laboratórios práticos](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/AulasLabsPraticos.md) de TCP/IP (endereçamento IP, routing)
 - Utilização do simulador de rede Cisco Packet Tracer (ver [aqui]() onde fazer download e como instalar e utilizar). Existe um [roteiro]() para as aulas Packet Tracer;
 - Apoio a realização do trabalho prático sobre Networking/IoT em Cisco Packet Tracer (40%).
 
