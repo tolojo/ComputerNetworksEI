@@ -36,8 +36,8 @@ Os alunos deverão ainda efetuar um trabalho prático final que consiste em impl
 -	IoT enquadrar com serviços de Cloud/associar a virtualização; Fog computing; necessidades de networking, armazenamento em IoT; exemplos práticos (smart homes, buildings, cities, veículos autónomos, etc); referencia a big data; referencia a segurança em IOT, nem que seja apenas com exemplos estilo Miai botnet, etc)
 
 ### Aulas Práticas:
-- [Laboratórios práticos](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/AulasLabsPraticos.md) de TCP/IP (endereçamento IP, routing)
-- Utilização do simulador de rede Cisco Packet Tracer (ver [aqui]() onde fazer download e como instalar e utilizar). Existe um [roteiro](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/AulasLabsPraticos/roteiro-packet-tracer.md) para as aulas Packet Tracer;
+- [Laboratórios práticos](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos.md) de TCP/IP (endereçamento IP, routing)
+- Utilização do simulador de rede Cisco Packet Tracer (ver [aqui]() onde fazer download e como instalar e utilizar). Existe um [roteiro](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/roteiro-packet-tracer.md) para as aulas Packet Tracer;
 - Apoio a realização do trabalho prático sobre Networking/IoT em Cisco Packet Tracer (40%).
 
 ### Planeamento previsto (pode sofrer alterações!)
@@ -60,20 +60,20 @@ Os alunos deverão ainda efetuar um trabalho prático final que consiste em impl
 | 14 | 02.22-26 | Apresentações dos trabalhos práticos Networking/IoT|
 
 ## Avaliação 
-- [Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TrabT.md) - Apresentação de um paper - 15%
-- [Trabalhos Práticos](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/Labs.md) (Network + IoT) - 40%
-- [Teste Escrito](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TesteEscrito/Teste.md) único - 45% (a realizar na data marcada pela Secretaria Escolar)
+- [Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabT.md) - Apresentação de um paper - 15%
+- [Trabalhos Práticos](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/Labs.md) (Network + IoT) - 40%
+- [Teste Escrito](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TesteEscrito/Teste.md) único - 45% (a realizar na data marcada pela Secretaria Escolar)
 
 
 ## Trabalho Teórico (15%)
-Enunciado do [Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TrabT/TrabT.md) da unidade curricular. Este trabalho é individual.
+Enunciado do [Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabT/TrabT.md) da unidade curricular. Este trabalho é individual.
 
 Importante escolher tema até **18 de fevereiro**.
 
-Depois de distribuídos os temas (até 20 de fevereiro) as datas de apresentação estarão disponiveis [aqui](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TrabT/TrabT-distribuicao.md).
+Depois de distribuídos os temas (até 20 de fevereiro) as datas de apresentação estarão disponiveis [aqui](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabT/TrabT-distribuicao.md).
 
 ## Trabalhos Práticos (40%)
-Enunciados dos [Trabalhos Práticos](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TrabsP/TrabsPraticos.md) da unidade curricular. Este trabalho é em grupo (3 alunos no máximo, 2 alunos no minimo).
+Enunciados dos [Trabalhos Práticos](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabsP/TrabsPraticos.md) da unidade curricular. Este trabalho é em grupo (3 alunos no máximo, 2 alunos no minimo).
 
 Importante respeitar as datas de entrega. Não serão aceites adiamentos.
 
