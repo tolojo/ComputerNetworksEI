@@ -74,9 +74,9 @@ ip helper-address 192.168.200.10
 interface gigabitethernet 0/0.102
 ip helper-address 192.168.200.10
 ```
-Configuração do NAT no router interno
+### Configuração do NAT no router interno
 
-Criação das listas de endereços para a realização de NAT:
+#### Criação das listas de endereços para a realização de NAT:
 ```
 access-list 1 permit 192.168.100.0 0.0.0.255
 access-list 2 permit 192.168.101.0 0.0.0.255
@@ -105,7 +105,7 @@ interface gigabitEthernet 0/1
 ip nat outside
 ```
 
-Configuração do tipo de NAT a relizar (um para muitos - overload):
+### Configuração do tipo de NAT a relizar (um para muitos - overload):
 ```
 ip nat inside source list 1 interface GigabitEthernet0/1 overload
 ip nat inside source list 2 interface GigabitEthernet0/1 overload
@@ -113,7 +113,7 @@ ip nat inside source list 3 interface GigabitEthernet0/1 overload
 ip nat inside source list 4 interface GigabitEthernet0/1 overload
 ```
 
-Colocação de novo router “ISP” e fazer a ligação entre redes com uma rede /30 ao router interno (rede 199.199.199.0/30)
+### Colocação de novo router “ISP” e fazer a ligação entre redes com uma rede /30 ao router interno (rede 199.199.199.0/30)
 
 Router interno: 
 ```
@@ -129,7 +129,7 @@ ip address 199.199.199.1 255.255.255.252
 no shutdown
 ```
 
-Configuração do interface da rede de servidores no ISP
+### Configuração do interface da rede de servidores no ISP
 
 Router ISP: 
 ```
@@ -137,10 +137,11 @@ interface gigabitethernet 0/0
 ip address 201.1.1.1 255.255.255.0
 ```
 
-Configuração do routing na rede interna (default gateway para mandar todos os pacotes desconhecidos para o ISP)
+### Configuração do routing na rede interna (default gateway para mandar todos os pacotes desconhecidos para o ISP)
 
 Router interno:
+```
 ip route 0.0.0.0 0.0.0.0 199.199.199.1
-
+```
 
 
