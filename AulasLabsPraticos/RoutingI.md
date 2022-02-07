@@ -1,9 +1,8 @@
 # Laboratório 2: Routing I
 
-O Laboratório 2 tem como objetivo:
-- Introduzir sistema de endereçamento e routing de pacotes IP
+O Laboratório 2 tem como objetivo **Introduzir sistema de endereçamento e routing de pacotes IP**
 
-Pré-requisito: Três máquinas virtuais - Instalação de pelo menos uma máquina virtual do SEED Project (tal como indicado [aqui](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/AulasLabsPraticos.md)) e dois clones.
+***Pré-requisito: Três máquinas virtuais - Instalação de pelo menos uma máquina virtual do SEED Project (tal como indicado [aqui](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/AulasLabsPraticos.md)) e dois clones.***
 
 Os clones deverão ser realizados no VirtualBox. Para tal deverá escolher a opção `Clone`, nomear a máquina virtual e escolher a opção `MAC Adress Policy: Generate new MAC addresses for all network adapters`. No final escolher `Linked Clone` para poupar espaço de armazenamento. O outro tipo de clone duplica o espaço em disco gasto pela primeira máquina virtual; o Linked Clone apenas grava as diferenças em relação à máquina original.
 
@@ -87,24 +86,49 @@ Para verificar se tem conectividade poderá utilizar o `ping`:
 
 ### Configurar UE01
 
+Para conseguir enviar pacotes para redes IPs distintas das que os interfaces estão ligados diretamente, necessita de um endereço de gateway (normalmente o *default gateway*). No nosso caso esse gateway será a máquina **UE01** que também será ligada à internet mais adiante. Para tal será necessário ligar o *forwarding* de pacotes.
 
-Defining a default gateway means that whenever a machine does not have a specific route for a given network, those packets are sent to its default gateway. Since VM2 will be the default gateway for VM1, IP forwarding must be enabled in VM2. This will allow VM1 to communicate with machines outside its subnet 192.168.0.X.
-
-Activate IP forwarding with:
-
-$ sudo sysctl net.ipv4.ip_forward=1   # on VM2
-Confirm that the flag value was updated to 1:
-
+Pode verificar que o *forwarding* de pacotes está **desligado** através do comando seguinte:
+```
 $ /sbin/sysctl net.ipv4.conf.all.forwarding
+```
+O resultado deve ser 0.
+
+Para **ativar** o *forwarding* deverá alterar o valor para 1:
+```
+$ sudo sysctl net.ipv4.ip_forward=1   # on VM2
+```
+
+Para confirmar que o valor ficou definido, deve repetir o comando:
+```
+$ /sbin/sysctl net.ipv4.conf.all.forwarding
+```
 
 ### Configurar UE02 e UE03
 
-Now set VM2 as the default gateway for VM1 by doing this:
+Com a máquina **UE01** configurada para re-encaminhar pacotes IP, falta configurar nas restantes duas máquinas o endereço do default gateway.
 
-$ sudo ip route add default via 192.168.0.10   # on VM1
-Try again to ping VM3 from VM1.
+Primeiro deverá testar se consegue chegar a outras redes. Para tal, no **UE02** tente pingar o endereço da outra rede do **UE01**, neste caso o 192.168.2.1:
+```
+$ ping 192.168.2.1
+```
+Não deverá conseguir. Consegue perceber porquê?
 
-$ ping 192.168.1.1       # on VM1
+Agora, na mesma máquina **UE02**, deverá colocar o endereço do **UE01** da mesma rede que o **UE02**:
+```
+$ sudo ip route add default via 192.168.1.1
+```
+
+Para verificar se já tem conectividade deverá utilizar o ping:
+```
+$ ping 192.168.1.1
+``` 
+Já deverá conseguir. Consegue perceber porquê?
+
+
+
+
+
 Does it work? Can you identify where the problem is? Run the commands below and see if you understand what is happening
 
 $ sudo tcpdump -i enp0s3   # on VM1
