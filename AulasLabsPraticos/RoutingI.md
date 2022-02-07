@@ -18,7 +18,9 @@ As primeiras placas de rede da UE01 e UE02 estão ligadas ao `switch01`; a segun
 Para associar as placas de rede a esses switchs deve desligar as máquinas e escolher a opção `Attach to Internal Network` nas configurações da placa de rede
 Atribuir o nomes `switch01` e `switch02` aos switchs, nas respetivas máquinas. Não esquecer de escolher a opção `Promiscuous Mode: Allow VMs`
 
-## 1. Interligar UE01 com UE02
+## 1. Interligar Máquinas Virtuais
+
+## 1.1 Interligar UE01 com UE02
 
 Para interligar estas duas máquinas virtuais, deve configurar os seguintes endereços em cada uma delas:
 
@@ -52,7 +54,34 @@ Deverá ter um output semelhante a este:
 Ping reply ....
 ```
 
+## 1.2 Interligar UE01 com UE03
 
+Para interligar estas duas máquinas virtuais, deve configurar os seguintes endereços em cada uma delas:
+
+**UE01** - interface `enp0s7` - **192.168.2.1**
+
+`$ sudo ifconfig enp0s3 192.168.1.1/24 up`
+
+**UE03** - interface `enp0s3` - **192.168.2.2**
+
+`$ sudo ifconfig enp0s3 192.168.1.2/24 up`
+
+Para garantir que os novos endereços ficam ativos poderá reiniciar a componente de networking:
+
+`$ sudo /etc/init.d/networking force-reload`
+
+Deverá depois certificar-se que tudo está correto através dos seguintes comandos:
+
+```
+$ /sbin/ifconfig
+$ /sbin/route
+```
+
+Para verificar se tem conectividade poderá utilizar o `ping`:
+
+(a partir da UE01) `$ ping 192.168.2.2`
+
+(a partir da UE03) `$ ping 192.168.2.1`
 
 
 
