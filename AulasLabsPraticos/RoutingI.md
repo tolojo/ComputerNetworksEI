@@ -82,7 +82,7 @@ Para verificar se tem conectividade poderá utilizar o `ping`:
 
 (a partir da UE03) `$ ping 192.168.2.1`
 
-## Preparar a UE01 para fazer routing de pacotes e configurar o default gateway da UE02 e UE03
+## 1.3 Preparar a UE01 para fazer routing de pacotes e configurar o default gateway da UE02 e UE03
 
 ### Configurar UE01
 
@@ -159,9 +159,7 @@ $ traceroute 192.168.2.2
 Qual o output? Consegue perceber por onde o pacote passou?
 
 
-## Configurar NAT (Network Address Translation)
-
-2.4 Configure NAT (Network Address Translation)
+## 2. Configurar NAT (Network Address Translation)
 
 Try to ping google.com from the 3 machines? Why can't you do it from VM1 nor VM3?
 
@@ -171,10 +169,13 @@ $ ping 8.8.8.8                    # on VM1
 $ sudo tcpdump -i enp0s9 -p icmp    # on VM2 (interface to the internet)
 you can observe that the packets go out to google.com but do not come back. Why? Because google.com does not know where 192.168.0.100 is and so cannot send the packets back. You can use the iptables command (man iptables) in VM2 to correct this behaviour. NAT will do the source and destination mapping.
 
+```
 $ sudo iptables -P FORWARD ACCEPT    # Defines default policy for FORWARD
 $ sudo iptables -F FORWARD           # Flushes all the rules from chain FORWARD
 $ sudo iptables -t nat -F            # Flushes all the rules from table NAT
 $ sudo iptables -t nat -A POSTROUTING  -o enp0s9 -j MASQUERADE    # Creates a source NAT on interface enp0s9
+```
+
 Test again
 
 $ ping 8.8.8.8                    # on VM1
@@ -190,39 +191,41 @@ As seen before you cannot ping VM3 from VM1. Could you solve this issue with a N
 And can you ping VM1 from VM3? Why?
 
 
-## Garantir que as configurações ficam permanentes
+## 3. Garantir que as configurações ficam permanentes
 
 Making these changes permanent
 
 The changes you made before will be lost once you perform a reboot of your machine. In order to make them permanent you have to edit the corresponding /etc/network/interfaces
 
 ```
-## On VM1
+### On UE01
 auto enp0s3
 iface enp0s3 inet static
-    address 192.168.0.100
-    netmask 255.255.255.0
-    gateway 192.168.0.10
-    dns-nameservers 8.8.8.8 8.8.4.4
-### On VM2
-auto enp0s3
-iface enp0s3 inet static
-    address 192.168.0.10
+    address 192.168.1.11
     netmask 255.255.255.0
     dns-nameservers 8.8.8.8 8.8.4.4
 
 auto enp0s8
 iface enp0s8 inet static
-    address 192.168.1.254
+    address 192.168.2.1
     netmask 255.255.255.0
     dns-nameservers 8.8.8.8 8.8.4.4
 
 auto enp0s9
 iface enp0s9 inet dhcp
-### On VM3
+
+## On UE02
 auto enp0s3
 iface enp0s3 inet static
-    address 192.168.1.1
+    address 192.168.1.2
+    netmask 255.255.255.0
+    gateway 192.168.0.10
+    dns-nameservers 8.8.8.8 8.8.4.4
+    
+### On UE03
+auto enp0s3
+iface enp0s3 inet static
+    address 192.168.2.2
     netmask 255.255.255.0
     gateway 192.168.1.254
     dns-nameservers 8.8.8.8 8.8.4.4
