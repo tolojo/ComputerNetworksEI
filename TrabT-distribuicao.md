@@ -1,4 +1,4 @@
-# Trabalho Teórico
+# Trabalho Teórico (15%)
 ## Distribuição de temas e alocação de datas de apresentação
 
 Turma T1:
