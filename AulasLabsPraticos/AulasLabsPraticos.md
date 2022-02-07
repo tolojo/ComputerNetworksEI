@@ -1,7 +1,7 @@
 # Aulas de Laboratórios Práticos (40%)
 
 
-1. Trabalho de Routing I com máquinas virtuais (5%)
+1. Laboratório Routing I com máquinas virtuais (5%)
 2. Análise de ficheiro pcap (captura de pacotes com Wireshark/tcpdump) (10%)
 3. Trabalho de Routing II com NAT e acesso à Internet (5%)
 4. Instalar o Nagius (5%)
@@ -23,4 +23,19 @@ Instruções resumidas (podem não dispensar a consulta do manual referido anter
 5. Iniciar a máquina virtual (credenciais - user:seed; password:dees)
 6. Atualizar o sistema operativo: sudo apt update; sudo apt upgrade
 7. Atualizar o teclado para português: setxkbmap pt
+
+## 1. Laboratório 1: Cisco Packet Tracer I 
+
+## 2. Laboratório 2: Routing I 
+
+## 3. Laboratório 3: Cisco Packet Tracer II 
+
+## 4. Laboratório 4: Routing II
+
+## 5. Laboratório 5: Captura de Tráfego numa Rede 
+
+## 6. Laboratório 6: Instalação/Parametrização do Nagius
+
+## 7. Laboratório 7: Cisco Packet Tracer III
+
 
