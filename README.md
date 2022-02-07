@@ -8,4 +8,4 @@ Test
 Test
 
 ## Practical Labs
-The Labs are [here](https://github.com/pmrosa-classes/ComputerNetworks/Labs-2022).
+The Labs are [here](https://github.com/pmrosa-classes/ComputerNetworks/Labs-2022.md).
