@@ -12,6 +12,7 @@ Test
 | ----------- | ----------- |
 | Data | Aula |
 | 2022.02.14-19 | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
+| 2022.02.14-19 | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
 
 ## Program
 ### Aulas Teóricas
