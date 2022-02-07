@@ -20,32 +20,32 @@ O processo de escolha decorre entre 8 e 12 de março (primeira semana de aulas) 
 A análise deve basear-se sobre o estudo ou implementação descrita, podendo ser útil verificar outros papers referenciados. É importante para a avaliação que o aluno exponha exatamente o que é relevante do paper, expondo ainda o seu ponto de vista sobre o que apresenta. Não é necessário nenhum relatório.
 
 Critérios de avaliação dos papers:
-- 5% Apresentação do objetivo do paper e devido enquadramento.
-- 5% Apresentação do problema a resolver.
-- 50% Desenvolvimento dos assuntos relacionados com os trabalhos efetuados, estudos, implementações; etc.
-- 10% Para utilização de outras referencias presentes no paper ou consideradas válidas pelo aluno, desde que no contexto do paper e resultando em mais valia na apresentação
-- 10% Apresentação das conclusões dos autores + 10% do ponto anterior, caso não faça sentido usar referencias externas.
-- 20% Apresentação de comentários críticos e conclusões do aluno.
+- 5% - Apresentação do **objetivo** do paper e devido enquadramento.
+- 5% - Apresentação do **problema a resolver**.
+- 50% - **Desenvolvimento** dos assuntos relacionados com os trabalhos efetuados, estudos, implementações; etc.
+- 10% - Para **utilização de outras referencias** presentes no paper ou consideradas válidas pelo aluno, desde que no contexto do paper e resultando em mais valia na apresentação
+- 10% - Apresentação das conclusões dos autores + 10% do ponto anterior, caso não faça sentido usar referencias externas.
+- 20% - Apresentação de comentários críticos e conclusões do aluno.
 
 
 Alguns exemplos de papers aceites (que podem ser escolhidos mas não deve servir de limitação):
-•	Evolution of Smart Homes for the Elderly - https://dl.acm.org/doi/abs/10.1145/3041021.3054928
-•	Wireless Communication in Internet of Vehicles Networks: DSRC-based Vs Cellular-based - https://dl.acm.org/doi/abs/10.1145/3368756.3368998
-•	Data security of smart cities - https://dl.acm.org/doi/abs/10.1145/3286606.3286866
-•	What does mean search engine for IOT or IOT search engine - https://dl.acm.org/doi/10.1145/3372938.3372958
-•	Big Data or Big Brother? That is the question now - https://dl.acm.org/doi/abs/10.1145/3158352
-•	Defending My Castle: A Co-Design Study of Privacy Mechanisms for Smart Homes - https://dl.acm.org/doi/abs/10.1145/3290605.3300428
-•	Securing Over–The–Air IoT Firmware Updates using Blockchain - https://dl.acm.org/doi/10.1145/3312614.3312649
-•	Internet of Personalized and Autonomous Things (IoPAT) - https://dl.acm.org/doi/10.1145/3277893.3277901
-•	Time Does Not Heal All Wounds:A Longitudinal Analysis of Security-Mechanism Support in Mobile Browsers - https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_01A-4_Luo_paper.pdf
-•	Towards a big data analytics framework for smart cities - https://dl.acm.org/doi/abs/10.1145/3175628.3175647
-•	Applications of blockchain in smart cities - https://dl.acm.org/doi/abs/10.1145/3368691.3368726
-•	Consumer Smart Homes: Where We Are andWhere We Need to Go - https://dl.acm.org/doi/abs/10.1145/3301293.3302371
-•	Multimodal Interaction for Accessible Smart Homes - https://dl.acm.org/doi/10.1145/3218585.3218595
-•	Smart Cities Connected and Autonomous Vehicles Readiness Index - https://dl.acm.org/doi/abs/10.1145/3357492.3358631
-•	Traffic Lights Control using Wireless Sensors Networks - https://dl.acm.org/doi/abs/10.1145/3286606.3286791
-•	Integrating Smart City Applications in 5G Networks - https://dl.acm.org/doi/abs/10.1145/3231053.3231055
-•	SafeWatch: A Wearable Hand Motion Tracking System for Improving Driving Safety - https://ieeexplore.ieee.org/document/7946880
+-	Evolution of Smart Homes for the Elderly - https://dl.acm.org/doi/abs/10.1145/3041021.3054928
+-	Wireless Communication in Internet of Vehicles Networks: DSRC-based Vs Cellular-based - https://dl.acm.org/doi/abs/10.1145/3368756.3368998
+-	Data security of smart cities - https://dl.acm.org/doi/abs/10.1145/3286606.3286866
+-	What does mean search engine for IOT or IOT search engine - https://dl.acm.org/doi/10.1145/3372938.3372958
+-	Big Data or Big Brother? That is the question now - https://dl.acm.org/doi/abs/10.1145/3158352
+-	Defending My Castle: A Co-Design Study of Privacy Mechanisms for Smart Homes - https://dl.acm.org/doi/abs/10.1145/3290605.3300428
+-	Securing Over–The–Air IoT Firmware Updates using Blockchain - https://dl.acm.org/doi/10.1145/3312614.3312649
+-	Internet of Personalized and Autonomous Things (IoPAT) - https://dl.acm.org/doi/10.1145/3277893.3277901
+-	Time Does Not Heal All Wounds:A Longitudinal Analysis of Security-Mechanism Support in Mobile Browsers - https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_01A-4_Luo_paper.pdf
+-	Towards a big data analytics framework for smart cities - https://dl.acm.org/doi/abs/10.1145/3175628.3175647
+-	Applications of blockchain in smart cities - https://dl.acm.org/doi/abs/10.1145/3368691.3368726
+-	Consumer Smart Homes: Where We Are andWhere We Need to Go - https://dl.acm.org/doi/abs/10.1145/3301293.3302371
+-	Multimodal Interaction for Accessible Smart Homes - https://dl.acm.org/doi/10.1145/3218585.3218595
+-	Smart Cities Connected and Autonomous Vehicles Readiness Index - https://dl.acm.org/doi/abs/10.1145/3357492.3358631
+-	Traffic Lights Control using Wireless Sensors Networks - https://dl.acm.org/doi/abs/10.1145/3286606.3286791
+-	Integrating Smart City Applications in 5G Networks - https://dl.acm.org/doi/abs/10.1145/3231053.3231055
+-	SafeWatch: A Wearable Hand Motion Tracking System for Improving Driving Safety - https://ieeexplore.ieee.org/document/7946880
 
 NOTA: Para efetuarem download dos papers poderão ter de se ligar por VPN à UE ou usar diretamente uma rede académica. Em caso de dificuldade por favor contactar o Docente.
 
