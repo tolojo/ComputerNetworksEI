@@ -52,21 +52,21 @@ ip address 192.168.102.1 255.255.255.0`
 ```
 
 Criação do interface da rede de servidores no router:
-
+```
 interface gigabitethernet 0/0.200
 encapsulation dot1Q 200
 ip address 192.168.200.1 255.255.255.0`
-
+```
 Ativar administrativamente o interface físico Gigabitethernet 0/0
-
+```
 interface gigabitethernet 0
 no shutdown	Interfaces nos routers estão em “shutdown” por omissão, por isso têm que ser ativados manualmente
-
+```
 Deverá ser configurado o serviço DHCP no servidor com as várias pools de endereços IPv4 necessárias
 
 Configuração do relay de DHCP em cada um dos interfaces que necessite de DHCP (redes de postos de trabalho).
 O IP do servidor é fixo: 192.168.200.10
-
+```
 interface gigabitethernet 0/0.100
 ip helper-address 192.168.200.10		Indicação do servidor de DHCP para esta VLAN
 
@@ -75,15 +75,16 @@ ip helper-address 192.168.200.10
 
 interface gigabitethernet 0/0.102
 ip helper-address 192.168.200.10
-
+```
 Configuração do NAT no router interno
 
 Criação das listas de endereços para a realização de NAT:
+```
 access-list 1 permit 192.168.100.0 0.0.0.255
 access-list 2 permit 192.168.101.0 0.0.0.255
 access-list 3 permit 192.168.102.0 0.0.0.255
 access-list 4 permit 192.168.200.0 0.0.0.255
-
+```
 Nos interfaces com ip privado colocar “ip nat inside” 
 interface gigabitEthernet 0/0.100
 ip nat inside					Indicação de que se trata de um interface interno
