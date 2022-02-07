@@ -195,9 +195,7 @@ Já deverá conseguir.
 
 ## 3. Garantir que as configurações ficam permanentes
 
-Making these changes permanent
-
-The changes you made before will be lost once you perform a reboot of your machine. In order to make them permanent you have to edit the corresponding /etc/network/interfaces
+Se desligar as máquinas irá perder as configurações. Antes de o fazer edite o ficheiro `/etc/network/interfaces` e coloque as informações anteriromente configuradas (neste caso acrescentou-se um endereço de DNS Server para poder usar nomes de sites posteriromente):
 
 ```
 ### On UE01
