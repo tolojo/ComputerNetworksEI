@@ -193,7 +193,7 @@ Configurar IPv6 na rede de interligação entre Router interno e Router ISP com 
 Configurar IPv6 no interface com a rede 2001:1:1:0::/64  (0 = default VLAN).
 Configurar postos de trabalho com endereços 2001:1:1:0::10 e 2001:1:1:0::11.
 
-Router ISP:
+#### Router ISP:
 
 Ligar routing de IPv6:
 ```
@@ -208,7 +208,7 @@ interface gi 0/1
 ipv6 address 2001:9999:9999:9999::1/126
 ```
 
-Router interno:
+#### Router interno:
 
 ```
 Configurar interface ipv6:
@@ -218,7 +218,7 @@ ipv6 address 2001:9999:9999:9999::2/126
 
 Nota: configurar IPv6 nos dois servidores internos com a mesma terminação dos endereços IPv4, para testar conectividade: 2001:1:1:0::10/64 e 2001:1:1:0::11/64
 
-Configurar routing de IPv6 para permitir conectividade entre redes:
+#### Configurar routing de IPv6 para permitir conectividade entre redes:
 
 Routing:
 ```
