@@ -3,14 +3,14 @@
 ## 1ª componente de avaliação continua: apresentação de um paper
 Nota: VERIFICAR FUTURAMENTE A PLATAFORMA PARA ALGUMA EVENTUAL VERSÃO NOVA DO ENUNCIADO.
 
-Análise e apresentação de um paper sobre Internet of Things / Tecnologias associadas de rede – 15% da avaliação – realização voluntária.
+Análise e apresentação de um paper sobre **Internet of Things / Tecnologias de rede** – 15% da avaliação – realização voluntária.
 Os alunos deverão escolher três papers que tenham sido apresentados numa das conferências com rank A+ ou A em http://portal.core.edu.au/conf-ranks/ nos anos de 2018, 2019, 2020 ou já em 2021 ou em alternativa de um destes sites:
 - https://dl.acm.org
 - https://www.usenix.org/conference/usenixsecurity19/technical-sessions
 - https://www.ndss-symposium.org/ndss-program/ndss-symposium-%202019-program/
 
 
-Poderão procurar por várias keyworks para procurarem, entre os quais “IoT”, “5G”, “Wifi 6”, “BigData”, “Smart Cities”, “Smart Transportation”, “Smart Homes”, “Smart Lighting”, “Smart Grid”, etc.
+Poderão procurar por várias keyworks para procurarem, entre os quais “IoT”, “5G”, “Wifi 6”, “Smart Cities”, “Smart Transportation”, “Smart Homes”, “Smart Grid”, etc.
 
 Desses três papers o docente escolherá um que os alunos terão que apresentar em datas a marcar (conforme o número total de apresentações a efetuar – a iniciar na semana de 22/3).
 
@@ -29,11 +29,22 @@ Critérios de avaliação dos papers:
 
 
 Alguns exemplos de papers aceites (que podem ser escolhidos mas não deve servir de limitação):
--	Evolution of Smart Homes for the Elderly - https://dl.acm.org/doi/abs/10.1145/3041021.3054928
+- Improving media streaming services for train passengers with 5G - https://dl.acm.org/doi/10.1145/3391614.3399399
+- Understanding Operational 5G: A First Measurement Study on Its Coverage, Performance and Energy Consumption - https://dl.acm.org/doi/10.1145/3387514.3405882
+- Integrating Smart City Applications in 5G Networks - https://doi.org/10.1145/3231053.3231055
+- Delay is Not an Option: Low Latency Routing in Space - https://dl.acm.org/doi/10.1145/3286062.3286075
+- Visualization and performance analysis on 5G network slicing for drones - https://dl.acm.org/doi/10.1145/3414045.3416208
+- Good vs. Evil: Investigating the Effect of Game Premise in a Smart Home Security Educational Game - https://dl.acm.org/doi/10.1145/3383668.3419887
+- Charting the Atack Surface of Trigger-Action IoT Platforms - https://dl.acm.org/doi/10.1145/3319535.3345662
+- Geo-locating Drivers: A Study of Sensitive Data Leakage in Ride-Hailing Services - https://www.ndss-symposium.org/ndss-paper/geo-locating-drivers-a-study-of-sensitive-data-leakage-in-ride-hailing-services/
+- Traffic Lights Control using Wireless Sensors Networks - https://dl.acm.org/doi/abs/10.1145/3286606.3286791
+- Improving media streaming services for train passengers with 5G - https://dl.acm.org/doi/10.1145/3391614.3399399
+- Smart Cities Connected and Autonomous Vehicles Readiness Index - https://dl.acm.org/doi/10.1145/3357492.3358631
+- Internet of Things Security: Challenges and Perspectives - https://dl.acm.org/doi/10.1145/3018896.3056784
+- Can Future Wireless Networks Detect Fires? - https://dl.acm.org/doi/10.1145/3408308.3427978
+- Sensors Technology for Smart Homes - https://www.sciencedirect.com/science/article/pii/S0378512211000983
 -	Wireless Communication in Internet of Vehicles Networks: DSRC-based Vs Cellular-based - https://dl.acm.org/doi/abs/10.1145/3368756.3368998
 -	Data security of smart cities - https://dl.acm.org/doi/abs/10.1145/3286606.3286866
--	What does mean search engine for IOT or IOT search engine - https://dl.acm.org/doi/10.1145/3372938.3372958
--	Big Data or Big Brother? That is the question now - https://dl.acm.org/doi/abs/10.1145/3158352
 -	Defending My Castle: A Co-Design Study of Privacy Mechanisms for Smart Homes - https://dl.acm.org/doi/abs/10.1145/3290605.3300428
 -	Securing Over–The–Air IoT Firmware Updates using Blockchain - https://dl.acm.org/doi/10.1145/3312614.3312649
 -	Internet of Personalized and Autonomous Things (IoPAT) - https://dl.acm.org/doi/10.1145/3277893.3277901
