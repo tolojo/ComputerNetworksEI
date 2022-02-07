@@ -42,17 +42,23 @@ Test
 
 
 ## Trabalho Teórico (15%)
-Enunciado do [Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TrabT.md) da unidade curricular.
+Enunciado do [Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TrabT.md) da unidade curricular. Este trabalho é individual.
 
 Importante escolher tema até **18 de fevereiro**.
 
 Depois de distribuídos os temas (até 20 de fevereiro) as datas de apresentação estarão disponiveis [aqui](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TrabT-distribuicao.md).
 
 ## Trabalhos Práticos (40%)
-Enunciados dos [Trabalhos Práticos](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/Labs-2022.md) da unidade curricular.
+Enunciados dos [Trabalhos Práticos](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/Labs-2022.md) da unidade curricular. Este trabalho é em grupo (3 alunos no máximo, 2 alunos no minimo).
 
 Importante respeitar as datas de entrega. Não serão aceites adiamentos.
 
 ## Grupos
+Os trabalhos práticos são em grupo. A constituição dos grupos (3 alunos no máximo, 2 alunos no minimo) deve ser enviada até dia 25 de fevereiro.
+
+## Calendário
+- até 18 de fevereiro - Escolha dos temas para os trabalhos teóricos
+- 20 de fevereiro - Publicação da distribuição dos temas e datas de apresentação
+- até 25 de fevereiro - Constituição dos grupos
 
 ## Bibliografia
