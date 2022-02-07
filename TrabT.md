@@ -8,7 +8,7 @@ Os alunos deverão escolher três papers que tenham sido apresentados numa das c
 - https://www.ndss-symposium.org/ndss-program/ndss-symposium-%202019-program/
 
 
-Poderão procurar por várias keyworks para procurarem, entre os quais “IoT”, “5G”, “Wifi 6”, “Smart Cities”, “Smart Transportation”, “Smart Homes”, “Smart Grid”, etc.
+Poderão procurar por várias keyworks para obterem resultados relevantes para a unidade curricular, entre os quais “IoT”, “5G”, “Wifi 6”, “Smart Cities”, “Smart Transportation”, “Smart Homes”, “Smart Grid”, etc.
 
 Desses três papers o Docente escolherá um que os alunos terão que apresentar em datas a marcar (conforme o número total de apresentações a efetuar – a iniciar na semana de 22/3).
 
