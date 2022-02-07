@@ -13,7 +13,8 @@ Os alunos deverão ainda efetuar um trabalho prático final que consiste em impl
 ### Horário 
 | Dia | Hora | Turma |
 | ----------- | ----------- | ---------- |
-| Seg | 14:00 - 15:40 | T1 |
+| Seg | 16:00 - 17:40 | T2 |
+| Qui | 16:00 - 17:40 | T1 |
 
 ## Program
 ### Aulas Teóricas
