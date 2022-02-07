@@ -7,6 +7,9 @@ Test
 ## Program
 Test
 
+## Avaliação 
+
+
 ## Trabalhos Teóricos (15%)
 Enunciado do [Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TrabT.md) da unidade curricular.
 
