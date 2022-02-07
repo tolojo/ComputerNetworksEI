@@ -24,7 +24,7 @@ Instruções resumidas (podem não dispensar a consulta do manual referido anter
 6. Atualizar o sistema operativo: sudo apt update; sudo apt upgrade
 7. Atualizar o teclado para português: setxkbmap pt
 
-Para calendarização prevista dos seguintes laboratórios, por favor ver [datas](https://github.com/pmrosa-classes/ComputerNetworksEI#planeamento) em 
+Para calendarização prevista dos seguintes laboratórios, por favor ver as [datas](https://github.com/pmrosa-classes/ComputerNetworksEI#planeamento) no Planeamento Previsto 
 
 ## 1. Laboratório 1: Cisco Packet Tracer I 
 
