@@ -161,35 +161,28 @@ Qual o output? Consegue perceber por onde o pacote passou?
 
 ## 2. Configurar NAT (Network Address Translation)
 
-Try to ping google.com from the 3 machines? Why can't you do it from VM1 nor VM3?
-
-The issue is that VM2 is acting as the gateway to the internet for both VM1 and VM3 but is not NATing the packets. If you run
-
-$ ping 8.8.8.8                    # on VM1
-$ sudo tcpdump -i enp0s9 -p icmp    # on VM2 (interface to the internet)
-you can observe that the packets go out to google.com but do not come back. Why? Because google.com does not know where 192.168.0.100 is and so cannot send the packets back. You can use the iptables command (man iptables) in VM2 to correct this behaviour. NAT will do the source and destination mapping.
-
+A máquina virtual **UE01** já tem Intenet. Pode tentar fazendo um ping para o exterior:
 ```
-$ sudo iptables -P FORWARD ACCEPT    # Defines default policy for FORWARD
-$ sudo iptables -F FORWARD           # Flushes all the rules from chain FORWARD
-$ sudo iptables -t nat -F            # Flushes all the rules from table NAT
-$ sudo iptables -t nat -A POSTROUTING  -o enp0s9 -j MASQUERADE    # Creates a source NAT on interface enp0s9
+$ ping 1.1.1.1
+``` 
+*Nota: O endereço 1.1.1.1 é um servidor público da Cloudfare. Pode tambem testar para um endereço semelhante da Google 8.8.8.8*
+
+Agora tente fazer o mesmo nas máquinas **UE02** e **UE03**.
+Porque razão não conseque?
+
+Na verdade para a Internet não podem ser enviados endereços privados como os 192.168.x.x. Por esse motivo é preciso *transformar* os pacote antes de os enviar para a Internet. Para tal utilizamos NAT - *Network Address Translation* - que transforma os endereços privados internos no endereço público que a máquina **UE01** obteve através do terceiro interface (que está configurado para obter o endereço IP por DHCP e cujo switch foi configurado como NATTED anterirmente).
+
+Para realizar estas configurações, deve:
+```
+$ sudo iptables -P FORWARD ACCEPT   
+$ sudo iptables -F FORWARD           
+$ sudo iptables -t nat -F            
+$ sudo iptables -t nat -A POSTROUTING  -o enp0s9 -j MASQUERADE   
 ```
 
-Test again
+Agora tente efetuar os pings anteriores novamente nas máquinas **UE02** e **UE03**.
 
-$ ping 8.8.8.8                    # on VM1
-$ sudo tcpdump -i enp0s9 -p icmp    # on VM2 (interface to the internet)
-What do you observe? Why does it work now?
-What is the source address of the packet now? Compare this source address to the previous case.
-Lets now go back to 2.3 to the scenario where VM2 is the default gateway for VM1 but where VM3 has no default gateway.
-
-To remove the default gateway run in VM3
-
-$ sudo route del default    # on VM3
-As seen before you cannot ping VM3 from VM1. Could you solve this issue with a NAT (in interface enp0s8 of VM2) instead of adding VM2 as the default gateway for VM3? Why?
-And can you ping VM1 from VM3? Why?
-
+Já deverá conseguir.
 
 ## 3. Garantir que as configurações ficam permanentes
 
@@ -203,13 +196,13 @@ auto enp0s3
 iface enp0s3 inet static
     address 192.168.1.11
     netmask 255.255.255.0
-    dns-nameservers 8.8.8.8 8.8.4.4
+    dns-nameservers 1.1.1.1
 
 auto enp0s8
 iface enp0s8 inet static
     address 192.168.2.1
     netmask 255.255.255.0
-    dns-nameservers 8.8.8.8 8.8.4.4
+    dns-nameservers 1.1.1.1
 
 auto enp0s9
 iface enp0s9 inet dhcp
@@ -219,16 +212,16 @@ auto enp0s3
 iface enp0s3 inet static
     address 192.168.1.2
     netmask 255.255.255.0
-    gateway 192.168.0.10
-    dns-nameservers 8.8.8.8 8.8.4.4
+    gateway 192.168.1.2
+    dns-nameservers 1.1.1.1
     
 ### On UE03
 auto enp0s3
 iface enp0s3 inet static
     address 192.168.2.2
     netmask 255.255.255.0
-    gateway 192.168.1.254
-    dns-nameservers 8.8.8.8 8.8.4.4
+    gateway 192.168.2.1
+    dns-nameservers 1.1.1.1
 ```
 
 You should also enable IP forwarding permanently on VM2. For that you need to edit /etc/sysctl.conf and uncomment the following line
