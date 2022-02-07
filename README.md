@@ -41,20 +41,20 @@ Test
 | Aula | Data | Aula |
 | ----------- | ----------- | ---------- |
 | Aula | Data | Aula |
-| 01 | 2022.02.14-19 | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
-| 02 | 2022.02.22-26 | Modelo OSI - tecnologias (ethernet, wifi, 5g)  e layer 2 - VLANs, etc;	Modelo OSI - layer 3/routing; Modelo OSI - layer 4/transporte  |
-| 03 | 2022.02.22-26 | Modelo OSI - camadas aplicacionais; Internet (história/breve); TCP/IP arquitetura, Unicast, Multicast|
-| 04 | 2022.02.22-26 | TCP/IP pacotes IP / layer IP; TCP/IP ICMP, TCP, UDP / layer transporte; TCP/IP endereçamento IPv4 |
-| 05 | 2022.02.22-26 | Laboratório 1|
-| 06 | 2022.02.22-26 | TCP/IP endereçamento IPv4 (inclui subnetting)|
-| 07 | 2022.02.22-26 | Laboratório 2 |
-| 08 | 2022.02.22-26 | Protocolos (DNS, DHCP, HTTP, SNMP, etc) – essencial: saber exatemente como se resolvem os nomes; saber exatamente como se distribui endereçamento IP dinamicamente; IPv4 vs IPv6 enquadrar IPv6 como “obrigatório” nos dias de hoje|
-| 09 | 2022.02.22-26 | Laboratório 3|
-| 10 | 2022.02.22-26 | IPv6 features e endereçamento (inclui diferentes dimensões de redes e distinções na divisão com IPv4); IPv6 e serviços (DNSv6 e DHCPv6); Laboratório 4|
-| 11 | 2022.02.22-26 | IoT enquadrar com serviços de Cloud/associar a virtualização; Fog computing; necessidades de networking, armazenamento em IoT; exemplos práticos (smart homes, buildings, cities, veículos autónomos, etc); referencia a big data; referencia a segurança em IOT, nem que seja apenas com exemplos estilo Miai botnet, etc); Laboratório 5|
-| 11 | 2022.02.22-26 | Apoio ao trabalho prático Networking/IoT|
-| 13 | 2022.02.22-26 | Apresentações dos trabalhos práticos Networking/IoT|
-| 14 | 2022.02.22-26 | Apresentações dos trabalhos práticos Networking/IoT|
+| 01 | 14-19.02 | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
+| 02 | 22-26.02 | Modelo OSI - tecnologias (ethernet, wifi, 5g)  e layer 2 - VLANs, etc;	Modelo OSI - layer 3/routing; Modelo OSI - layer 4/transporte  |
+| 03 | 29.02-3.03 | Modelo OSI - camadas aplicacionais; Internet (história/breve); TCP/IP arquitetura, Unicast, Multicast|
+| 04 | 02.22-26 | TCP/IP pacotes IP / layer IP; TCP/IP ICMP, TCP, UDP / layer transporte; TCP/IP endereçamento IPv4 |
+| 05 | 02.22-26 | Laboratório 1|
+| 06 | 02.22-26 | TCP/IP endereçamento IPv4 (inclui subnetting)|
+| 07 | 02.22-26 | Laboratório 2 |
+| 08 | 02.22-26 | Protocolos (DNS, DHCP, HTTP, SNMP, etc) – essencial: saber exatemente como se resolvem os nomes; saber exatamente como se distribui endereçamento IP dinamicamente; IPv4 vs IPv6 enquadrar IPv6 como “obrigatório” nos dias de hoje|
+| 09 | 02.22-26 | Laboratório 3|
+| 10 | 02.22-26 | IPv6 features e endereçamento (inclui diferentes dimensões de redes e distinções na divisão com IPv4); IPv6 e serviços (DNSv6 e DHCPv6); Laboratório 4|
+| 11 | 02.22-26 | IoT enquadrar com serviços de Cloud/associar a virtualização; Fog computing; necessidades de networking, armazenamento em IoT; exemplos práticos (smart homes, buildings, cities, veículos autónomos, etc); referencia a big data; referencia a segurança em IOT, nem que seja apenas com exemplos estilo Miai botnet, etc); Laboratório 5|
+| 11 | 02.22-26 | Apoio ao trabalho prático Networking/IoT|
+| 13 | 02.22-26 | Apresentações dos trabalhos práticos Networking/IoT|
+| 14 | 02.22-26 | Apresentações dos trabalhos práticos Networking/IoT|
 
 ## Avaliação 
 - [Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TrabT.md) - Apresentação de um paper - 15%
