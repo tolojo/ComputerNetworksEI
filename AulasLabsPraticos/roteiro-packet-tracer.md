@@ -1,6 +1,6 @@
 
 
-##Configurações iniciais
+## Configurações iniciais
 
 Entrar em modo privilegiado
 enable
