@@ -38,7 +38,7 @@ Seguir os [seguintes](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/
 
 ## 3. Laboratório 3: Cisco Packet Tracer II 
 
-- Continuação das configurações do [Roteiro do Packet Tracer para as aulas Práticas](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/roteiro-packet-tracer.md)
+Continuação das configurações do [Roteiro do Packet Tracer para as aulas Práticas](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/roteiro-packet-tracer.md)
 
 ## 4. Laboratório 4: Routing II
 
