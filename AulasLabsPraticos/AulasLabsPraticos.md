@@ -12,27 +12,15 @@
 ***Pré-requisito: VirtualBox instalado em Windows, MacOS, Linux.***
 
 Para as aulas práticas iremos utilizar os materiais do ***[SEED Labs Project](https://seedsecuritylabs.org/)***, mais precisamente a máquina virtual ***SEEDUbuntu16.04***.
-Esta [página](https://seedsecuritylabs.org/labsetup.html) na secçãoo Ubuntu 16.04 estão vários links para download (pode fazer a partir [daqui](https://drive.google.com/file/d/12l8OO3PXHjUsf9vfjkAf7-I6bsixvMUa/view?usp=sharing))da imagem e do [manual de instalação](https://seedsecuritylabs.org/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf) para o VirtualBox.
+Esta [página](https://seedsecuritylabs.org/labsetup.html) na secçãoo Ubuntu 16.04 estão vários links para download (pode fazer a partir [daqui](https://drive.google.com/file/d/12l8OO3PXHjUsf9vfjkAf7-I6bsixvMUa/view?usp=sharing)) da imagem e do [manual de instalação](https://seedsecuritylabs.org/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf) para o VirtualBox.
 
-In this document we will provide two ways of running this VM:
-(a) Locally on your machine, or
-(b) using the virtualization system provided by RNL (labs in Alameda).
+Instruções resumidas (podem não dispensar a consulta do manual referido anteriormente):
 
-We strongly suggest the former.
+1. Efetuar o download da imagem da máquina virtual em Linux/Ubuntu 16.04
+2. Descomprimir o ficheiro
+3. Criar uma Máquina Linux no VirtualBox com o nome que pretender (poderá desejar acrescentar ...01 no final, uma vez que necessitará de várias máquinas)
+4. Escolher preferivelmente a placa gráfica VBoxVGA
+5. Iniciar a máquina virtual (credenciais - user:seed; password:dees)
+6. Atualizar o sistema operativo: sudo apt update; sudo apt upgrade
+7. Atualizar o teclado para português: setxkbmap pt
 
-1. Install SEED Locally on your machine
-
-Download the Pre-built Virtual Machine Images (Ubuntu) from SEED Labs Project. We suggest the one built in June 2019.
-Unzip the file.
-Files will be included in folder SEEDUbuntu-16.04-32bit.
-Follow the instructions.
-Step2: You can give whatever name you want to your machine (and a folder with that name will be created)
-Step4: To keep your disk organized, you may move the files from the folder created in 2.1 to the folder that was just created prior to performing Step4.
-Step5: It is important that you select Graphics Controller: VBoxVGA otherwise you might have a small resolution.
-Start the VM. user:pass/seed:dees,
-Recommended: Change the user password.
-Recommended: Update the system. sudo apt update; sudo apt upgrade
-Optional: Change keymap to PT. setxkbmap pt
-Troubleshooting
-
-If you have problems with the Guest Additions (screen resolution, unable to copy host to guest, etc) you might want to have a look in here.
