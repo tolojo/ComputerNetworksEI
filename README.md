@@ -36,9 +36,9 @@ Test
 
 
 ## Avaliação 
-⁃	[Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TrabT.md) - Apresentação de um paper - 15%
-⁃	[Trabalhos Práticos](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/Labs.md) (Network + IoT) - 40%
-⁃	Teste escrito final 45%
+- [Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TrabT.md) - Apresentação de um paper - 15%
+- [Trabalhos Práticos](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/Labs.md) (Network + IoT) - 40%
+- Teste escrito final 45%
 
 
 ## Trabalho Teórico (15%)
