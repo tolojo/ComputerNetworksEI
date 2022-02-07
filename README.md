@@ -74,9 +74,12 @@ Importante respeitar as datas de entrega. Não serão aceites adiamentos.
 ## Grupos
 Os trabalhos práticos são em grupo. A constituição dos grupos (3 alunos no máximo, 2 alunos no minimo) deve ser enviada até dia 25 de fevereiro.
 
-## Calendário
+## Resumo do Calendário da UC
+*(em atualização)*
 - até 18 de fevereiro - Escolha dos temas para os trabalhos teóricos
 - 20 de fevereiro - Publicação da distribuição dos temas e datas de apresentação
 - até 25 de fevereiro - Constituição dos grupos
 
 ## Bibliografia
+- Computer Networks, Tanenbaum, Andrew S., Prentice Hall http://books.google.pt/books?id=Pd-z64SJRBAC
+- Engenharia de Redes Informáticas, Edmundo Monteiro, Fernando Boavida, Editora FCA
