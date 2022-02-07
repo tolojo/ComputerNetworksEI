@@ -11,27 +11,14 @@ Nota: a forma exata de implementação pode variar devido a alterações realiza
 
 ## Configurações iniciais
 
-Entrar em modo privilegiado
-`enable`
+Entrar em modo privilegiado: `enable`
 
-Entrar em modo de configuração
-`config terminal`
+Entrar em modo de configuração: `config terminal`
 
-Atribuir nome ao equipamento
+Atribuir nome ao equipamento: `hostname Router1 `
 
-`hostname Router1 `
+Atribuir domínio ao equipamento: `ip domain-name universidadeeuropeia.pt`
 
-Atribuir domínio ao equipamento
+Password de enable: `enable secret *password*`
 
-`ip domain-name universidadeeuropeia.pt`
-
-Password de enable
-`enable secret *password*`
-
-Gravação de configurações
-
-`copy running-config startup-config`
-
-or
-
-`wr`
+Gravação de configurações: `copy running-config startup-config` or `wr`
