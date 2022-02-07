@@ -55,14 +55,14 @@ interface gigabitethernet 0/0.200
 encapsulation dot1Q 200
 ip address 192.168.200.1 255.255.255.0`
 ```
-Ativar administrativamente o interface físico Gigabitethernet 0/0
+### Ativar administrativamente o interface físico Gigabitethernet 0/0
 ```
 interface gigabitethernet 0
 no shutdown	Interfaces nos routers estão em “shutdown” por omissão, por isso têm que ser ativados manualmente
 ```
-Deverá ser configurado o serviço DHCP no servidor com as várias pools de endereços IPv4 necessárias
+### Deverá ser configurado o serviço DHCP no servidor com as várias pools de endereços IPv4 necessárias
 
-Configuração do relay de DHCP em cada um dos interfaces que necessite de DHCP (redes de postos de trabalho).
+#### Configuração do relay de DHCP em cada um dos interfaces que necessite de DHCP (redes de postos de trabalho).
 O IP do servidor é fixo: 192.168.200.10
 ```
 interface gigabitethernet 0/0.100
@@ -83,7 +83,7 @@ access-list 2 permit 192.168.101.0 0.0.0.255
 access-list 3 permit 192.168.102.0 0.0.0.255
 access-list 4 permit 192.168.200.0 0.0.0.255
 ```
-Nos interfaces com ip privado colocar “ip nat inside” 
+#### Nos interfaces com ip privado colocar “ip nat inside” 
 ```
 interface gigabitEthernet 0/0.100
 ip nat inside					Indicação de que se trata de um interface interno
@@ -99,13 +99,13 @@ ip nat inside
 exit
 ```
 
-interface com ip publico colocar “ip nat outside” 
+#### interface com ip publico colocar “ip nat outside” 
 ```
 interface gigabitEthernet 0/1
 ip nat outside
 ```
 
-### Configuração do tipo de NAT a relizar (um para muitos - overload):
+#### Configuração do tipo de NAT a relizar (um para muitos - overload):
 ```
 ip nat inside source list 1 interface GigabitEthernet0/1 overload
 ip nat inside source list 2 interface GigabitEthernet0/1 overload
@@ -115,14 +115,14 @@ ip nat inside source list 4 interface GigabitEthernet0/1 overload
 
 ### Colocação de novo router “ISP” e fazer a ligação entre redes com uma rede /30 ao router interno (rede 199.199.199.0/30)
 
-Router interno: 
+#### Router interno: 
 ```
 interface gigabitethernet 0/1
 ip address 199.199.199.2 255.255.255.252
 no shutdown
 ```
 
-Router ISP: 
+#### Router ISP: 
 ```
 interface gigabitethernet 0/1
 ip address 199.199.199.1 255.255.255.252
@@ -131,7 +131,7 @@ no shutdown
 
 ### Configuração do interface da rede de servidores no ISP
 
-Router ISP: 
+#### Router ISP: 
 ```
 interface gigabitethernet 0/0
 ip address 201.1.1.1 255.255.255.0
@@ -139,7 +139,7 @@ ip address 201.1.1.1 255.255.255.0
 
 ### Configuração do routing na rede interna (default gateway para mandar todos os pacotes desconhecidos para o ISP)
 
-Router interno:
+#### Router interno:
 ```
 ip route 0.0.0.0 0.0.0.0 199.199.199.1
 ```
