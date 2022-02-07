@@ -1,8 +1,14 @@
 # Redes de Computadores
 Conteudos da Unidade Curricular de Redes de Computadores (Engenharia Informática 1º ano).
 
-## Classes
-Test
+O objectivo da cadeira é dotar os alunos de conhecimentos da concepção das componentes protocolares das redes de computadores, bem como de algumas componentes práticas de redes TCP/IP e de equipamentos activos de rede.
+
+Nas aulas teóricas os alunos deverão escolher um paper de investigação cientifica sobre temas da cadeira (Networking/IoT) e apresentar um resumo oralmente para a turma.
+
+Existem aulas práticas de laboratórios e trabalhos práticos de acordo com cada matéria lecionada nos laboratórios.
+
+Os alunos deverão ainda efetuar um trabalho prático final que consiste em implementar uma rede multi-serviço com divisão de tráfego, incluindo equipamentos ativos de rede, terminais e componentes IoT.
+
 
 ### Horário 
 Test
