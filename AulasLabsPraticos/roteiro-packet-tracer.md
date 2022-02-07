@@ -35,9 +35,9 @@ Na aula faz-se esta configuração na gestão gráfica dos equipamentos. Estas s
 
 Criação dos interfaces das redes de postos de trabalho no router:
 
-```interface gigabitethernet 0/0.100`       *Sub-interface/vlan dentro do interface fisio gi 0/0*
-encapsulation dot1Q 100`                 *Colocação do interface na vlan 100*
-ip address 192.168.100.1 255.255.255.0`  *Indicação do ip address deste sub- interface*
+```interface gigabitethernet 0/0.100       *Sub-interface/vlan dentro do interface fisio gi 0/0*
+encapsulation dot1Q 100                 *Colocação do interface na vlan 100*
+ip address 192.168.100.1 255.255.255.0  *Indicação do ip address deste sub- interface*
 ```
 ```interface gigabitethernet 0/0.101
 encapsulation dot1Q 101
