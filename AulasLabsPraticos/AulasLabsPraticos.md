@@ -7,7 +7,7 @@
 4. Instalar o Nagius (5%)
 5. Trabalho Cisco Packet Tracer com IoT (20%)
 
-## Instalação de Máquinas Virtuais (em equipamentos dos alunos)
+## 0. Instalação de Máquinas Virtuais (em equipamentos dos alunos)
 
 ***Pré-requisito: VirtualBox instalado em Windows, MacOS, Linux.***
 
