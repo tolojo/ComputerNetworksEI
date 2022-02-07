@@ -40,11 +40,11 @@ Os alunos deverão ainda efetuar um trabalho prático final que consiste em impl
 - Utilização do simulador de rede Cisco Packet Tracer (ver [aqui]() onde fazer download e como instalar e utilizar). Existe um [roteiro](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/roteiro-packet-tracer.md) para as aulas Packet Tracer;
 - Apoio a realização do trabalho prático sobre Networking/IoT em Cisco Packet Tracer (40%).
 
-### Planeamento previsto (pode sofrer alterações!)
+### Planeamento previsto (pode sofrer alterações!) {#planeamento}
 | Aula | Data | Aula |
 | ----------- | ----------- | ---------- |
 | Aula | Data | Aula |
-| 01 | 14 a 1 fev | ```Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
+| 01 | 14 a 1 fev | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
 | 02 | 21 a 25 fev | Modelo OSI - tecnologias (ethernet, wifi, 5g)  e layer 2 - VLANs, etc;	Modelo OSI - layer 3/routing; Modelo OSI - layer 4/transporte  |
 | 03 | 28 vev a 4 mar | Modelo OSI - camadas aplicacionais; Internet (história/breve); TCP/IP arquitetura, Unicast, Multicast|
 | 04 | 7 a 11 mar | TCP/IP pacotes IP / layer IP; TCP/IP ICMP, TCP, UDP / layer transporte; TCP/IP endereçamento IPv4 |
