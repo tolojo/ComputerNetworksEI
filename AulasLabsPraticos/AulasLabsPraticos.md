@@ -26,9 +26,14 @@ Instruções resumidas (podem não dispensar a consulta do manual referido anter
 
 ## 1. Laboratório 1: Cisco Packet Tracer I 
 
+- Apresentação do interface da ferramenta Cisco Packet Tracer
+- Primeiras configurações do [Roteiro do Packet Tracer para as aulas Práticas](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/roteiro-packet-tracer.md)
+
 ## 2. Laboratório 2: Routing I 
 
 ## 3. Laboratório 3: Cisco Packet Tracer II 
+
+- Continuação das configurações do [Roteiro do Packet Tracer para as aulas Práticas](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/roteiro-packet-tracer.md)
 
 ## 4. Laboratório 4: Routing II
 
@@ -38,4 +43,5 @@ Instruções resumidas (podem não dispensar a consulta do manual referido anter
 
 ## 7. Laboratório 7: Cisco Packet Tracer III
 
+- Utilização de dispositivos IoT na ferramenta Cisco Packet Tracer
 
