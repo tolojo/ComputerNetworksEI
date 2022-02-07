@@ -2,4 +2,5 @@
 
 O teste escrito ...
 
-## Teste Antigos
+## Testes Tipo
+Os testes tipo estão na Unidade Curricular de Redes no Canvas da universidade.
