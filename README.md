@@ -44,10 +44,10 @@ Os alunos deverão ainda efetuar um trabalho prático final que consiste em impl
 | Aula | Data | Aula |
 | ----------- | ----------- | ---------- |
 | Aula | Data | Aula |
-| 01 | 14 a 19 fev | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
-| 02 | 22-26.02 | Modelo OSI - tecnologias (ethernet, wifi, 5g)  e layer 2 - VLANs, etc;	Modelo OSI - layer 3/routing; Modelo OSI - layer 4/transporte  |
-| 03 | 29.02-3.03 | Modelo OSI - camadas aplicacionais; Internet (história/breve); TCP/IP arquitetura, Unicast, Multicast|
-| 04 | 02.22-26 | TCP/IP pacotes IP / layer IP; TCP/IP ICMP, TCP, UDP / layer transporte; TCP/IP endereçamento IPv4 |
+| 01 | 14 a 1 fev | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
+| 02 | 21 a 25 fev | Modelo OSI - tecnologias (ethernet, wifi, 5g)  e layer 2 - VLANs, etc;	Modelo OSI - layer 3/routing; Modelo OSI - layer 4/transporte  |
+| 03 | 28 dev a 4 mar | Modelo OSI - camadas aplicacionais; Internet (história/breve); TCP/IP arquitetura, Unicast, Multicast|
+| 04 | 7 a 11 mar | TCP/IP pacotes IP / layer IP; TCP/IP ICMP, TCP, UDP / layer transporte; TCP/IP endereçamento IPv4 |
 | 05 | 02.22-26 | Laboratório 1|
 | 06 | 02.22-26 | TCP/IP endereçamento IPv4 (inclui subnetting); Laboratório 2|
 | 07 | 02.22-26 | Laboratório 3 |
