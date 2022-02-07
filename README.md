@@ -62,7 +62,7 @@ Os alunos deverão ainda efetuar um trabalho prático final que consiste em impl
 ## Avaliação 
 - [Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TrabT.md) - Apresentação de um paper - 15%
 - [Trabalhos Práticos](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/Labs.md) (Network + IoT) - 40%
-- Teste escrito final 45%
+- [Teste Escrito](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TesteEscrito/Teste.md) único - 45% (a realizar na data marcada pela Secretaria Escolar)
 
 
 ## Trabalho Teórico (15%)
