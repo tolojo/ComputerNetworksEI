@@ -1,9 +1,6 @@
 # Trabalho Teórico (15%)
 
-## 1ª componente de avaliação continua: apresentação de um paper
-Nota: VERIFICAR FUTURAMENTE A PLATAFORMA PARA ALGUMA EVENTUAL VERSÃO NOVA DO ENUNCIADO.
-
-Análise e apresentação de um paper sobre **Internet of Things / Tecnologias de rede** – 15% da avaliação – realização voluntária.
+## 1ª componente de avaliação continua: Análise e apresentação de um paper sobre **Internet of Things / Tecnologias de rede** – 15% da avaliação – realização voluntária.
 
 Os alunos deverão escolher três papers que tenham sido apresentados numa das conferências com rank A+ ou A em http://portal.core.edu.au/conf-ranks/ nos anos de 2018, 2019, 2020 ou já em 2021 ou em alternativa de um destes sites:
 - https://dl.acm.org
