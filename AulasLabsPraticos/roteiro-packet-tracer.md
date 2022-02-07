@@ -144,4 +144,88 @@ ip address 201.1.1.1 255.255.255.0
 ip route 0.0.0.0 0.0.0.0 199.199.199.1
 ```
 
+## Configurar IPv6 na rede interna
 
+### Router interno:
+Ligar routing de IPv6:
+```
+ipv6 unicast-routing 
+```
+
+Configurar interfaces ipv6:
+```
+interface gi 0/1.100
+ipv6 address 2001:1111:2222:100:1/64
+interface gi 0/1.101
+ipv6 address 2001:1111:2222:101:1/64
+interface gi 0/1.102
+ipv6 address 2001:1111:2222:102:1/64
+interface gi 0/1.200
+ipv6 address 2001:1111:2222:200:1/64
+```
+Neste momento o Router já deverá enviar RA para a rede e os hosts devem conseguir obter um endereço IPv6 na configuração automática.
+
+### Configuração de IPv6 DHCP Server no Router
+```
+Router(config)#ipv6 dhcp pool ipv6-pool-100
+Router(config-dhcpv6)#domain-name europeia.internal
+Router(config-dhcpv6)#dns-server 2001:1111:2222:100::10
+Router(config-dhcpv6)#prefix-delegation pool client-prefix-100 lifetime 800 600
+Router(config-dhcpv6)#exit
+Router(config)#ipv6 local pool client-prefix-100 2001:1111:2222:100::/48 64
+(prefix de rede 64 bits, dando endereços de 64 bits)
+```
+```
+Router(config)#interface gigabitEthernet 0/0.100
+Router(config-subif)# ipv6 dhcp server ipv6-pool-100 
+(ativar a configuração de IPv6 por DHCP no interface)
+Router(config-subif)# ipv6 nd other-config-flag
+(para passar outras configs, como gateway, para os clientes)
+```
+Confirmar que aparece o servidor de DNS em Auto-Config/DHCP
+
+Repetir para os outros interfaces 101 e 102. Rede 200 deverá ter um IP estátio.
+
+
+### Configurar IPv6 na rede ISP (e routing com rede interna)
+
+Configurar IPv6 na rede de interligação entre Router interno e Router ISP com a rede 2001:9999:9999:9999::/126 (...::1 no lado do ISP e ...::2 no lado da rede interna)
+Configurar IPv6 no interface com a rede 2001:1:1:0::/64  (0 = default VLAN).
+Configurar postos de trabalho com endereços 2001:1:1:0::10 e 2001:1:1:0::11.
+
+Router ISP:
+
+Ligar routing de IPv6:
+```
+ipv6 unicast-routing 
+```
+
+Configurar interfaces ipv6:
+```
+interface gi 0/0
+ipv6 address 2001:1:1:0::1/64
+interface gi 0/1
+ipv6 address 2001:9999:9999:9999::1/126
+```
+
+Router interno:
+
+```
+Configurar interface ipv6:
+interface gi 0/1
+ipv6 address 2001:9999:9999:9999::2/126
+```
+
+Nota: configurar IPv6 nos dois servidores internos com a mesma terminação dos endereços IPv4, para testar conectividade: 2001:1:1:0::10/64 e 2001:1:1:0::11/64
+
+Configurar routing de IPv6 para permitir conectividade entre redes:
+
+Routing:
+```
+ipv6 route 2001:1111:2222::/48 2001:9999:199:199::2
+```
+
+Router interno:
+```
+ipv6 route ::/0 2001:9999:9999:9999::1
+```
