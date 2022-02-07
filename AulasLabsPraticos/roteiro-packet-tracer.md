@@ -1,5 +1,9 @@
 
 
+## Diagrama da Rede a configurar nas Aulas Práticas
+![alt text](roteiro-imagem.jpg)
+
+
 ## Configurações iniciais
 
 Entrar em modo privilegiado
