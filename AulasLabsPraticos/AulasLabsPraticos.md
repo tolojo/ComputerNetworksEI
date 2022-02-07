@@ -1,11 +1,12 @@
 # Aulas de Laboratórios Práticos (40%)
 
 
-1. Laboratório Routing I com máquinas virtuais (5%)
-2. Análise de ficheiro pcap (captura de pacotes com Wireshark/tcpdump) (10%)
-3. Trabalho de Routing II com NAT e acesso à Internet (5%)
-4. Instalar o Nagius (5%)
-5. Trabalho Cisco Packet Tracer com IoT (20%)
+1. Laboratório 1: Cisco Packet Tracer I 
+2. Laboratório 2: Routing I (com máquinas virtuais)
+3. Laboratório 3: Cisco Packet Tracer II  
+4. Laboratório 4: Routing II (com NAT e acesso à Internet)
+5. Laboratório 5: Captura de Tráfego numa Rede  
+6. Laboratório 6: Cisco Packet Tracer III
 
 ## 0. Instalação de Máquinas Virtuais (em equipamentos dos alunos)
 
@@ -48,9 +49,7 @@ Seguir os [seguintes](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/
 
 Seguir os [seguintes](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/CapturaTrafegoRede.md) passos para a realização do laboratório.
 
-## 6. Laboratório 6: Instalação/Parametrização do Nagius
-
-## 7. Laboratório 7: Cisco Packet Tracer III
+## 6. Laboratório 6: Cisco Packet Tracer III
 
 - Utilização de dispositivos IoT na ferramenta Cisco Packet Tracer
 
