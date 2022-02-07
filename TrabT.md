@@ -27,7 +27,6 @@ Critérios de avaliação dos papers:
 - 10% - Apresentação das conclusões dos autores + 10% do ponto anterior, caso não faça sentido usar referencias externas.
 - 20% - Apresentação de comentários críticos e conclusões do aluno.
 
-
 Alguns exemplos de papers aceites (que podem ser escolhidos mas não deve servir de limitação):
 - Improving media streaming services for train passengers with 5G - https://dl.acm.org/doi/10.1145/3391614.3399399
 - Understanding Operational 5G: A First Measurement Study on Its Coverage, Performance and Energy Consumption - https://dl.acm.org/doi/10.1145/3387514.3405882
