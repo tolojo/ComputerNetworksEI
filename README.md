@@ -7,12 +7,21 @@ Test
 ### Horário 
 Test
 
-### Planeaamento previsto
-| Data | Aula |
+### Planeaamento previsto (pode sofrer alterações!)
+| Aula | Data | Aula |
 | ----------- | ----------- |
 | Data | Aula |
-| 2022.02.14-19 | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
-| 2022.02.14-19 | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
+| 01 | 2022.02.14-19 | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
+| 02 | 2022.02.22-26 | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
+| 03 | 2022.02.22-26 | |
+| 04 | 2022.02.22-26 | |
+| 05 | 2022.02.22-26 | |
+| 06 | 2022.02.22-26 | |
+| 07 | 2022.02.22-26 | |
+| 08 | 2022.02.22-26 | |
+| 09 | 2022.02.22-26 | |
+| 10 | 2022.02.22-26 | |
+| 11 | 2022.02.22-26 | |
 
 ## Program
 ### Aulas Teóricas
