@@ -10,10 +10,10 @@ Os alunos deverão escolher três papers que tenham sido apresentados numa das c
 
 Poderão procurar por várias keyworks para obterem resultados relevantes para a unidade curricular, entre os quais “IoT”, “5G”, “Wifi 6”, “Smart Cities”, “Smart Transportation”, “Smart Homes”, “Smart Grid”, etc.
 
-Desses três papers o Docente escolherá um que os alunos terão que apresentar em datas a marcar (conforme o número total de apresentações a efetuar – a iniciar na semana de 22/3).
+Desses três papers o Docente escolherá um que os alunos terão que apresentar em datas a marcar (conforme o número total de apresentações a efetuar) e que se iniciam  na semana de 28/2 em LIFO (Last In First Out).
 
 As apresentações serão feitas com recurso a um powerpoint (ou semelhante) e com um tempo de apresentação de 20 minutos, durante as aulas.
-O processo de escolha decorre entre 14 e 18 de fevereiro (primeira semana de aulas) e a distribuição estará disponível no Blackboard até dia 20 de fevereiro. Em caso de repetição de escolhas será sempre usado o método FIFO.
+O processo de escolha decorre entre 14 e 18 de fevereiro (primeira semana de aulas) e a distribuição estará disponível no Blackboard até dia 20 de fevereiro. Em caso de repetição de escolhas será sempre usado o método FIFO (First In First Out).
 
 **A análise deve basear-se sobre o estudo ou implementação descrita**, podendo ser útil verificar outros papers referenciados. É importante para a avaliação que o aluno exponha exatamente o que é relevante do paper, expondo ainda o seu ponto de vista sobre o que apresenta. Não é necessário nenhum relatório.
 
