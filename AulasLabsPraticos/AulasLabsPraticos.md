@@ -66,6 +66,8 @@ Instruções resumidas (podem não dispensar a consulta do manual referido anter
 6. Atualizar o sistema operativo: sudo apt update; sudo apt upgrade
 7. Atualizar o teclado para português: setxkbmap pt
 
+*Nota: É possível correr as máquinas dos SEED LABS na Cloud. [Neste repositório](https://github.com/seed-labs/seed-labs/blob/master/manuals/cloud/seedvm-cloud.md) da SEED Labs poderá verificar como o fazer. Não haverá suporte do Docente para esta configuração*
+
 # Laboratórios
 Para a calendarização prevista dos seguintes laboratórios, por favor ver as [datas](https://github.com/pmrosa-classes/ComputerNetworksEI#planeamento) no Planeamento Previsto 
 
