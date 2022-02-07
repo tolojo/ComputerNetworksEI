@@ -18,6 +18,14 @@ As primeiras placas de rede da UE01 e UE02 estão ligadas ao `switch01`; a segun
 Para associar as placas de rede a esses switchs deve desligar as máquinas e escolher a opção `Attach to Internal Network` nas configurações da placa de rede
 Atribuir o nomes `switch01` e `switch02` aos switchs, nas respetivas máquinas. Não esquecer de escolher a opção `Promiscuous Mode: Allow VMs`
 
+## 1. Interligar UE01 com UE02
+
+Para interligar estas duas máquinas virtuais, deve configurar os seguintes endereços em cada uma delas:
+
+**UE01** - interface en01 - 192.168.1.1
+**UE02** - interface en02 - 192.168.1.2
+
+
 
 
 
