@@ -12,6 +12,8 @@ Enunciado do [Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetwo
 
 Importante escolher tema até **18 de fevereiro**.
 
+Depois de distribuídos os temas (até 20 de fevereiro) as datas de apresentação estarão disponiveis [aqui](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/TrabT-distribuicao.md).
+
 ## Trabalhos Práticos (40%)
 Enunciados dos [Trabalhos Práticos](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/Labs-2022.md) da unidade curricular.
 
