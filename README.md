@@ -8,9 +8,9 @@ Test
 Test
 
 ### Planeaamento previsto
-| Data | Aula |
+
 | ----------- | ----------- |
-| Header | Title |
+| Data | Aula |
 | Paragraph | Text |
 
 ## Program
