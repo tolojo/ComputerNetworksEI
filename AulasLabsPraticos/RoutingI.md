@@ -198,7 +198,7 @@ Já deverá conseguir.
 Se desligar as máquinas irá perder as configurações. Antes de o fazer edite o ficheiro `/etc/network/interfaces` e coloque as informações anteriromente configuradas (neste caso acrescentou-se um endereço de DNS Server para poder usar nomes de sites posteriromente):
 
 ```
-### On UE01
+# UE01
 auto enp0s3
 iface enp0s3 inet static
     address 192.168.1.11
@@ -213,16 +213,20 @@ iface enp0s8 inet static
 
 auto enp0s9
 iface enp0s9 inet dhcp
+```
 
-## On UE02
+```
+# UE02
 auto enp0s3
 iface enp0s3 inet static
     address 192.168.1.2
     netmask 255.255.255.0
     gateway 192.168.1.2
     dns-nameservers 1.1.1.1
-    
-### On UE03
+```
+
+```
+# UE03
 auto enp0s3
 iface enp0s3 inet static
     address 192.168.2.2
@@ -231,24 +235,10 @@ iface enp0s3 inet static
     dns-nameservers 1.1.1.1
 ```
 
-You should also enable IP forwarding permanently on VM2. For that you need to edit /etc/sysctl.conf and uncomment the following line
-
+Na UE01 deve edutar ainda o ficheiro /etc/sysctl.conf:
+```
 net.ipv4.ip_forward=1
+```
 
-
-
-Gracefully turn off the virtual machines (for rnl-virt only)
-
-To gracefully close the virtual machines which you deployed using the rnl-virt command, execute the following on VM1, VM2 and VM3:
-
-$ sudo /sbin/poweroff
-
-
-
-
-
-
-
-Finally, create a third Network adapter in VM2 that is nat-ed with your physical address. This interface will be used to access the Internet.
 
 *Pedro Rosa - IADE/Universidade Europeia*
