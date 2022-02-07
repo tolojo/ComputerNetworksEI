@@ -7,8 +7,11 @@ Test
 ### Horário 
 Test
 
-### Planejamento previsto
-Test
+### Planeaamento previsto
+| Data | Aula |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 
 ## Program
 ### Aulas Teóricas
