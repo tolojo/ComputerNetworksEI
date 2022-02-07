@@ -22,9 +22,34 @@ Atribuir o nomes `switch01` e `switch02` aos switchs, nas respetivas máquinas. 
 
 Para interligar estas duas máquinas virtuais, deve configurar os seguintes endereços em cada uma delas:
 
-**UE01** - interface en01 - 192.168.1.1
-**UE02** - interface en02 - 192.168.1.2
+**UE01** - interface `enp0s3` - **192.168.1.1**
 
+`$ sudo ifconfig enp0s3 192.168.1.1/24 up`
+
+**UE02** - interface `enp0s3` - **192.168.1.2**
+
+`$ sudo ifconfig enp0s3 192.168.1.2/24 up`
+
+Para garantir que os novos endereços ficam ativos poderá reiniciar a componente de networking:
+
+`$ sudo /etc/init.d/networking force-reload`
+
+Deverá depois certificar-se que tudo está correto através dos seguintes comandos:
+
+```
+$ /sbin/ifconfig
+$ /sbin/route
+```
+
+Para verificar se tem conectividade poderá utilizar o `ping`:
+
+(a partir da UE01) `$ ping 192.168.1.2`
+(a partir da UE02) `$ ping 192.168.1.1`
+
+Deverá ter um output semelhante a este:
+```
+Ping reply ....
+```
 
 
 
