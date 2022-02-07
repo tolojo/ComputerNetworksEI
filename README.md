@@ -9,8 +9,8 @@ Test
 
 ### Planeaamento previsto (pode sofrer alterações!)
 | Aula | Data | Aula |
-| ----------- | ----------- |
-| Data | Aula |
+| ----------- | ----------- | ---------- |
+| Aula | Data | Aula |
 | 01 | 2022.02.14-19 | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
 | 02 | 2022.02.22-26 | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
 | 03 | 2022.02.22-26 | |
