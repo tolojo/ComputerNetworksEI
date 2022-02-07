@@ -1,4 +1,4 @@
-# Aulas de Laboratórios Práticos (40%)
+# Aulas de Laboratórios Práticos
 
 
 1. Laboratório 1: Cisco Packet Tracer I 
@@ -26,7 +26,7 @@ Instruções resumidas (podem não dispensar a consulta do manual referido anter
 7. Atualizar o teclado para português: setxkbmap pt
 
 # Laboratórios
-Para calendarização prevista dos seguintes laboratórios, por favor ver as [datas](https://github.com/pmrosa-classes/ComputerNetworksEI#planeamento) no Planeamento Previsto 
+Para a calendarização prevista dos seguintes laboratórios, por favor ver as [datas](https://github.com/pmrosa-classes/ComputerNetworksEI#planeamento) no Planeamento Previsto 
 
 ## 1. Laboratório 1: Cisco Packet Tracer I 
 
