@@ -84,6 +84,7 @@ access-list 3 permit 192.168.102.0 0.0.0.255
 access-list 4 permit 192.168.200.0 0.0.0.255
 ```
 Nos interfaces com ip privado colocar “ip nat inside” 
+```
 interface gigabitEthernet 0/0.100
 ip nat inside					Indicação de que se trata de um interface interno
 exit						sobre o qual será realizado NAT
@@ -96,34 +97,45 @@ exit
 interface gigabitEthernet 0/0.200
 ip nat inside
 exit
+```
 
 interface com ip publico colocar “ip nat outside” 
+```
 interface gigabitEthernet 0/1
 ip nat outside
+```
 
 Configuração do tipo de NAT a relizar (um para muitos - overload):
+```
 ip nat inside source list 1 interface GigabitEthernet0/1 overload
 ip nat inside source list 2 interface GigabitEthernet0/1 overload
 ip nat inside source list 3 interface GigabitEthernet0/1 overload
 ip nat inside source list 4 interface GigabitEthernet0/1 overload
+```
 
 Colocação de novo router “ISP” e fazer a ligação entre redes com uma rede /30 ao router interno (rede 199.199.199.0/30)
 
 Router interno: 
+```
 interface gigabitethernet 0/1
 ip address 199.199.199.2 255.255.255.252
 no shutdown
+```
 
 Router ISP: 
+```
 interface gigabitethernet 0/1
 ip address 199.199.199.1 255.255.255.252
 no shutdown
+```
 
 Configuração do interface da rede de servidores no ISP
 
 Router ISP: 
+```
 interface gigabitethernet 0/0
 ip address 201.1.1.1 255.255.255.0
+```
 
 Configuração do routing na rede interna (default gateway para mandar todos os pacotes desconhecidos para o ISP)
 
