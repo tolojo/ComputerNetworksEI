@@ -34,7 +34,7 @@ Test
 
 ### Aulas Práticas:
 - [Laboratórios práticos](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/AulasLabsPraticos.md) de TCP/IP (endereçamento IP, routing)
-- Utilização do simulador de rede Cisco Packet Tracer (ver [aqui]() onde fazer download e como instalar e utilizar). Existe um [roteiro]() para as aulas Packet Tracer;
+- Utilização do simulador de rede Cisco Packet Tracer (ver [aqui]() onde fazer download e como instalar e utilizar). Existe um [roteiro](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/AulasLabsPraticos/roteiro-packet-tracer.md) para as aulas Packet Tracer;
 - Apoio a realização do trabalho prático sobre Networking/IoT em Cisco Packet Tracer (40%).
 
 ### Planeamento previsto (pode sofrer alterações!)
