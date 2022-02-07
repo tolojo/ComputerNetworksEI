@@ -108,6 +108,8 @@ $ /sbin/sysctl net.ipv4.conf.all.forwarding
 
 Com a máquina **UE01** configurada para re-encaminhar pacotes IP, falta configurar nas restantes duas máquinas o endereço do default gateway.
 
+#### UE02
+
 Primeiro deverá testar se consegue chegar a outras redes. Para tal, no **UE02** tente pingar o endereço da outra rede do **UE01**, neste caso o 192.168.2.1:
 ```
 $ ping 192.168.2.1
@@ -121,27 +123,41 @@ $ sudo ip route add default via 192.168.1.1
 
 Para verificar se já tem conectividade deverá utilizar o ping:
 ```
+$ ping 192.168.2.1
+``` 
+Já deverá conseguir. Consegue perceber porquê?
+
+#### UE03
+
+Tal como para a máquina **UE02**, deverá efetuar as mesmas configurações na máquina **UE03**
+
+Primeiro deverá testar se consegue chegar a outras redes. Para tal, na **UE03** tente pingar o endereço da outra rede do **UE01**, neste caso o 192.168.1.1:
+```
+$ ping 192.168.1.1
+```
+Não deverá conseguir. Consegue perceber porquê?
+
+Agora, na mesma máquina **UE02**, deverá colocar o endereço do **UE01** da mesma rede que o **UE02**:
+```
+$ sudo ip route add default via 192.168.2.1
+```
+
+Para verificar se já tem conectividade deverá utilizar o ping:
+```
 $ ping 192.168.1.1
 ``` 
 Já deverá conseguir. Consegue perceber porquê?
 
+### Verificar caminho dos pacotes com o comando *traceroute*
 
+Para verificar os *hops* (saltos/routers) por onde os pacotes passam, poderá utilizar o comando `traceroute`
 
+Para tal, na **UE02** tente chegar ao **UE03** - relembre-se que não está ligado diretamente a essa máquina e que portanto necessita de passar no router, que neste caso é o **UE01** que configurou anteriormente.
+```
+$ traceroute 192.168.2.2
+``` 
+Qual o output? Consegue perceber por onde o pacote passou?
 
-
-Does it work? Can you identify where the problem is? Run the commands below and see if you understand what is happening
-
-$ sudo tcpdump -i enp0s3   # on VM1
-$ sudo tcpdump -i enp0s3   # on VM2
-$ sudo tcpdump -i enp0s8   # on VM2
-$ sudo tcpdump -i enp0s8   # on VM3
-What happens now when you ping VM1 from VM3? Why is the answer different?
-
-Add now VM2 also as the default gateway for VM3. This would allow VM3 to talk to machines outside its subnet 192.168.1.X.
-
-$ sudo ip route add default via 192.168.1.254    # on VM3
-Can you now ping VM3 from VM1? Why?
-And can you ping VM1 from VM3? Why?
 
 ## Configurar NAT (Network Address Translation)
 
