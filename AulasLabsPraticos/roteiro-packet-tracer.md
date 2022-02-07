@@ -33,25 +33,23 @@ Na aula faz-se esta configuração na gestão gráfica dos equipamentos. Estas s
 
 ## Configurar IPv4
 
-Criação dos interfaces das redes de postos de trabalho no router:
+###Criação dos interfaces das redes de postos de trabalho no router:
 
 ```
 interface gigabitethernet 0/0.100       *Sub-interface/vlan dentro do interface fisio gi 0/0*
 encapsulation dot1Q 100                 *Colocação do interface na vlan 100*
 ip address 192.168.100.1 255.255.255.0  *Indicação do ip address deste sub- interface*
-```
-```
+
 interface gigabitethernet 0/0.101
 encapsulation dot1Q 101
 ip address 192.168.101.1 255.255.255.0
-```
-```
+
 interface gigabitethernet 0/0.102\n
 encapsulation dot1Q 102<br>
 ip address 192.168.102.1 255.255.255.0`
 ```
 
-Criação do interface da rede de servidores no router:
+###Criação do interface da rede de servidores no router:
 ```
 interface gigabitethernet 0/0.200
 encapsulation dot1Q 200
