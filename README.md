@@ -4,6 +4,12 @@ Conteudos da Unidade Curricular de Redes de Computadores (Engenharia Informátic
 ## Classes
 Test
 
+### Horário 
+Test
+
+### Planejamento previsto
+Test
+
 ## Program
 Test
 
@@ -21,3 +27,7 @@ Depois de distribuídos os temas (até 20 de fevereiro) as datas de apresentaç�
 Enunciados dos [Trabalhos Práticos](https://github.com/pmrosa-classes/ComputerNetworks/blob/main/Labs-2022.md) da unidade curricular.
 
 Importante respeitar as datas de entrega. Não serão aceites adiamentos.
+
+## Grupos
+
+## Bibliografia
