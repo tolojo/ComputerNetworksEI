@@ -235,7 +235,7 @@ iface enp0s3 inet static
     dns-nameservers 1.1.1.1
 ```
 
-Na UE01 deve edutar ainda o ficheiro /etc/sysctl.conf:
+Na UE01 deve edutar ainda o ficheiro `/etc/sysctl.conf`:
 ```
 net.ipv4.ip_forward=1
 ```
