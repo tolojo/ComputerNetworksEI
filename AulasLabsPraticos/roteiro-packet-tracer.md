@@ -1,7 +1,7 @@
 
 
 ## Diagrama da Rede a configurar nas Aulas Práticas
-![alt text](roteiro-imagem.jpg)
+![alt text](roteiro-imagem.png)
 
 
 ## Configurações iniciais
