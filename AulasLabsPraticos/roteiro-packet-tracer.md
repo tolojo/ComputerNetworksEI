@@ -44,10 +44,8 @@ encapsulation dot1Q 101
 ip address 192.168.101.1 255.255.255.0
 
 `
-interface gigabitethernet 0/0.102
-
-encapsulation dot1Q 102
-
+interface gigabitethernet 0/0.102\n
+encapsulation dot1Q 102<br>
 ip address 192.168.102.1 255.255.255.0`
 `
 
