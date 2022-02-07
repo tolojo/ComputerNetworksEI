@@ -83,10 +83,10 @@ Para verificar se tem conectividade poderá utilizar o `ping`:
 
 (a partir da UE03) `$ ping 192.168.2.1`
 
+## Preparar a UE01 para fazer routing de pacotes e configurar o default gateway da UE02 e UE03
 
+### Configurar UE01
 
-
-2.3 Configure VM2 as gateway
 
 Defining a default gateway means that whenever a machine does not have a specific route for a given network, those packets are sent to its default gateway. Since VM2 will be the default gateway for VM1, IP forwarding must be enabled in VM2. This will allow VM1 to communicate with machines outside its subnet 192.168.0.X.
 
@@ -96,6 +96,9 @@ $ sudo sysctl net.ipv4.ip_forward=1   # on VM2
 Confirm that the flag value was updated to 1:
 
 $ /sbin/sysctl net.ipv4.conf.all.forwarding
+
+### Configurar UE02 e UE03
+
 Now set VM2 as the default gateway for VM1 by doing this:
 
 $ sudo ip route add default via 192.168.0.10   # on VM1
@@ -115,6 +118,9 @@ Add now VM2 also as the default gateway for VM3. This would allow VM3 to talk to
 $ sudo ip route add default via 192.168.1.254    # on VM3
 Can you now ping VM3 from VM1? Why?
 And can you ping VM1 from VM3? Why?
+
+## Configurar NAT (Network Address Translation)
+
 2.4 Configure NAT (Network Address Translation)
 
 Try to ping google.com from the 3 machines? Why can't you do it from VM1 nor VM3?
@@ -144,12 +150,13 @@ As seen before you cannot ping VM3 from VM1. Could you solve this issue with a N
 And can you ping VM1 from VM3? Why?
 
 
-
+## Garantir que as configurações ficam permanentes
 
 Making these changes permanent
 
 The changes you made before will be lost once you perform a reboot of your machine. In order to make them permanent you have to edit the corresponding /etc/network/interfaces
 
+```
 ## On VM1
 auto enp0s3
 iface enp0s3 inet static
@@ -179,6 +186,8 @@ iface enp0s3 inet static
     netmask 255.255.255.0
     gateway 192.168.1.254
     dns-nameservers 8.8.8.8 8.8.4.4
+```
+
 You should also enable IP forwarding permanently on VM2. For that you need to edit /etc/sysctl.conf and uncomment the following line
 
 net.ipv4.ip_forward=1
