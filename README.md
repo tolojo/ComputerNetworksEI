@@ -52,7 +52,7 @@ Os alunos deverão ainda efetuar um trabalho prático final que consiste em impl
 | 07 | 6/7 abr | Laboratório 3 |
 |   | 3/14 abr | *Páscoa*|
 | 08 | 20/21 abr | Protocolos (DNS, DHCP, HTTP, SNMP, etc) – essencial: saber exatemente como se resolvem os nomes; saber exatamente como se distribui endereçamento IP dinamicamente; IPv4 vs IPv6 enquadrar IPv6 como “obrigatório” nos dias de hoje|
-| 09 | 27/2 abr | Laboratório 4|
+| 09 | 27/28 abr | Laboratório 4|
 | 10 | 02.22-26 | IPv6 features e endereçamento (inclui diferentes dimensões de redes e distinções na divisão com IPv4); IPv6 e serviços (DNSv6 e DHCPv6); Laboratório 5|
 | 11 | 02.22-26 | IoT enquadrar com serviços de Cloud/associar a virtualização; Fog computing; necessidades de networking, armazenamento em IoT; exemplos práticos (smart homes, buildings, cities, veículos autónomos, etc); referencia a big data; referencia a segurança em IOT, nem que seja apenas com exemplos estilo Miai botnet, etc); Laboratório 6|
 | 11 | 02.22-26 | Apoio ao trabalho prático Networking/IoT; (possível salvaguarda para a realização de laboratórios atrasados, caso seja possível)|
