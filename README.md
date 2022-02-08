@@ -12,7 +12,7 @@ Os alunos deverão ainda efetuar um trabalho prático final que consiste em impl
 
 ### Horário 
 | Dia | Hora | Turma |
-| ----------- | ----------- | ---------- |
+| :-----------: | :-----------: | :----------: |
 | Quarta-feira | 16:00 - 18:40 | T2 |
 | Quinta-feira | 16:00 - 18:40 | T1 |
 
@@ -41,7 +41,7 @@ Os alunos deverão ainda efetuar um trabalho prático final que consiste em impl
 
 ### Planeamento previsto (pode sofrer alterações!)[#planeamento]
 | Aula | Data | Aula |
-| ----------- | ----------- | ---------- |
+| :-----------: | :-----------: | :---------- |
 | Aula | Data | Aula |
 | 01 | 14 a 1 fev | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
 | 02 | 21 a 25 fev | Modelo OSI - tecnologias (ethernet, wifi, 5g)  e layer 2 - VLANs, etc;	Modelo OSI - layer 3/routing; Modelo OSI - layer 4/transporte  |
