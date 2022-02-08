@@ -93,7 +93,7 @@ Os alunos deverão ter uma taxa de presenças de 70% nas aulas. Excecionalmente 
 Ainda de acordo com o mesmo regulamento, os estudantes têm o direito a optar pelo regime de **avaliação final** (avaliação por exame) que integra uma prova escrita sobre a matéria toda lecionada.
 
 ## Grupos
-Os trabalhos práticos são em grupo. A [constituição dos grupos]() (3 alunos no máximo, 2 alunos no minimo) deve ser enviada até dia 25 de fevereiro.
+Os trabalhos práticos são em grupo. A [constituição dos grupos](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabsP/TrabsP-grupos.md) (3 alunos no máximo, 2 alunos no minimo) deve ser enviada até dia 25 de fevereiro.
 
 ## Resumo do Calendário da UC
 *(em atualização)*
