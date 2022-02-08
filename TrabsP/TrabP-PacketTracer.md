@@ -25,14 +25,46 @@
 7.	Os equipamentos devem ter as portas necessárias configuradas e com respetivas descrições.
 8.	A escolha dos modelos dos equipamentos e sua respetiva configuração a nível de hardware é da responsabilidade dos grupos, que devem ser capazes de justificar as suas escolhas.
 9.	Devem ser usadas, pelo menos, as seguintes VLANs, dependendo muito do negócio escolhido a necessidade de existirem mais:
-9.1.	VLAN 10 – 10.10.10.0/24 – 2001:1:1:10::/64 – servidores (DHCP, DNS)
-b.	VLAN 11 – 10.10.11.0/24 – 2001:1:1:11::/64 – servidores (Web, Mail, IoT)
-c.	VLAN 20 – 10.10.20.0/24 – 2001:1:1:20::/64 – IoT
-d.	VLAN 30 – 10.10.30.0/24 – 2001:1:1:30::/64 – Apoio Administrativo
-e.	VLAN 31 – 10.10.31.0/24 – 2001:1:1:31::/64 – Financeira
-f.	VLAN 32 – 10.10.32.0/24 – 2001:1:1:32::/64 – Recursos Humanos
-g.	VLAN 33 – 10.10.33.0/24 – 2001:1:1:33::/64 – Marketing
-h.	VLAN 34 – 10.10.34.0/24 – 2001:1:1:34::/64 – Direção
-i.	VLAN 35 – 10.10.35.0/24 – 2001:1:1.35::/64 – Equipamentos portáteis / rede sem fios
-j.	VLAN 40 – 10.10.40.0/24 – 2001:1:1:40::/64 – Laboratórios (ou algo adequado ao negócio)
-k.	VLAN 41 – 10.10.41.0/24 – 2001:1:1:41::/64 – Investigação (ou algo adequado ao negócio)
+```
+VLAN 10 – 10.10.10.0/24 – 2001:1:1:10::/64 – servidores (DHCP, DNS)
+VLAN 11 – 10.10.11.0/24 – 2001:1:1:11::/64 – servidores (Web, Mail, IoT)
+VLAN 20 – 10.10.20.0/24 – 2001:1:1:20::/64 – IoT
+VLAN 30 – 10.10.30.0/24 – 2001:1:1:30::/64 – Apoio Administrativo
+VLAN 31 – 10.10.31.0/24 – 2001:1:1:31::/64 – Financeira
+VLAN 32 – 10.10.32.0/24 – 2001:1:1:32::/64 – Recursos Humanos
+VLAN 33 – 10.10.33.0/24 – 2001:1:1:33::/64 – Marketing
+VLAN 34 – 10.10.34.0/24 – 2001:1:1:34::/64 – Direção
+VLAN 35 – 10.10.35.0/24 – 2001:1:1.35::/64 – Equipamentos portáteis / rede sem fios
+VLAN 40 – 10.10.40.0/24 – 2001:1:1:40::/64 – Laboratórios (ou algo adequado ao negócio)
+VLAN 41 – 10.10.41.0/24 – 2001:1:1:41::/64 – Investigação (ou algo adequado ao negócio)
+```
+10.	Devem ser utilizados vários servidores no Datacenter:
+```
+DHCP (server01 – 10.10.10.11) – com configuração de todas as pools necessárias para postos de trabalho e equipamentos IoT.
+Servidor de HTTP (server03 – 10.10.11.11) com página brevemente customizada da Instituição
+Servidor de Mail (server04 – 10.10.11.12) – exemplificar com 10 contas de mail
+Dois servidores de DNS (server01 – 10.10.10.11 e server02 – 10.10.10.12), sendo o server01 o mesmo que o DHCP. Deverão ser colocados os registos dos nomes de todos os servidores no DNS.
+Servidor de Registo de IoT (server05 – 10.10.11.13) para todos os equipamentos IoT da empresa.
+```
+12.	Sendo edifícios inteligentes, devem ser implementadas as seguintes funcionalidades:
+-	Gerir a temperatura interna em cada edifício através de um display adequado.
+-	Os edifícios têm sistema de deteção de incêndios em todos os pisos. Caso seja detetado um incendio deve tocar uma sirene e ligado o sistema de extinção de incêndios.
+-	Os edifícios têm sensores de CO2. Uma vez detetado um valor superior a 75% as janelas devem ser abertas e a extração de ar deve ser ligada. Todo o sistema deve ser desligado quando voltarem a valores inferior a 60%.
+-	As portas de entrada dos edifícios têm controlo por RFID. Só os utilizadores com cartões válidos devem poder entrar (exemplificar com alguns casos). Sempre que algum cartão inválido seja lido, deve ser ligada uma sirene.
+13.	Criar uma rede externa, que simula o acesso à Internet, interligando com o router da empresa. Devem ser criados dois websites: portal.pt e google.pt (que deverão existir nos servidores de DNS). Deve ser configurada a interligação dessa rede com o router da empresa através de uma rede de 30 bits.
+
+**Notas:**
+- Colocar alguns computadores pessoais a título de exemplo em cada piso. Não é, obviamente, necessário todos os computadores pessoais.
+- Quaisquer informações ausentes podem ser resolvidas pelos alunos, justificando as suas escolhas na apresentação a realizar.
+- Todos os equipamentos devem fazer ping a todos os outros (não são implementados mecanismos de segurança que, em produção, deveriam ser considerados).
+- A configuração de todos os equipamentos deve ser efetuada em dual stack (Ipv4 e IPv6).
+
+**Datas:**
+- Verificar data de entrega/apresentação no calendário da cadeira.
+
+**Entregáveis:**
+- Apresentação em PowerPoint/GoogleSlides/etc
+- Descrição da empresa;
+- Ficheiro(s) packet tracer;
+- Notas adicionais para a correta avaliação por parte dos Docentes.
+
