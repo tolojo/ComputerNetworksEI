@@ -77,8 +77,20 @@ Importante respeitar as datas de entrega. Não serão aceites adiamentos.
 ### 3. Teste Escrito (45%)
 Teste Escrito unico a realizar na data marcada pela Secretaria Escolar.
 
-### 4. Regras de Avaliacao Continua
+### 4. Regras de Avaliacao Continua / Avaliação Final
 
+De acordo com o **Regulamento Geral de Avaliação de Conhecimentos e Competências da Universidade Europeia.** publicado em DR a 30 de setembro de 2021, os alunos poderão fazer **avaliação continua** sendo que essa avaliação *inclui dois momentos de avaliação:*
+- *A realização de vários instrumentos de avaliação durante o período letivo, os quais devem, obrigatoriamente, representar um mínimo de 30 % e um máximo de 70 %, na ponderação para o cálculo da classificação final da unidade curricular;*
+- *A realização de uma prova final — teste escrito, coincidente em calendário letivo com a época normal da avaliação final.*
+*Sendo a avaliação contínua aquela que, com caráter regular e constante, decorre durante todo o período letivo e reflete uma permanente interação entre o docente e o estudante.*
+
+Nesta UC são instrumentos da avaliação contínua, o Trabalho Teórico (15%) individual que inclui apresentação à turma, os Trabalhos Práticos (40%) em grupo que no trabalho final inclui apresentação e o teste escritos final. 
+
+Os alunos deverão ter uma taxa de presenças de 70% nas aulas. Excecionalmente 50% nos casos excecionados no regulamento.
+
+
+
+Ainda de acordo com o mesmo regulamento, os estudantes têm o direito a optar pelo regime de **avaliação final** (avaliação por exame) que integra uma prova escrita sobre a matéria toda lecionada.
 
 ## Grupos
 Os trabalhos práticos são em grupo. A constituição dos grupos (3 alunos no máximo, 2 alunos no minimo) deve ser enviada até dia 25 de fevereiro.
