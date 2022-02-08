@@ -27,9 +27,8 @@ Os alunos deverão ainda efetuar um trabalho prático final que consiste em impl
 - TCP/IP arquitetura, Unicast, Multicast
 -	TCP/IP pacotes IP / layer IP
 -	TCP/IP ICMP, TCP, UDP / layer transporte
--	TCP/IP endereçamento IPv4
 -	TCP/IP endereçamento IPv4 (inclui subnetting)
--	Protocolos (DNS, DHCP, HTTP, SNMP, etc) – essencial: saber exatemente como se resolvem os nomes; saber exatamente como se distribui endereçamento IP dinamicamente.
+-	Protocolos (DNS, DHCP, HTTP, SNMP, etc)
 -	IPv4 vs IPv6 enquadrar IPv6 como “obrigatório” nos dias de hoje
 -	IPv6 features e endereçamento (inclui diferentes dimensões de redes e distinções na divisão com IPv4)
 -	IPv6 e serviços (DNSv6 e DHCPv6)
