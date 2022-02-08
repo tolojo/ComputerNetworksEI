@@ -43,15 +43,16 @@ Os alunos deverão ainda efetuar um trabalho prático final que consiste em impl
 | Aula | Data | Aula |
 | :-----------: | :-----------: | :---------- |
 | Aula | Data | Aula |
-| 01 | 14 a 1 fev | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
-| 02 | 21 a 25 fev | Modelo OSI - tecnologias (ethernet, wifi, 5g)  e layer 2 - VLANs, etc;	Modelo OSI - layer 3/routing; Modelo OSI - layer 4/transporte  |
-| 03 | 28 vev a 4 mar | Modelo OSI - camadas aplicacionais; Internet (história/breve); TCP/IP arquitetura, Unicast, Multicast|
-| 04 | 7 a 11 mar | TCP/IP pacotes IP / layer IP; TCP/IP ICMP, TCP, UDP / layer transporte; TCP/IP endereçamento IPv4 |
-| 05 | 14 a 18 mar | Laboratório 1|
-| 06 | 21 a 25 mar | TCP/IP endereçamento IPv4 (inclui subnetting); Laboratório 2|
-| 07 | 02.22-26 | Laboratório 3 |
-| 08 | 02.22-26 | Protocolos (DNS, DHCP, HTTP, SNMP, etc) – essencial: saber exatemente como se resolvem os nomes; saber exatamente como se distribui endereçamento IP dinamicamente; IPv4 vs IPv6 enquadrar IPv6 como “obrigatório” nos dias de hoje|
-| 09 | 02.22-26 | Laboratório 4|
+| 01 | 14/17 fev | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
+| 02 | 23/24 fev | Modelo OSI - tecnologias (ethernet, wifi, 5g)  e layer 2 - VLANs, etc;	Modelo OSI - layer 3/routing; Modelo OSI - layer 4/transporte  |
+| 03 | 2/3 mar | Modelo OSI - camadas aplicacionais; Internet (história/breve); TCP/IP arquitetura, Unicast, Multicast|
+| 04 | 9/10 mar | TCP/IP pacotes IP / layer IP; TCP/IP ICMP, TCP, UDP / layer transporte; TCP/IP endereçamento IPv4 |
+| 05 | 16/17 mar | Laboratório 1|
+| 06 | 23/24 mar | TCP/IP endereçamento IPv4 (inclui subnetting); Laboratório 2|
+| 07 | 6/7 abr | Laboratório 3 |
+|   | 3/14 abr | *Páscoa*|
+| 08 | 20/21 abr | Protocolos (DNS, DHCP, HTTP, SNMP, etc) – essencial: saber exatemente como se resolvem os nomes; saber exatamente como se distribui endereçamento IP dinamicamente; IPv4 vs IPv6 enquadrar IPv6 como “obrigatório” nos dias de hoje|
+| 09 | 27/2 abr | Laboratório 4|
 | 10 | 02.22-26 | IPv6 features e endereçamento (inclui diferentes dimensões de redes e distinções na divisão com IPv4); IPv6 e serviços (DNSv6 e DHCPv6); Laboratório 5|
 | 11 | 02.22-26 | IoT enquadrar com serviços de Cloud/associar a virtualização; Fog computing; necessidades de networking, armazenamento em IoT; exemplos práticos (smart homes, buildings, cities, veículos autónomos, etc); referencia a big data; referencia a segurança em IOT, nem que seja apenas com exemplos estilo Miai botnet, etc); Laboratório 6|
 | 11 | 02.22-26 | Apoio ao trabalho prático Networking/IoT; (possível salvaguarda para a realização de laboratórios atrasados, caso seja possível)|
