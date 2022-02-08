@@ -21,9 +21,9 @@
 10.	Todos os pisos têm disponíveis 4 pontos de acesso sem fios por piso.
 
 **Objetivos a concretizar:**
-1.	Elaborar um relatório de acordo com o template aqui disponibilizado.
-2.	Deve escolher um negócio imaginário e caracterizar a empresa de forma adequada e justificada (máximo de duas páginas A4).
-3.	O objetivo principal do trabalho é planear, instalar e configurar a rede necessária para servidores, postos de trabalho, portáteis/telemoveis e equipamentos IoT.
+1.	Elaborar um relatório com a descrição da empresa e tecnologias utilizadas, incluindo diagramas de rede.
+2.	Para tal deve escolher um negócio imaginário e caracterizar a empresa de forma adequada e justificada (máximo de duas páginas A4).
+3.	O objetivo principal do trabalho é planear, instalar e configurar a rede necessária para servidores, postos de trabalho, portáteis/telemoveis e equipamentos IoT que suportem a gestão inteligente do Campus e dos Edificios.
 4.	Os mapas de rede deverão ser claros e organizados, eventualmente utilizando anotações necessárias para explicações necessárias.
 5.	Deverão quantificar o número de switchs a colocar nos pisos dos edifícios, tendo em conta o número de funcionários da empresa e uma margem que considerem interessante para crescimento imediato. Os funcionários estão espalhados de forma muito semelhante pelos pisos 2 e 3. Os pisos 1 dos edifícios têm cerca de 50% dos funcionários dos restantes pisos em ambos os edifícios.
 6.	Deverão escolher os equipamentos mais adequados a colocar nos pontos centrais dos edifícios e no Datacenter, sabendo que apenas existe routing no Datacenter.
@@ -33,7 +33,7 @@
 ```
 VLAN 10 – 10.10.10.0/24 – 2001:1:1:10::/64 – servidores (DHCP, DNS)
 VLAN 11 – 10.10.11.0/24 – 2001:1:1:11::/64 – servidores (Web, Mail, IoT)
-VLAN 20 – 10.10.20.0/24 – 2001:1:1:20::/64 – IoT
+VLAN 20 – 10.10.20.0/22 – 2001:1:1:20::/64 – IoT
 VLAN 30 – 10.10.30.0/24 – 2001:1:1:30::/64 – Apoio Administrativo
 VLAN 31 – 10.10.31.0/24 – 2001:1:1:31::/64 – Financeira
 VLAN 32 – 10.10.32.0/24 – 2001:1:1:32::/64 – Recursos Humanos
@@ -42,6 +42,7 @@ VLAN 34 – 10.10.34.0/24 – 2001:1:1:34::/64 – Direção
 VLAN 35 – 10.10.35.0/24 – 2001:1:1.35::/64 – Equipamentos portáteis / rede sem fios
 VLAN 40 – 10.10.40.0/24 – 2001:1:1:40::/64 – Laboratórios (ou algo adequado ao negócio)
 VLAN 41 – 10.10.41.0/24 – 2001:1:1:41::/64 – Investigação (ou algo adequado ao negócio)
+VLAN 42 - 10.10.42.0/22 - 2001:1:1:42::/64 - Fábrica
 ```
 10.	Devem ser utilizados vários servidores no Datacenter:
 ```
