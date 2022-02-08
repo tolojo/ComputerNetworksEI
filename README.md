@@ -86,9 +86,9 @@ De acordo com o **Regulamento Geral de Avaliação de Conhecimentos e Competênc
 
 Nesta UC são instrumentos da avaliação contínua, o Trabalho Teórico (15%) individual que inclui apresentação à turma, os Trabalhos Práticos (40%) em grupo que no trabalho final inclui apresentação e o teste escritos final. 
 
+**Nota Relevante:** Não são admitidos à realização da prova final de avaliação continua, os estudantes que obtiverem uma classificação inferior a 8 (oito) valores na média dos elementos de avaliação previstos, neste caso o Trabalho Teórico (15%) individual e os os Trabalhos Práticos (40%) em grupo. Poderá, no entanto, não realizar alguns trabalhos. 
+
 Os alunos deverão ter uma taxa de presenças de 70% nas aulas. Excecionalmente 50% nos casos excecionados no regulamento.
-
-
 
 Ainda de acordo com o mesmo regulamento, os estudantes têm o direito a optar pelo regime de **avaliação final** (avaliação por exame) que integra uma prova escrita sobre a matéria toda lecionada.
 
