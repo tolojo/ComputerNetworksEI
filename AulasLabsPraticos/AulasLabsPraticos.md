@@ -96,4 +96,5 @@ Seguir os [seguintes](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/
 
 - Utilização de dispositivos IoT na ferramenta Cisco Packet Tracer
 - Configurações básicas de Servidor de IoT e equipamentos exemplo segundo o Roteiro do Packet Tracer para IoT
+- Disponível brevemente
 
