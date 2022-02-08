@@ -4,7 +4,9 @@ Os trabalhos práticos são efetuados em [grupo](https://github.com/pmrosa-class
 
 Consulte os enunciados e datas de entrega de cada uma das 4 componentes:
 
-- Trabalho de Routing I (necessita de máquinas virtuais) - 10%
-- Trabalho de Routing II (necessita de máquinas virtuais) - 10%
-- Análise de ficheiro pcap (captura de pacotes com Wireshark/tcpdump) (5%)
-- Trabalho Cisco Packet Tracer com IoT (20%)
+- Trabalho de Routing I (necessita de máquinas virtuais) - 10% - data de entrega: xx.03.2022
+- Trabalho de Routing II (necessita de máquinas virtuais) - 10% - data de entrega: xx.04.2022
+- Análise de ficheiro pcap (captura de pacotes com Wireshark/tcpdump) (5%) - data de entrega: xx.04.2022
+- Trabalho Cisco Packet Tracer com IoT (20%) - data de apresentação/entrega: xx.05.2022
+
+Tal como descrito na Avaliação, a média final destes trabalhos + o trabalho teórico, deve ser no minimo de 8 valores. Nenhum trabalho é obrigatório mas a ausência de entrega/apresentação contará com zero valores nessa componente.
