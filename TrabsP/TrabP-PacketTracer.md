@@ -46,17 +46,18 @@ VLAN 42 - 10.10.42.0/22 - 2001:1:1:42::/64 - Fábrica
 ```
 10.	Devem ser utilizados vários servidores no Datacenter:
 ```
-DHCP (server01 – 10.10.10.11) – com configuração de todas as pools necessárias para postos de trabalho e equipamentos IoT.
-Servidor de HTTP (server03 – 10.10.11.11) com página brevemente customizada da Instituição
-Servidor de Mail (server04 – 10.10.11.12) – exemplificar com 10 contas de mail
-Dois servidores de DNS (server01 – 10.10.10.11 e server02 – 10.10.10.12), sendo o server01 o mesmo que o DHCP. Deverão ser colocados os registos dos nomes de todos os servidores no DNS.
-Servidor de Registo de IoT (server05 – 10.10.11.13) para todos os equipamentos IoT da empresa.
+server01 – 10.10.10.11 - DHCP  – com configuração de todas as pools necessárias para postos de trabalho e equipamentos IoT.
+   "           "         Servidor Primário DNS - Deverão ser colocados os registos dos nomes de todos os servidores no DNS.
+server02 - 10.10.10.12 - Servidor Secundário DNS
+server03 – 10.10.11.11 - Servidor de HTTP - com página levemente customizada da Instituição
+server04 – 10.10.11.12 - Servidor de Mail – exemplificar com 10 contas de mail
+server05 – 10.10.11.13 - Servidor de Registo de IoT - para todos os equipamentos IoT da empresa.
 ```
 12.	Sendo edifícios inteligentes, devem ser implementadas as seguintes funcionalidades:
--	Gerir a temperatura interna em cada edifício através de um display adequado.
--	Os edifícios têm sistema de deteção de incêndios em todos os pisos. Caso seja detetado um incendio deve tocar uma sirene e ligado o sistema de extinção de incêndios.
--	Os edifícios têm sensores de CO2. Uma vez detetado um valor superior a 75% as janelas devem ser abertas e a extração de ar deve ser ligada. Todo o sistema deve ser desligado quando voltarem a valores inferior a 60%.
--	As portas de entrada dos edifícios têm controlo por RFID. Só os utilizadores com cartões válidos devem poder entrar (exemplificar com alguns casos). Sempre que algum cartão inválido seja lido, deve ser ligada uma sirene.
+-	Gerir a **temperatura** interna em cada edifício através de um display adequado.
+-	Os edifícios têm **sistema de deteção de incêndios** em todos os pisos. Caso seja detetado um incendio deve tocar uma **sirene** e **ligado o sistema de extinção de incêndios**.
+-	Os edifícios têm **sensores de CO2**. Uma vez detetado um valor superior a 75% as **janelas devem ser abertas** e a **extração de ar deve ser ligada**. Todo o sistema deve ser desligado quando voltarem a valores inferior a 60%.
+-	As portas de entrada dos edifícios têm **controlo por RFID**. Só os utilizadores com cartões válidos devem poder entrar (exemplificar com alguns casos). Sempre que algum cartão inválido seja lido, deve ser ligada uma sirene.
 13.	Criar uma rede externa, que simula o acesso à Internet, interligando com o router da empresa. Devem ser criados dois websites: portal.pt e google.pt (que deverão existir nos servidores de DNS). Deve ser configurada a interligação dessa rede com o router da empresa através de uma rede de 30 bits.
 
 **Notas:**
