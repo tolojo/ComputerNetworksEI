@@ -1,21 +1,26 @@
 # Laboratório 2: Routing I
 
-O Laboratório 2 tem como objetivo **Introduzir sistema de endereçamento e routing de pacotes IP**
+O Laboratório 2 tem como objetivo **Introduzir sistema de endereçamento e routing de pacotes IP** através de configurações em máquinas virtuais Linux (Ubuntu).
 
 ***Pré-requisito: Três máquinas virtuais - Instalação de pelo menos uma máquina virtual do SEED Project (tal como indicado [aqui](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/AulasLabsPraticos.md)) e dois clones.***
 
 Os clones deverão ser realizados no VirtualBox. Para tal deverá escolher a opção `Clone`, nomear a máquina virtual e escolher a opção `MAC Adress Policy: Generate new MAC addresses for all network adapters`. No final escolher `Linked Clone` para poupar espaço de armazenamento. O outro tipo de clone duplica o espaço em disco gasto pela primeira máquina virtual; o Linked Clone apenas grava as diferenças em relação à máquina original.
 
-Aconselha-se o uso de nomes como UE01, UE02 e UE03, ou algo do género, para as máquinas virtuais. Na documentação serão usados esses identificadores
+Aconselha-se o uso de nomes como **UE01**, **UE02** e **UE03**, ou algo do género, para as máquinas virtuais. Na documentação serão usados esses identificadores
 
 ## 0. Topologia a implementar
 
-(desenho)
+(diagrama de rede)
 
-As primeiras placas de rede da UE01 e UE02 estão ligadas ao `switch01`; a segunda placa de rede do UE02 e a primeira placa de rede da UE03 estão ligadas ao `switch02`.
+As primeiras placas de rede da **UE01** e **UE02** estão ligadas ao `switch01`; a segunda placa de rede do **UE02** e a primeira placa de rede da **UE03** estão ligadas ao `switch02`.
 
 Para associar as placas de rede a esses switchs deve desligar as máquinas e escolher a opção `Attach to Internal Network` nas configurações da placa de rede
 Atribuir o nomes `switch01` e `switch02` aos switchs, nas respetivas máquinas. Não esquecer de escolher a opção `Promiscuous Mode: Allow VMs`
+
+De notar que, em principio, os nomes das placas de rede nas máquinas virtuais deverao ser:
+- Primeira placa de rede: `enp0s3`
+- Segunda placa de rede: `enp0s8`
+- Terceira placa de rede: `enp0s9`
 
 ## 1. Interligar Máquinas Virtuais
 
@@ -84,18 +89,23 @@ Para verificar se tem conectividade poderá utilizar o `ping`:
 
 ## 1.3 Interligar UE01 com a Internet
 
-Para poder ter internet nesta máquina basta fazer desligar a máquina com `sudo shutdown -h now` e adicionar uma terceira placa de rede cujo switch a que se deverá ligar deverá estar configurado como *Natted*. Quando arrancar com a máquina deverá ter um terceiro interface de rede `enp0s9` que obteve automaticamente um endereço para aceder à Internet.
+Para poder ter internet nesta máquina terá de desligar a máquina com `$ sudo shutdown -h now` e adicionar uma terceira placa de rede. O switch a que se deverá ligar deverá estar configurado como *Natted*. Quando arrancar com a máquina deverá ter um terceiro interface de rede `enp0s9` que obteve automaticamente um endereço para aceder à Internet.
 Para verificar isso deve:
 ```
 $ /sbin/ifconfig
 ```
 
+Poderá testar o acesso à Internet através de um `ping`
+```
+$ ping 1.1.1.1
+``` 
+*Nota: O endereço 1.1.1.1 é um servidor público da Cloudfare. Pode tambem testar para um endereço semelhante da Google 8.8.8.8 ou outro qualquer desde que não utilize nomes, uma vez que ainda não foi configurado nenhum servidor de DNS.*
 
 ## 1.4 Preparar a UE01 para fazer routing de pacotes e configurar o default gateway da UE02 e UE03
 
 ### Configurar UE01
 
-Para conseguir enviar pacotes para redes IPs distintas das que os interfaces estão ligados diretamente, necessita de um endereço de gateway (normalmente o *default gateway*). No nosso caso esse gateway será a máquina **UE01** que também será ligada à internet mais adiante. Para tal será necessário ligar o *forwarding* de pacotes.
+Para conseguir enviar pacotes para redes IPs distintas das que os interfaces estão ligados diretamente, necessita de um endereço de gateway (normalmente o *default gateway*). No nosso caso esse gateway será a máquina **UE01** que já está ligada à internet. Para tal será necessário ligar o *forwarding* de pacotes nessa máquina.
 
 Pode verificar que o *forwarding* de pacotes está **desligado** através do comando seguinte:
 ```
@@ -105,7 +115,7 @@ O resultado deve ser 0.
 
 Para **ativar** o *forwarding* deverá alterar o valor para 1:
 ```
-$ sudo sysctl net.ipv4.ip_forward=1   # on VM2
+$ sudo sysctl net.ipv4.ip_forward=1
 ```
 
 Para confirmar que o valor ficou definido, deve repetir o comando:
@@ -179,7 +189,7 @@ $ ping 1.1.1.1
 Agora tente fazer o mesmo nas máquinas **UE02** e **UE03**.
 Porque razão não conseque?
 
-Na verdade para a Internet não podem ser enviados endereços privados como os 192.168.x.x. Por esse motivo é preciso *transformar* os pacote antes de os enviar para a Internet. Para tal utilizamos NAT - *Network Address Translation* - que transforma os endereços privados internos no endereço público que a máquina **UE01** obteve através do terceiro interface (que está configurado para obter o endereço IP por DHCP e cujo switch foi configurado como NATTED anterirmente).
+Na verdade para a Internet não podem ser enviados endereços privados como os da rede 192.168.x.x. Por esse motivo é preciso *transformar* os pacote antes de os enviar para a Internet. Para tal utilizamos NAT - *Network Address Translation* - que transforma os endereços privados internos no endereço público que a máquina **UE01** obteve através do terceiro interface (que está configurado para obter o endereço IP por DHCP e cujo switch foi configurado como NATTED anterirmente).
 
 Para realizar estas configurações, deve:
 ```
@@ -191,6 +201,9 @@ $ sudo iptables -t nat -A POSTROUTING  -o enp0s9 -j MASQUERADE
 
 Agora tente efetuar os pings anteriores novamente nas máquinas **UE02** e **UE03**.
 
+```
+$ ping 1.1.1.1
+``` 
 Já deverá conseguir.
 
 ## 3. Garantir que as configurações ficam permanentes
@@ -198,7 +211,7 @@ Já deverá conseguir.
 Se desligar as máquinas irá perder as configurações. Antes de o fazer edite o ficheiro `/etc/network/interfaces` e coloque as informações anteriromente configuradas (neste caso acrescentou-se um endereço de DNS Server para poder usar nomes de sites posteriromente):
 
 ```
-# UE01
+# /etc/network/interfaces na UE01
 auto enp0s3
 iface enp0s3 inet static
     address 192.168.1.11
@@ -216,7 +229,7 @@ iface enp0s9 inet dhcp
 ```
 
 ```
-# UE02
+# /etc/network/interfaces na UE02
 auto enp0s3
 iface enp0s3 inet static
     address 192.168.1.2
@@ -226,7 +239,7 @@ iface enp0s3 inet static
 ```
 
 ```
-# UE03
+# /etc/network/interfaces na UE03
 auto enp0s3
 iface enp0s3 inet static
     address 192.168.2.2
@@ -235,7 +248,7 @@ iface enp0s3 inet static
     dns-nameservers 1.1.1.1
 ```
 
-Na UE01 deve edutar ainda o ficheiro `/etc/sysctl.conf`:
+Na **UE01** deve edutar ainda o ficheiro `/etc/sysctl.conf`:
 ```
 net.ipv4.ip_forward=1
 ```
