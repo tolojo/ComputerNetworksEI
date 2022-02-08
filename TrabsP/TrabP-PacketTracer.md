@@ -4,7 +4,7 @@
 
 **Enunciado temporário. Pode sofrer alterações**
 
-## Implementação de todas as componentes de uma rede de suporte a uma Empresa, incluindo equipamentos IoT.
+## Implementação de todas as componentes de uma rede de suporte a uma Empresa, incluindo equipamentos IoT associados aos edificios inteligentes da empresa.
 
 **Descrição genérica do trabalho:**
 1.	O objetivo principal é concretizar uma rede de uma empresa sediada em Lisboa e composta por três edifícios (edifício A, edifício B e fábrica C);
