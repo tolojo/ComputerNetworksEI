@@ -4,16 +4,21 @@
 
 **Enunciado temporário. Pode sofrer alterações**
 
+# A Smart Campus: Smart Factory & Smart Buildings
+
 ## Implementação de todas as componentes de uma rede de suporte a uma Empresa, incluindo equipamentos IoT associados aos edificios inteligentes da empresa.
 
 **Descrição genérica do trabalho:**
-1.	O objetivo principal é concretizar uma rede de uma empresa sediada em Lisboa e composta por três edifícios (edifício A, edifício B e fábrica C);
-2.	São dois edifícios de 3 andares que alojam um total de 200 funcionários, estando previsto a duplicação do número de funcionários nos próximos 5 anos, caso a evolução da empresa se mantenha nos atuais níveis;
-3.	Tendo os edifícios uma largura de cerca de 100m, o backbone dos edifícios é duplo, ou seja, dois bastidores por piso (devidamente espaçados), interligados a um lugar central no piso 1 do mesmo edifício. 
-4.	O Datacenter fica localizado num quarto pequeno edificio, construído para o efetio, onde estão também centralizadas as comunicações.
-5.	A infraestrutura central de rede e o acesso à Internet estão dentro do Datacenter.
-6.	Os edifícios têm ainda a infraestrutura necessária para interligar diversas componentes de IoT para suporte à gestão inteligente do campus e dos edifícios.
-7.	Todos os pisos têm disponíveis 4 pontos de acesso sem fios por piso.
+1.	O objetivo principal é concretizar uma rede de uma empresa que interliga vários equipamentos inteligentes.
+2.	A empresa está sediada num Campus de dimensão significativa no Oeste de Portugal.
+3.  Atualmente é composta por quatro edifícios (edifício A, edifício B e fábrica C e Datacenter D) mas o Campus tem capacidade para um crescimento significativo em número de edificios;
+4.  A utilização de tecnologias inteligentes para gerir os espaços é fundamental para a empresa, com vista a contribuir positivamente para oo ambiente e reduzir os custos da empresa. Esse foi também o motivo de ter feito um quarto pequeno edificio exclusivamente para Datacenter.
+5.	Os dois primeiros edifícios têm 3 andares que alojam um total de 200 funcionários, estando previsto a duplicação do número de funcionários nos próximos 5 anos, caso a evolução da empresa se mantenha nos atuais níveis. 
+6.	Tendo os edifícios uma largura de cerca de 100m, o backbone dos edifícios é duplo, ou seja, dois bastidores por piso (devidamente espaçados), interligados a um lugar central no piso 1 do mesmo edifício. 
+7.	O Datacenter fica localizado num quarto pequeno edificio, construído para o efeito, onde estão também centralizadas as comunicações.
+8.	A infraestrutura central de rede e o acesso à Internet estão dentro do Datacenter.
+9.	Os edifícios têm ainda a infraestrutura necessária para interligar diversas componentes de IoT para suporte à gestão inteligente do campus e dos edifícios.
+10.	Todos os pisos têm disponíveis 4 pontos de acesso sem fios por piso.
 
 **Objetivos a concretizar:**
 1.	Elaborar um relatório de acordo com o template aqui disponibilizado.
