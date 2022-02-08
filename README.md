@@ -60,22 +60,25 @@ Os alunos deverão ainda efetuar um trabalho prático final que consiste em impl
 | 14 | 02.22-26 | Apresentações dos trabalhos práticos Networking/IoT|
 
 ## Avaliação 
-- [Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabT.md) - Apresentação de um paper - 15%
-- [Trabalhos Práticos](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/Labs.md) (Network + IoT) - 40%
-- [Teste Escrito](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TesteEscrito/Teste.md) único - 45% (a realizar na data marcada pela Secretaria Escolar)
 
+### 1. Trabalho Teórico (15%)
+O trabalho oteórico baseia-se na apresentação de um paper. Valerá 15% para a classificação final da Unidade Curricular.Este trabalho é individual.
+Consulte o [Enunciado](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabT/TrabT.md) para efetuar a escolha do tema. 
 
-## Trabalho Teórico (15%)
-Enunciado do [Trabalho Teórico](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabT/TrabT.md) da unidade curricular. Este trabalho é individual.
-
-Importante escolher tema até **18 de fevereiro**.
+Importante escolher até **18 de fevereiro**.
 
 Depois de distribuídos os temas (até 20 de fevereiro) as datas de apresentação estarão disponiveis [aqui](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabT/TrabT-distribuicao.md).
 
-## Trabalhos Práticos (40%)
+### 2. Trabalhos Práticos (40%)
 Enunciados dos [Trabalhos Práticos](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/AulasLabsPraticos.md) da unidade curricular. Este trabalho é em grupo (3 alunos no máximo, 2 alunos no minimo).
 
 Importante respeitar as datas de entrega. Não serão aceites adiamentos.
+
+### 3. Teste Escrito (45%)
+Teste Escrito unico a realizar na data marcada pela Secretaria Escolar.
+
+### 4. Regras de Avaliacao Continua
+
 
 ## Grupos
 Os trabalhos práticos são em grupo. A constituição dos grupos (3 alunos no máximo, 2 alunos no minimo) deve ser enviada até dia 25 de fevereiro.
