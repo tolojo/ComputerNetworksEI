@@ -107,10 +107,10 @@ Os trabalhos práticos são em grupo. A [constituição dos grupos](https://gith
 - 20 de fevereiro - Publicação da distribuição dos temas e datas de apresentação
 - até 25 de fevereiro - Constituição dos grupos
 - a partir de 2 de março iniciam-se as apresentações dos trabalhos teóricos 
-- até 25 de março - Trabalho de Routing I - Ponderação: 10%
-- até 22 de abril - Trabalho de Routing II - Ponderação: 10%
+- até 25 de março - Trabalho de Routing I - Ponderação: 7,5%
+- até 22 de abril - Trabalho de Routing II - Ponderação: 7,5%
 - até 6 de maio - Análise de ficheiro pcap - captura de pacotes com Wireshark/tcpdump - Ponderação: 5%
-- até 20 de maio - Trabalho Cisco Packet Tracer / IoT - Ponderação: 20%
+- até 20 de maio - Trabalho Cisco Packet Tracer / IoT - Ponderação: 25%
 - 25 e 26 de maio - Apresentações dos Trabalhos Cisco Packet Tracer / IoT 
 
 ## Bibliografia
