@@ -94,6 +94,10 @@ Aos alunos é fornecida toda a documentação utilizada durante as aulas, nomead
 - Ficheiros pdf com os slides das aulas teóricas (Plataforma Canvas)
 - Laboratórios Práticos com exercícios práticos para configuração dos equipamentos em simulador Cisco Packet Tracer e exercicios práticos com máquinas virtuais (neste repositório)
 
+## Discord
+Poderá ser util juntarem-se ao Discord da cadeira: https://discord.gg/52fYwsM9 (invite criado em 09.02.2022)
+Para terem acesso aos canais do Discord devem alterar o vosso Nick para PrimeiroUltimo nome no servidor e colocar uma mensagem em #general com "Numero - Primeiro&UltimoNome - Turma" para serem atribuídos os roles adequados.
+
 ## Grupos
 Os trabalhos práticos são em grupo. A [constituição dos grupos](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabsP/TrabsP-grupos.md) (3 alunos no máximo, 2 alunos no minimo) deve ser enviada até dia 25 de fevereiro.
 
