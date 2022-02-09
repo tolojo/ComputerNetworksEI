@@ -61,7 +61,12 @@ Para verificar se tem conectividade poderá utilizar o `ping`:
 
 Deverá ter um output semelhante a este:
 ```
-Ping reply ....
+seed@VM:~$ ping 192.168.1.2
+PING 192.168.1.2 (192.168.1.2) 56(84) bytes of data.
+64 bytes from 192.168.1.2: icmp_seq=1 ttl=57 time=30.8 ms
+64 bytes from 192.168.1.2: icmp_seq=2 ttl=57 time=23.8 ms
+64 bytes from 192.168.1.2: icmp_seq=3 ttl=57 time=24.7 ms
+
 ```
 
 ## 1.2 Interligar UE01 com UE03
