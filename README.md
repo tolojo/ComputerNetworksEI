@@ -102,11 +102,12 @@ Os trabalhos práticos são em grupo. A [constituição dos grupos](https://gith
 - até 18 de fevereiro - Escolha dos temas para os trabalhos teóricos
 - 20 de fevereiro - Publicação da distribuição dos temas e datas de apresentação
 - até 25 de fevereiro - Constituição dos grupos
-- até xx de março - 1ª Entrega LabPrat01-Routing
-- até xx de março - 2ª Entrega LabPrat02-Firewall
-- até xx de abril - Entrega LabPrat03-PacketSnifiing
-- até xx de maio - Entrega do Trabalho Pratico em Packet Tracer Networkin/IoT
-- Semana de xx de maio e de xx de maio - apresentações de trabalhos pelos grupos
+- a partir de 2 de março iniciam-se as apresentações dos trabalhos teóricos 
+- até 25 de março - Trabalho de Routing I - Ponderação: 10%
+- até 22 de abril - Trabalho de Routing II - Ponderação: 10%
+- até 6 de maio - Análise de ficheiro pcap - captura de pacotes com Wireshark/tcpdump - Ponderação: 5%
+- até 20 de maio - Trabalho Cisco Packet Tracer / IoT - Ponderação: 20%
+- 25 e 26 de maio - Apresentações dos Trabalhos Cisco Packet Tracer / IoT 
 
 ## Bibliografia
 - Computer Networks, Tanenbaum, Andrew S., Prentice Hall http://books.google.pt/books?id=Pd-z64SJRBAC
