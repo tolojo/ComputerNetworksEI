@@ -17,10 +17,9 @@ Aconselha-se o uso de nomes como **UE01**, **UE02** e **UE03**, ou algo do géne
 Nos Settings da VirtualBox deve adicionar duas placas de rede em **UE01** e uma placa de rede em **UE02** e **UE03**.
 A primeira placa de rede de todas as máquinas deverá ser do tipo `Internal Network`; a segunda placa de rede do **UE01** deve ser do tipo `NAT Network`.
 
-As primeiras placas de rede da **UE01** e **UE02** estão ligadas ao `switch01`; a segunda placa de rede do **UE02** e a primeira placa de rede da **UE03** estão ligadas ao `switch02`.
+Ainda no mesmo local dos Settings, as primeiras placas de rede da **UE01** e **UE02** devem ser ligadas a um switch `switch01` (campo *Name*); a segunda placa de rede do **UE01** e a primeira placa de rede da **UE03** estão ligadas ao `switch02`.
 
-Para associar as placas de rede a esses switchs deve desligar as máquinas e escolher a opção `Attach to Internal Network` nas configurações da placa de rede
-Atribuir o nomes `switch01` e `switch02` aos switchs, nas respetivas máquinas. Não esquecer de escolher a opção `Promiscuous Mode: Allow VMs`
+Escolher a opção `Promiscuous Mode: Allow VMs` em *Advanced*.
 
 De notar que, em principio, os nomes das placas de rede nas máquinas virtuais deverao ser:
 - Primeira placa de rede: `enp0s3`
