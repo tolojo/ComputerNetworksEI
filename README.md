@@ -99,7 +99,7 @@ Poderá ser util juntarem-se ao Discord da cadeira: https://discord.gg/52fYwsM9 
 Para terem acesso aos canais do Discord devem alterar o vosso *nick* para PrimeiroUltimo nome no servidor e colocar uma mensagem em **#general** com "Numero - Primeiro&UltimoNome - Turma" para serem atribuídos os roles adequados.
 
 ## Grupos
-Os trabalhos práticos são em grupo. A [constituição dos grupos](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabsP/TrabsP-grupos.md) (3 alunos no máximo, 2 alunos no minimo) deve ser enviada até dia 25 de fevereiro.
+Os trabalhos práticos são em grupo. A [constituição dos grupos](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabsP/TrabsP-grupos.md) (3 alunos no máximo, 2 alunos no minimo) deve ser colocada na tarefa respetiva no Canvas até dia 25 de fevereiro: https://mycampus.pt/courses/7345/assignments/8738
 
 ## Resumo do Calendário da UC
 *(em atualização)*
