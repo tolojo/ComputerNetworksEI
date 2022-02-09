@@ -76,13 +76,13 @@ Para a calendarização prevista dos seguintes laboratórios, por favor ver as [
 - Apresentação do interface da ferramenta Cisco Packet Tracer
 - Primeiras configurações do [Roteiro do Packet Tracer para as aulas Práticas](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/roteiro-packet-tracer.md)
 
-## 2. Laboratório 2: Routing I 
-
-Seguir os [seguintes](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/RoutingI.md) passos para a realização do laboratório.
-
-## 3. Laboratório 3: Cisco Packet Tracer II 
+## 2. Laboratório 2: Cisco Packet Tracer II 
 
 Continuação das configurações do [Roteiro do Packet Tracer para as aulas Práticas](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/roteiro-packet-tracer.md)
+
+## 3. Laboratório 3: Routing I 
+
+Seguir os [seguintes](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/RoutingI.md) passos para a realização do laboratório.
 
 ## 4. Laboratório 4: Routing II
 
