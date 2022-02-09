@@ -32,8 +32,6 @@ De notar que, em principio, os nomes das placas de rede nas máquinas virtuais d
 
 Na grande maioria das configurações a efetuar nos laboratórios, irá utilizar uma janela de terminal (que pode executar através do menu lateral so ambiente gráfico). 
 
-![O *terminal* é o primeiro icon no topo da barra lateral](seed-desktop-terminal.png)
-
 <img src="seed-desktop-terminal.png" alt="O *terminal* é o primeiro icon no topo da barra lateral" width="600"/>
 
 Para interligar estas duas máquinas virtuais, deve configurar os seguintes endereços em cada uma delas:
