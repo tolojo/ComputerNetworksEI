@@ -65,12 +65,12 @@ Importante escolher até **18 de fevereiro**.
 
 Depois de distribuídos os temas (até 20 de fevereiro) as datas de apresentação estarão disponiveis [aqui](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabT/TrabT-distribuicao.md).
 
-### 2. Trabalhos Práticos (40%)
+### 2. Trabalhos Práticos (45%)
 Enunciados dos [Trabalhos Práticos](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabsP/TrabsPraticos.md) da unidade curricular. Este trabalho é em grupo (3 alunos no máximo, 2 alunos no minimo).
 
 Importante respeitar as datas de entrega. Não serão aceites adiamentos.
 
-### 3. Teste Escrito (45%)
+### 3. Teste Escrito (40%)
 Teste Escrito unico a realizar na data marcada pela Secretaria Escolar.
 
 ### 4. Regras de Avaliacao Continua / Avaliação Final
