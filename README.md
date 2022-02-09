@@ -34,7 +34,7 @@ Existem vários trabalhos a serem realizados para alunos em **avaliação contin
 
 ### Aulas Práticas:
 - [Laboratórios práticos](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/AulasLabsPraticos.md) de TCP/IP (endereçamento IP, routing em máquinas virtuais e Cisco Packet Tracer)
-- Utilização do simulador de rede Cisco Packet Tracer (ver [aqui]() onde fazer download e como instalar e utilizar). Existe um [roteiro](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/roteiro-packet-tracer.md) para as aulas Packet Tracer;
+- Inclui a utilização de máquinas virtuais e do simulador de rede Cisco Packet Tracer (ver [aqui](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/AulasLabsPraticos.md) na secção Preparação de Laboratórios quais os passos preparatórios para a realização dos laboratórios). Existe um [roteiro](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/roteiro-packet-tracer.md) para as aulas Packet Tracer;
 - Apoio a realização do trabalho prático sobre Networking/IoT em Cisco Packet Tracer.
 
 ### Planeamento previsto (pode sofrer alterações!)[#planeamento]
