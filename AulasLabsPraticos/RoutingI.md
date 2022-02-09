@@ -6,11 +6,16 @@ O Laboratório 2 tem como objetivo **Introduzir sistema de endereçamento e rout
 
 Os clones deverão ser realizados no VirtualBox. Para tal deverá escolher a opção `Clone`, nomear a máquina virtual e escolher a opção `MAC Adress Policy: Generate new MAC addresses for all network adapters`. No final escolher `Linked Clone` para poupar espaço de armazenamento. O outro tipo de clone duplica o espaço em disco gasto pela primeira máquina virtual; o Linked Clone apenas grava as diferenças em relação à máquina original.
 
+Os recursos necessários para as máquinas virtuais não necessitam de ser superiores a 1 processador / 1Gb RAM.
+
 Aconselha-se o uso de nomes como **UE01**, **UE02** e **UE03**, ou algo do género, para as máquinas virtuais. Na documentação serão usados esses identificadores
 
 ## 0. Topologia a implementar
 
 (diagrama de rede)
+
+Nos Settings da VirtualBox deve adicionar duas placas de rede em **UE01** e uma placa de rede em **UE02** e **UE03**.
+A primeira placa de rede de todas as máquinas deverá ser do tipo `Internal Network`; a segunda placa de rede do **UE01** deve ser do tipo `NAT Network`.
 
 As primeiras placas de rede da **UE01** e **UE02** estão ligadas ao `switch01`; a segunda placa de rede do **UE02** e a primeira placa de rede da **UE03** estão ligadas ao `switch02`.
 
