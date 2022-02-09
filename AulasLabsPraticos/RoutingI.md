@@ -212,6 +212,10 @@ Se desligar as máquinas irá perder as configurações. Antes de o fazer edite 
 
 ```
 # /etc/network/interfaces na UE01
+
+auto lo
+iface lo inet loopback
+
 auto enp0s3
 iface enp0s3 inet static
     address 192.168.1.11
@@ -230,6 +234,10 @@ iface enp0s9 inet dhcp
 
 ```
 # /etc/network/interfaces na UE02
+
+auto lo
+iface lo inet loopback
+
 auto enp0s3
 iface enp0s3 inet static
     address 192.168.1.2
@@ -240,6 +248,10 @@ iface enp0s3 inet static
 
 ```
 # /etc/network/interfaces na UE03
+
+auto lo
+iface lo inet loopback
+
 auto enp0s3
 iface enp0s3 inet static
     address 192.168.2.2
