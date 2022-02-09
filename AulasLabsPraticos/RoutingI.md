@@ -34,6 +34,8 @@ Na grande maioria das configurações a efetuar nos laboratórios, irá utilizar
 
 ![O *terminal* é o primeiro icon no topo da barra lateral](seed-desktop-terminal.png)
 
+<img src="seed-desktop-terminal.png" alt="O *terminal* é o primeiro icon no topo da barra lateral" width="200"/>
+
 Para interligar estas duas máquinas virtuais, deve configurar os seguintes endereços em cada uma delas:
 
 **UE01** - interface `enp0s3` - **192.168.1.1**
