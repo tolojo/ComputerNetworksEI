@@ -40,7 +40,6 @@ Existem vários trabalhos a serem realizados para alunos em **avaliação contin
 ### Planeamento previsto (pode sofrer alterações!)[#planeamento]
 | Aula | Data | Aula |
 | :-----------: | :-----------: | :---------- |
-| Aula | Data | Aula |
 | 01 | 14/17 fev | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
 | 02 | 23/24 fev | Modelo OSI - tecnologias (ethernet, wifi, 5g)  e layer 2 - VLANs, etc;	Modelo OSI - layer 3/routing; Modelo OSI - layer 4/transporte; ***Laboratório 1 ([pré-requisito 0.1](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/AulasLabsPraticos.md#01-instalação-do-cisco-packet-tracer-labs-13-e-6) para elaborar o laboratório)***  |
 | 03 | 2/3 mar | Modelo OSI - camadas aplicacionais; Internet (história/breve); TCP/IP arquitetura, Unicast, Multicast; ***Laboratório 2 ([pré-requisito 0.1](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/AulasLabsPraticos.md#01-instalação-do-cisco-packet-tracer-labs-13-e-6) para elaborar o laboratório)***|
