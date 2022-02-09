@@ -269,5 +269,9 @@ Na **UE01** deve edutar ainda o ficheiro `/etc/sysctl.conf`:
 net.ipv4.ip_forward=1
 ```
 
+Poderá fazer *Save State* das máquinas virtuais se as desejar ligar novamente nas horas seguintes ou fazer *shutdown* através do comando:
+```
+sudo shutdown -h now
+```
 
 *Pedro Rosa - IADE/Universidade Europeia*
