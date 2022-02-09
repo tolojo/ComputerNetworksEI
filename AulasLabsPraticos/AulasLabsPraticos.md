@@ -10,7 +10,7 @@
 
 ## 0. Preparação dos Laboratórios / Pré-Requisitos
 
-### 0.1 Instalação do Cisco Packet Tracer (Labs 1,3 e 6)
+### 0.1 Instalação do Cisco Packet Tracer (Labs 1,2 e 6)
 
 ***Pré-requisito: Ter uma conta na [Cisco NetAcad](https://www.netacad.com)***
 
@@ -49,7 +49,7 @@ macOS Version 8.1.1 English
 64 bit Download
 ``` 
 
-### 0.2 Instalação de Máquinas Virtuais em equipamentos dos alunos (Labs 2,4 e 5)
+### 0.2 Instalação de Máquinas Virtuais em equipamentos dos alunos (Labs 3,4 e 5)
 
 ***Pré-requisito: VirtualBox instalado em Windows, MacOS, Linux.***
 
