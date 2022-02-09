@@ -12,7 +12,8 @@ Aconselha-se o uso de nomes como **UE01**, **UE02** e **UE03**, ou algo do géne
 
 ## 0. Topologia a implementar
 
-(diagrama de rede)
+<img src="routingI-diagram1.png" alt="Diagram 1" width="600"/>
+
 
 Nos Settings da VirtualBox deve adicionar duas placas de rede em **UE01** e uma placa de rede em **UE02** e **UE03**.
 A primeira placa de rede de todas as máquinas deverá ser do tipo `Internal Network`; a segunda placa de rede do **UE01** deve ser do tipo `NAT Network`.
