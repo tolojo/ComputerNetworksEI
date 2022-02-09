@@ -3,11 +3,7 @@
 
 O objectivo da cadeira é dotar os alunos de conhecimentos da concepção das componentes protocolares das redes de computadores, bem como de algumas componentes práticas de redes TCP/IP e de equipamentos activos de rede.
 
-Nas aulas teóricas os alunos deverão escolher um paper de investigação cientifica sobre temas da cadeira (Networking/IoT) e apresentar um resumo oralmente para a turma.
-
-Existem aulas práticas de laboratórios e trabalhos práticos de acordo com cada matéria lecionada nos laboratórios.
-
-Os alunos deverão ainda efetuar um trabalho prático final que consiste em implementar uma rede multi-serviço com divisão de tráfego, incluindo equipamentos ativos de rede, terminais e componentes IoT.
+Existem vários trabalhos a serem realizados para alunos em **avaliação continua**. Nas aulas teóricas os alunos deverão escolher um paper de investigação cientifica sobre temas da cadeira (Networking/IoT) e apresentar um resumo oralmente para a turma. Nas aulas práticas existem um cojunto de trabalhos práticos, de acordo com as matérias lecionadas nos laboratórios, incluindo um trabalho final de maior envergadura que consiste em implementar uma rede multi-serviço com divisão de tráfego, incluindo equipamentos ativos de rede, terminais e componentes IoT.
 
 
 ### Horário 
@@ -62,7 +58,7 @@ Os alunos deverão ainda efetuar um trabalho prático final que consiste em impl
 ## Avaliação 
 
 ### 1. Trabalho Teórico (15%)
-O trabalho oteórico baseia-se na apresentação de um paper. Valerá 15% para a classificação final da Unidade Curricular.Este trabalho é individual.
+O trabalho teórico baseia-se na apresentação de um paper. Valerá 15% para a classificação final da Unidade Curricular.Este trabalho é individual.
 Consulte o [Enunciado](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabT/TrabT.md) para efetuar a escolha do tema. 
 
 Importante escolher até **18 de fevereiro**.
