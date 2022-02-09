@@ -30,7 +30,7 @@ Existem vários trabalhos a serem realizados para alunos em **avaliação contin
 -	IPv6 e serviços (DNSv6 e DHCPv6)
 -	IoT enquadrar com serviços de Cloud/associar a virtualização; Fog computing; necessidades de networking, armazenamento em IoT; exemplos práticos (smart homes, buildings, cities, veículos autónomos, etc); referencia a big data; referencia a segurança em IOT, nem que seja apenas com exemplos estilo Miai botnet, etc)
 
-* *Slides disponiveis no Canvas.*
+*Slides disponiveis no Canvas.*
 
 ### Aulas Práticas:
 - [Laboratórios práticos](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/AulasLabsPraticos.md) de TCP/IP (endereçamento IP, routing em máquinas virtuais e Cisco Packet Tracer)
