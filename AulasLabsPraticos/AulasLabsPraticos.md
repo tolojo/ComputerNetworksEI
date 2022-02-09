@@ -8,7 +8,7 @@
 6. Laboratório 5: Captura de Tráfego numa Rede  
 7. Laboratório 6: Cisco Packet Tracer III
 
-## 0. Preparação dos Laboratórios
+## 0. Preparação dos Laboratórios / Pré-Requisitos
 
 ### 0.1 Instalação do Cisco Packet Tracer (Labs 1,3 e 6)
 
