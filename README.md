@@ -100,7 +100,7 @@ Aos alunos é fornecida toda a documentação utilizada durante as aulas, nomead
 - Laboratórios Práticos com exercícios práticos para configuração dos equipamentos em simulador Cisco Packet Tracer e exercicios práticos com máquinas virtuais (neste repositório)
 
 ## Discord
-Poderá ser util juntarem-se ao Discord da cadeira: https://discord.gg/52fYwsM9 (invite criado em 09.02.2022).
+Poderá ser util juntarem-se ao Discord da cadeira: https://discord.gg/HYQnMcuz (invite criado em 16.02.2022).
 
 Para terem acesso aos canais do Discord devem alterar o vosso *nick* para PrimeiroUltimo nome no servidor e colocar uma mensagem em **#general** com "Numero - Primeiro&UltimoNome - Turma" para serem atribuídos os roles adequados.
 
