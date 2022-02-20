@@ -19,7 +19,7 @@ Dos três papers escolhidos, o Docente escolherá um que os alunos terão que ap
 
 Em caso de repetição de escolhas será sempre usado o método FIFO (First In First Out).
 
-A distribuição estará disponível [aqui](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabT/TrabT-distribuicao.md) depois de dia 20 de fevereiro. 
+A distribuição estará disponível [aqui](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7W8DWN7nqIehNu8iVlAwD82BJiTac2m0v2sZ4d56q-nybbrWNlSQ63RirHW5_wt4MFKfJLlfR3HNC/pubhtml?gid=467007833&single=true) a partir de dia 20 de fevereiro. 
 
 **A análise deve basear-se sobre o estudo ou implementação descrita**, podendo ser útil verificar outros papers referenciados. É importante para a avaliação que o aluno exponha exatamente o que é relevante do paper, expondo ainda o seu ponto de vista sobre o que apresenta. Não é necessário nenhum relatório.
 
