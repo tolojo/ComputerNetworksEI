@@ -2,6 +2,8 @@
 
 ## 1ª componente de avaliação continua: Análise e apresentação de um paper sobre **Internet of Things / Tecnologias de rede** – 15% da avaliação – realização voluntária.
 
+**ATUALIZAÇÃO DE 20.02.2022: Veja [aqui](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7W8DWN7nqIehNu8iVlAwD82BJiTac2m0v2sZ4d56q-nybbrWNlSQ63RirHW5_wt4MFKfJLlfR3HNC/pubhtml?gid=467007833&single=true) a distribuição dos trabalhos a apresentar**
+
 Os alunos deverão escolher três papers que tenham sido apresentados numa das conferências com rank A+ ou A em http://portal.core.edu.au/conf-ranks/ nos anos de 2018, 2019, 2020 ou já em 2021 ou em alternativa de um destes sites:
 - https://dl.acm.org
 - https://www.usenix.org/conference/usenixsecurity19/technical-sessions
