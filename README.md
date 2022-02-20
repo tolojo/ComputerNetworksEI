@@ -110,7 +110,7 @@ Os trabalhos práticos são em grupo. A [constituição dos grupos](https://gith
 ## Resumo do Calendário da UC
 *(em atualização)*
 - até 18 de fevereiro - Escolha dos temas para os trabalhos teóricos
-- 20 de fevereiro - Publicação da distribuição dos temas e datas de apresentação
+- 20 de fevereiro - Publicação [aqui](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7W8DWN7nqIehNu8iVlAwD82BJiTac2m0v2sZ4d56q-nybbrWNlSQ63RirHW5_wt4MFKfJLlfR3HNC/pubhtml?gid=467007833&single=true) da distribuição dos temas e datas de apresentação
 - até 25 de fevereiro - Constituição dos grupos
 - a partir de 2 de março iniciam-se as apresentações dos trabalhos teóricos 
 - até 25 de março - Trabalho de Routing I - Ponderação: 7,5%
