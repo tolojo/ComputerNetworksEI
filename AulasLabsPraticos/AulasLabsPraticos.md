@@ -17,7 +17,7 @@
 Para criar conta: Escolher Login, introduzir o endereço de mail e prosseguir. Quando for detetado que o mail não está registado aparece uma opção `Create New Account`. Esta conta será a mesma que deve ser utilizada no inicio do programa, depois de instalado.
 Após criação da conta pode efetuar o download [aqui](https://www.netacad.com/portal/resources/packet-tracer)
 
-***Em alternativa fazer nos seguintes links download [Windows 64bits](https://filesender.fccn.pt/?s=download&token=a5e24604-34f4-40e7-8540-5791b298e66f) [Mac OS 64bit](https://filesender.fccn.pt/?s=download&token=17671cd2-f472-48c6-8dff-37a0c964869c).*** 
+***Em alternativa fazer nos seguintes links o download: [Windows 64bits](https://filesender.fccn.pt/?s=download&token=a5e24604-34f4-40e7-8540-5791b298e66f) | [Mac OS 64bit](https://filesender.fccn.pt/?s=download&token=17671cd2-f472-48c6-8dff-37a0c964869c).*** Necessita na mesma de uma conta na NetAcad da Cisco.
 
 Link disponivel até 25 de março.
 
