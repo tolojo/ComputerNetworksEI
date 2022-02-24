@@ -76,8 +76,37 @@ no shutdown	Interfaces nos routers estão em “shutdown” por omissão, por is
 Se efetuou a configuração manual dos endereços IP anteriromente, já pode testar efetuar um `ping` a partir de um PC a outro PC e ao endereço do *router*.
 Para fazer isto deverá usar uma *Command Prompt* (idêntica ao Windows) no menu *Desktop* dentro de um PC ou servidor. Após abrir a *Command Prompt* poderá testar a conectividade, por exemplo a partir do PC com o IP 192.168.100.11:
 ```
-> ping 192.168.100.1
-reply...
+C:\>ping 192.168.100.1
+
+Pinging 192.168.100.1 with 32 bytes of data:
+
+Reply from 192.168.100.1: bytes=32 time=43ms TTL=255
+Reply from 192.168.100.1: bytes=32 time<1ms TTL=255
+Reply from 192.168.100.1: bytes=32 time<1ms TTL=255
+Reply from 192.168.100.1: bytes=32 time=26ms TTL=255
+
+Ping statistics for 192.168.100.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 43ms, Average = 17ms
+```
+Neste caso o comando `ping` testa a conectividade entre o PC e o router. Caso todos o output seja diferente (*Request timed out*) alguma configuiração anterior está errada.
+
+Poderá ainda testar a conectividade ao outro PC da mesma VLAN:
+```
+C:\>ping 192.168.100.12
+
+Pinging 192.168.100.12 with 32 bytes of data:
+
+Reply from 192.168.100.12: bytes=32 time<1ms TTL=128
+Reply from 192.168.100.12: bytes=32 time<1ms TTL=128
+Reply from 192.168.100.12: bytes=32 time<1ms TTL=128
+Reply from 192.168.100.12: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.100.12:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
 ```
 
 ### Deverá ser configurado o serviço DHCP no servidor com as várias pools de endereços IPv4 necessárias
