@@ -132,7 +132,13 @@ Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 0ms, Average = 0ms
 ```
 
-### Deverá ser configurado o serviço DHCP no servidor com as várias pools de endereços IPv4 necessárias
+### Configuração do serviço DHCP no servidor com as várias pools de endereços IPv4 necessárias
+
+#### Configuração do servidor DHCP (192.168.200.10)
+
+O que se pretende fazer é distribuir o endereçamento IP para os Computadores Pessoais, tal como acontece numa rede tradicional. Para isso deverá ser configurado o serviço DHCP (Dynamic Host Control Protocol) com as gamas de endereços que sejam necessárias. No simulador, os servidores podem prestar várias serviços, incluindo este.
+
+<img src="PacketTracer-servidor.png" alt="Desktop no PC" width="600"/>
 
 #### Configuração do relay de DHCP em cada um dos interfaces que necessite de DHCP (redes de postos de trabalho).
 O IP do servidor é fixo: 192.168.200.10
