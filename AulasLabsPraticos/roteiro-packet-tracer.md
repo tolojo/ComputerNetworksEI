@@ -74,7 +74,11 @@ no shutdown	Interfaces nos routers estão em “shutdown” por omissão, por is
 ### Testar configurações
 
 Se efetuou a configuração manual dos endereços IP anteriromente, já pode testar efetuar um `ping` a partir de um PC a outro PC e ao endereço do *router*.
-Para fazer isto deverá usar uma *Command Prompt* (idêntica ao Windows) no menu *Desktop* dentro de um PC ou servidor. Após abrir a *Command Prompt* poderá testar a conectividade, por exemplo a partir do PC com o IP 192.168.100.11:
+Para fazer isto deverá usar uma *Command Prompt* (idêntica ao Windows) no menu *Desktop* dentro de um PC ou servidor. 
+
+![alt text](PacketTracer-desktop.png)
+
+Após abrir a *Command Prompt* poderá testar a conectividade, por exemplo a partir do PC com o IP 192.168.100.11:
 ```
 C:\>ping 192.168.100.1
 
