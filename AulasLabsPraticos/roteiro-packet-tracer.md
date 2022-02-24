@@ -39,7 +39,9 @@ Nota: Estas portas são colocadas em *Access* mode no menu de alterar as VLANs.
 
 Apenas as ligações entre equipamentos deverão ser em configuradas em *Trunk* por passarem várias VLANs. Isso só vai acontecer, tipicamente, na ligação entre routers e switchs ou entre switchs.
 
-Acessoriamente, para poder fazer testes nas próximas configurações, poderá desejar configurar os IPs apresentados no diagrama de rede (rede do lado esquerdo) nos PCs e servidor. Para tal deverá abrir as configurações dos PCs e colocar o IP correspondente e a máscara de rede (255.255.255.0) nas configurações do endereço IP. Colocar sempre em *Manual* o endereço IP, nesta altura.
+Acessoriamente, para poder fazer testes nas próximas configurações, poderá desejar configurar os IPs apresentados no diagrama de rede (rede do lado esquerdo) e os endereços de gateway nos PCs e servidor. Para tal deverá abrir as configurações dos PCs e colocar o IP correspondente e a máscara de rede (255.255.255.0) nas configurações do endereço IP no interface de rede (tipicamente *FastEthernet*) e o endereço de gateway no ecrã de *settings*. Colocar sempre em *Manual* o endereço IP e o gatewa, nesta altura.
+
+<img src="PacketTracer-config-IPAddress.png" alt="Config IP Address" width="450"/> <img src="PacketTracer-config-gateway.png" alt="Config Gateway" width="450"/>
 
 ## Configurar IPv4
 
