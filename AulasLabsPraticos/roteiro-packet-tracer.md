@@ -26,10 +26,20 @@ Gravação de configurações: `copy running-config startup-config` or `wr`
 
 ## Configurar Switching
 
-Após implementar o diagrama deve efetuar as ligações entre os equipamentos nas portas indicadas no diagrama.
+Após implementar o diagrama deve efetuar as ligações entre os equipamentos nas portas indicadas no diagrama, ou seja, computadores pessoais nas portas *FastEthernet* 1 a 6 (da direita para a esquerda, portanto a comecar pelos computadores da rede **192.168.100.x**). O servidor deve ser ligado às porta 24 (ultima porta *FastEthernet*).
 
-As ligações entre equipamentos deverão ser em trunk (onde aplicável, isto é, onde passam várias VLANs) e as portas dos switchs devem ser colocadas nas VLANs adequadas. 
-Na aula faz-se esta configuração na gestão gráfica dos equipamentos. Estas são as únicas configurações de equipamentos de rede feitas desta forma (e apenas titulo de exemplo para utilizar a ferramenta de simulação, existe obviamente sintaxe para que possam ser feitas em linha de comando nos equipamentos).
+No switch é necessário efetuar as configurações adequadas destas portas. Na aula faz-se esta configuração na gestão gráfica dos equipamentos. Estas são as únicas configurações de equipamentos de rede feitas desta forma (e apenas titulo de exemplo para utilizar a ferramenta de simulação, existe obviamente sintaxe para que possam ser feitas em linha de comando nos equipamentos).
+
+Sendo assim, nas portas onde foram ligados computadores pessoais e o servidor, devem ser colocadas as VLANs adequadas:
+- PCs da rede **192.168.100.x** na VLAN 100;
+- PCs da rede **192.168.101.x** na VLAN 101;
+- PCs da rede **192.168.102.x** na VLAN 102;
+- o servidor que está na rede **192.168.200.x** deve ser colocado na VLAN 200. Antes devem-se criar as VLANs no menu adequado. 
+Nota: Estas portas são colocadas em *Access* mode no menu de alterar as VLANs. 
+
+Apenas as ligações entre equipamentos deverão ser em configuradas em *Trunk* por passarem várias VLANs. Isso só vai acontecer, tipicamente, na ligação entre routers e switchs ou entre switchs.
+
+Acessoriamente, para poder fazer testes nas próximas configurações, poderá desejar configurar os IPs apresentados no diagrama de rede (rede do lado esquerdo) nos PCs e servidor. Para tal deverá abrir as configurações dos PCs e colocar o IP correspondente e a máscara de rede (255.255.255.0) nas configurações do endereço IP. Colocar sempre em *Manual* o endereço IP, nesta altura.
 
 ## Configurar IPv4
 
