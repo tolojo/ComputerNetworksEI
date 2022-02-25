@@ -10,7 +10,7 @@ Diagrama e sintaxe do exercício a realizar durante as aulas práticas com o sof
 ![alt text](roteiro-imagem.png)
 
 
-## Configurações iniciais
+## Configurações iniciais / Comandos Uteis
 
 Entrar em modo privilegiado: `enable`
 
@@ -38,6 +38,7 @@ Sendo assim, nas portas onde foram ligados computadores pessoais e o servidor, d
 Nota: Estas portas são colocadas em *Access* mode no menu de alterar as VLANs. 
 
 Apenas as ligações entre equipamentos deverão ser em configuradas em *Trunk* por passarem várias VLANs. Isso só vai acontecer, tipicamente, na ligação entre routers e switchs ou entre switchs.
+Sendo assim, a porta *GigabitEthernet 0/1* no switch (onde se ligou o router) deve ser configurada como *Trunk*.
 
 Acessoriamente, para poder fazer testes nas próximas configurações, poderá desejar configurar os IPs apresentados no diagrama de rede (rede do lado esquerdo) e os endereços de gateway nos PCs e servidor. Para tal deverá abrir as configurações dos PCs e colocar o IP correspondente e a máscara de rede (255.255.255.0) nas configurações do endereço IP no interface de rede (tipicamente *FastEthernet*) e o endereço de gateway no ecrã de *settings*. Colocar sempre em *Manual* o endereço IP e o gatewa, nesta altura.
 
@@ -45,7 +46,7 @@ Acessoriamente, para poder fazer testes nas próximas configurações, poderá d
 
 ## Configurar IPv4
 
-### Criação dos interfaces das redes de postos de trabalho no router:
+### Criação dos interfaces dos gateways dos postos de trabalho no router:
 
 ```
 interface gigabitethernet 0/0.100       *Sub-interface/vlan dentro do interface fisio gi 0/0*
@@ -61,7 +62,7 @@ encapsulation dot1Q 102<br>
 ip address 192.168.102.1 255.255.255.0`
 ```
 
-### Criação do interface da rede de servidores no router:
+### Criação do gateway do servidores no router:
 ```
 interface gigabitethernet 0/0.200
 encapsulation dot1Q 200
