@@ -234,13 +234,13 @@ ipv6 unicast-routing
 Configurar interfaces ipv6:
 ```
 interface gi 0/1.100
-ipv6 address 2001:1111:2222:100:1/64
+ipv6 address 2001:1111:2222:100::1/64
 interface gi 0/1.101
-ipv6 address 2001:1111:2222:101:1/64
+ipv6 address 2001:1111:2222:101::1/64
 interface gi 0/1.102
-ipv6 address 2001:1111:2222:102:1/64
+ipv6 address 2001:1111:2222:102::1/64
 interface gi 0/1.200
-ipv6 address 2001:1111:2222:200:1/64
+ipv6 address 2001:1111:2222:200::1/64
 ```
 Neste momento o Router já deverá enviar RA para a rede e os hosts devem conseguir obter um endereço IPv6 na configuração automática.
 
