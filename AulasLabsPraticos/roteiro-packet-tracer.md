@@ -57,16 +57,16 @@ interface gigabitethernet 0/0.101
 encapsulation dot1Q 101
 ip address 192.168.101.1 255.255.255.0
 
-interface gigabitethernet 0/0.102\n
-encapsulation dot1Q 102<br>
-ip address 192.168.102.1 255.255.255.0`
+interface gigabitethernet 0/0.102
+encapsulation dot1Q 102
+ip address 192.168.102.1 255.255.255.0
 ```
 
 ### Criação do gateway do servidores no router:
 ```
 interface gigabitethernet 0/0.200
 encapsulation dot1Q 200
-ip address 192.168.200.1 255.255.255.0`
+ip address 192.168.200.1 255.255.255.0
 ```
 ### Ativar administrativamente o interface físico Gigabitethernet 0/0
 ```
