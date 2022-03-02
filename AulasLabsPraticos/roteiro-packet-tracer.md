@@ -165,8 +165,8 @@ access-list 4 permit 192.168.200.0 0.0.0.255
 #### Nos interfaces com ip privado colocar “ip nat inside” 
 ```
 interface gigabitEthernet 0/0.100
-ip nat inside					Indicação de que se trata de um interface interno
-exit						sobre o qual será realizado NAT
+ip nat inside					
+exit						
 interface gigabitEthernet 0/0.101
 ip nat inside
 exit
