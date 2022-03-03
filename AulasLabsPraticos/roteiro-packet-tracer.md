@@ -235,6 +235,13 @@ interface gigabitethernet 0/0
 ip address 201.1.1.1 255.255.255.0
 ```
 
+#### Servidores na rede ISP
+
+Alem do interface de rede no Router, também se devem configurar os endereços IP (manualmente) nos dois servidores dessa rede.
+Para tal devem-se configurar os seguintes endereços: **primeiro servidor: 200.1.1.10, netmask: 255.255.255.0, gateway: 200.1.1.1**; **segundo servidor: 200.1.1.11, netmask: 255.255.255.0 gateway: 200.1.1.1**;
+
+Nessa altura deve ser testada a conectividade desses servidores para o router da rede (ping).
+
 ### Configuração do routing na rede interna (default gateway para mandar todos os pacotes desconhecidos para o ISP)
 
 É também necessário indicar no Router interno para onde deve enviar todo o tráfego que não conhece diretamente. Para tal indicamos o endereço do Router do ISP como o *default gateway*.
@@ -243,6 +250,8 @@ ip address 201.1.1.1 255.255.255.0
 ```
 ip route 0.0.0.0 0.0.0.0 199.199.199.1
 ```
+
+Nessa altura deve ser testada a conectividade dos computadores pessoais na Rede Interna para os servidores da Rede do ISP (ping).
 
 ## Configurar IPv6 na rede interna
 
