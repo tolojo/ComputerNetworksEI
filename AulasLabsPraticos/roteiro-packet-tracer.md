@@ -296,7 +296,6 @@ Deve repetir os mesmos passos para as outras duas redes: **2001:1111:2222:101::/
 
 A rede 200 é de servidores, logo os equipamentos deverão ter sempre um IP estático, não sendo necessário efetuar nenhuma outra configuração.
 
-
 ### Configurar IPv6 na rede ISP (e routing com rede interna)
 
 Configurar IPv6 na rede de interligação entre Router interno e Router ISP com a rede 2001:9999:9999:9999::/126 (...::1 no lado do ISP e ...::2 no lado da rede interna)
@@ -305,12 +304,12 @@ Configurar postos de trabalho com endereços **2001:1:1:0::10** e **2001:1:1:0::
 
 #### Router ISP:
 
-Ligar routing de IPv6:
+Tal como no Router interno, o routing de IPv6 deve ser ativado:
 ```
 ipv6 unicast-routing 
 ```
 
-Configurar interfaces ipv6:
+Configuração dos interfaces IPv6: *gi 0/0* interno; *gi 0/1* externo (isto é, ligação ao Router interno) 
 ```
 interface gi 0/0
 ipv6 address 2001:1:1:0::1/64
@@ -318,24 +317,27 @@ interface gi 0/1
 ipv6 address 2001:9999:9999:9999::1/126
 ```
 
+**Nota:** Deve ser configurado igualmente o IPv6 nos dois servidores internos com a mesma terminação dos endereços IPv4. Após isso pode ser testada a conectividade IPv6. Sendo assim os endereços dos servidores devem ser configurados **2001:1:1:0::10/64** (primeiro servidor) e **2001:1:1:0::11/64** no segundo servidor.
+
 #### Router interno:
 
+O IPv6 no Router interno também deve ser configurado:
 ```
 Configurar interface ipv6:
 interface gi 0/1
 ipv6 address 2001:9999:9999:9999::2/126
 ```
 
-Nota: configurar IPv6 nos dois servidores internos com a mesma terminação dos endereços IPv4, para testar conectividade: 2001:1:1:0::10/64 e 2001:1:1:0::11/64
+### Configurar routing de IPv6 para permitir conectividade entre redes:
 
-#### Configurar routing de IPv6 para permitir conectividade entre redes:
+Para que haja comunicação em IPv6 entre ambas as redes, deverão ser atualizadas as tabelas de *routing* manualmente:
 
-Routing:
+#### Router ISP:
 ```
 ipv6 route 2001:1111:2222::/48 2001:9999:199:199::2
 ```
 
-Router interno:
+#### Router interno:
 ```
 ipv6 route ::/0 2001:9999:9999:9999::1
 ```
