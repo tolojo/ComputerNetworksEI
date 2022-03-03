@@ -189,7 +189,6 @@ interface gigabitEthernet 0/0.200
 ip nat inside
 exit
 ```
-
 #### interface com ip publico colocar “ip nat outside” 
 ```
 interface gigabitEthernet 0/1
@@ -205,6 +204,8 @@ ip nat inside source list 4 interface GigabitEthernet0/1 overload
 ```
 
 ### Colocação de novo router “ISP” e fazer a ligação entre redes com uma rede /30 ao router interno (rede 199.199.199.0/30)
+
+A componente do lado direito do diagrama, Rede ISP, também deve ser configurada. Para tal iremos usar redes "exemplo", a comecam com a rede 199.199.199.0/30 para interligar os routers.
 
 #### Router interno: 
 ```
@@ -222,6 +223,8 @@ no shutdown
 
 ### Configuração do interface da rede de servidores no ISP
 
+Para a rede interna do ISP (onde vamos ligar dois servidores) também iremos usar duas redes "exemplo".
+
 #### Router ISP: 
 ```
 interface gigabitethernet 0/0
@@ -230,6 +233,8 @@ ip address 201.1.1.1 255.255.255.0
 
 ### Configuração do routing na rede interna (default gateway para mandar todos os pacotes desconhecidos para o ISP)
 
+É também necessário indicar no Router interno para onde deve enviar todo o tráfego que não conhece diretamente. Para tal indicamos o endereço do Router do ISP como o *default gateway*.
+
 #### Router interno:
 ```
 ip route 0.0.0.0 0.0.0.0 199.199.199.1
@@ -237,13 +242,17 @@ ip route 0.0.0.0 0.0.0.0 199.199.199.1
 
 ## Configurar IPv6 na rede interna
 
+A configuração do endereçamento IPv6 fica facilitada por já termos conecitidade IPv4 testada, bastando configurar os interfaces adequados.
+
 ### Router interno:
-Ligar routing de IPv6:
+Por omissão os routers têm o *routing* de IPv6 desligado, sendo necessário ativá-lo.
 ```
 ipv6 unicast-routing 
 ```
 
-Configurar interfaces ipv6:
+### Configurar interfaces ipv6:
+Para o endereçamento vamos usar redes IPv6 "exemplo" usando 64 bits para a rede e os primeiros 16 bits da componente de endereço com o mesmo identificador da VLAN usada.
+
 ```
 interface gi 0/1.100
 ipv6 address 2001:1111:2222:100::1/64
@@ -254,7 +263,7 @@ ipv6 address 2001:1111:2222:102::1/64
 interface gi 0/1.200
 ipv6 address 2001:1111:2222:200::1/64
 ```
-Neste momento o Router já deverá enviar RA para a rede e os hosts devem conseguir obter um endereço IPv6 na configuração automática.
+Neste momento o Router já deverá enviar *Router Advertisements* (ver slides sobre IPv6) para a rede e os hosts devem conseguir obter um endereço IPv6 na configuração automática.
 
 ### Configuração de IPv6 DHCP Server no Router
 ```
