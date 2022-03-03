@@ -147,7 +147,7 @@ Devem ser configuradas as 3 redes dos PCs, na imagem exemplifica-se a Rede100 (1
 O IP do servidor é fixo: 192.168.200.10
 ```
 interface gigabitethernet 0/0.100
-ip helper-address 192.168.200.10		Indicação do servidor de DHCP para esta VLAN
+ip helper-address 192.168.200.10		
 
 interface gigabitethernet 0/0.101
 ip helper-address 192.168.200.10
@@ -159,6 +159,10 @@ ip helper-address 192.168.200.10
 #### Reconfiguração do endereçamento TCP/IP nos Computadores Pessoais
 
 Anteriromente tinha-se configurado os computadores com um IP estático (para efetuar testes). Após as anteriores configurações já se pode passar o endereçamento para dinamico, ou seja, via DHCP. Para tal deve-se alterar novamente a configuração da respetiva placa de rede nos PCs e do Gateway da rede nos Settings.
+
+<img src="PacketTracer-config-settings-DHCP.png" alt="Desktop no PC" width="450"/><img src="PacketTracer-config-IPaddress-DHCP.png" alt="Desktop no PC" width="450"/>
+
+
 
 ### Configuração do NAT no router interno
 
