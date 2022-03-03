@@ -160,7 +160,7 @@ ip helper-address 192.168.200.10
 
 Anteriromente tinha-se configurado os computadores com um IP estático (para efetuar testes). Após as anteriores configurações já se pode passar o endereçamento para dinamico, ou seja, via DHCP. Para tal deve-se alterar novamente a configuração da respetiva placa de rede nos PCs e do Gateway da rede nos Settings.
 
-<img src="PacketTracer-config-settings-DHCP.png" alt="Desktop no PC" width="450"/><img src="PacketTracer-config-IPaddress-DHCP.png" alt="Desktop no PC" width="450"/>
+<img src="PacketTracer-config-settings-DHCP.png" alt="Desktop no PC" width="450"/> <img src="PacketTracer-config-IPAddress-DHCP.png" alt="Desktop no PC" width="450"/>
 
 
 
@@ -267,9 +267,13 @@ ipv6 address 2001:1111:2222:102::1/64
 interface gi 0/1.200
 ipv6 address 2001:1111:2222:200::1/64
 ```
-Neste momento o Router já deverá enviar *Router Advertisements* (ver slides sobre IPv6) para a rede e os hosts devem conseguir obter um endereço IPv6 na configuração automática.
+Neste momento o Router já deverá enviar *Router Advertisements* (ver slides sobre IPv6) para a rede e os hosts devem conseguir obter um endereço IPv6 na configuração automática. Isto signifca que os computadores já devem obter um endereço IPv6 EUI64 (ver slides IPv6). Verificar nos *settings* de um dos PCs, no interface de rede.
 
 ### Configuração de IPv6 DHCP Server no Router
+
+Apesar de obter um endereço IPv6 automaticamente, os computadores ainda não conseguem obter o endereço de DNS (ou outras informações que se deseje passar). Para isso é necessário configurar um servidor de DHCPv6 no router (o DHCP para IPv4 tinha sido configurado no servidor).
+
+Esta configuração é efetuada em dois passos. O seguinte exemplo é para a rede **2001:1111:2222:100::/64** 
 ```
 Router(config)#ipv6 dhcp pool ipv6-pool-100
 Router(config-dhcpv6)#domain-name europeia.internal
@@ -286,16 +290,18 @@ Router(config-subif)# ipv6 dhcp server ipv6-pool-100
 Router(config-subif)# ipv6 nd other-config-flag
 (para passar outras configs, como gateway, para os clientes)
 ```
-Confirmar que aparece o servidor de DNS em Auto-Config/DHCP
+Confirmar que aparece o servidor de DNS em Auto-Config/DHCP num dos computadores pessoais da VLAN100 (os primeiros dois).
 
-Repetir para os outros interfaces 101 e 102. Rede 200 deverá ter um IP estátio.
+Deve repetir os mesmos passos para as outras duas redes: **2001:1111:2222:101::/64** e **2001:1111:2222:102::/64**.
+
+A rede 200 é de servidores, logo os equipamentos deverão ter sempre um IP estático, não sendo necessário efetuar nenhuma outra configuração.
 
 
 ### Configurar IPv6 na rede ISP (e routing com rede interna)
 
 Configurar IPv6 na rede de interligação entre Router interno e Router ISP com a rede 2001:9999:9999:9999::/126 (...::1 no lado do ISP e ...::2 no lado da rede interna)
-Configurar IPv6 no interface com a rede 2001:1:1:0::/64  (0 = default VLAN).
-Configurar postos de trabalho com endereços 2001:1:1:0::10 e 2001:1:1:0::11.
+Configurar IPv6 no interface com a rede **2001:1:1:0::/64**  (0 = default VLAN).
+Configurar postos de trabalho com endereços **2001:1:1:0::10** e **2001:1:1:0::11**.
 
 #### Router ISP:
 
