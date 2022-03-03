@@ -4,7 +4,7 @@
 
 Diagrama e sintaxe do exercício a realizar durante as aulas práticas com o software Cisco Packet Tracer
 
-*Nota: a forma exata de implementação pode variar devido a alterações realizadas durante as aulas.|*
+*Nota: a forma exata de implementação pode, eventualmente, variar devido a alterações realizadas durante as aulas.*
 
 ## Diagrama da Rede a configurar nas Aulas Práticas
 ![alt text](roteiro-imagem.png)
