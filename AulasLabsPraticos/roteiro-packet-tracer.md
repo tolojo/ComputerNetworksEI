@@ -137,9 +137,11 @@ Approximate round trip times in milli-seconds:
 
 #### Configuração do servidor DHCP (192.168.200.10)
 
-O que se pretende fazer é distribuir o endereçamento IP para os Computadores Pessoais, tal como acontece numa rede tradicional. Para isso deverá ser configurado o serviço DHCP (Dynamic Host Control Protocol) com as gamas de endereços que sejam necessárias. No simulador, os servidores podem prestar várias serviços, incluindo este.
+O que se pretende fazer é distribuir o endereçamento IP para os Computadores Pessoais automaticamente, tal como acontece numa rede tradicional. Para isso deverá ser configurado o serviço DHCP (Dynamic Host Control Protocol) com as gamas de endereços que sejam necessárias no servidor e efetuar as configurações necessárias no Router para que os pedidos dos computadores cheguem ao servidor. Neste simulador os servidores podem prestar várias serviços, incluindo DHCP.
 
 <img src="PacketTracer-config-servidor.png" alt="Desktop no PC" width="600"/>
+
+Devem ser configuradas as 3 redes dos PCs, na imagem exemplifica-se a Rede100 (192.168.100.0/24).
 
 #### Configuração do relay de DHCP em cada um dos interfaces que necessite de DHCP (redes de postos de trabalho).
 O IP do servidor é fixo: 192.168.200.10
@@ -153,7 +155,17 @@ ip helper-address 192.168.200.10
 interface gigabitethernet 0/0.102
 ip helper-address 192.168.200.10
 ```
+
+#### Reconfiguração do endereçamento TCP/IP nos Computadores Pessoais
+
+Anteriromente tinha-se configurado os computadores com um IP estático (para efetuar testes). Após as anteriores configurações já se pode passar o endereçamento para dinamico, ou seja, via DHCP. Para tal deve-se alterar novamente a configuração da respetiva placa de rede nos PCs e do Gateway da rede nos Settings.
+
 ### Configuração do NAT no router interno
+
+Uma vez que as redes utilizadas são todas privadas (ver slides TCP/IP, Endereçamento) é necessário fazer a tradução de endereços para aceder ao exterior. Para tal configura-se o suporte de NAT no router interno. A configuração tem três passos:
+1. Configurar as redes que irão ter tradução (através de access lists)
+2. Configurar os interfaces como internos ou externos (os ultimos são os de "saída")
+3. Configurar o tipo de NAT para cada access list / rede IP 
 
 #### Criação das listas de endereços para a realização de NAT:
 ```
