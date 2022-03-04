@@ -108,7 +108,7 @@ Para terem acesso aos canais do Discord devem alterar o vosso *nick* para Primei
 ## Grupos
 Os trabalhos práticos são em grupo (3 alunos no máximo, 2 alunos no minimo) e deve ser preenchida a tarefa respetiva no Canvas até dia 25 de fevereiro: https://mycampus.pt/courses/7345/assignments/8738.
 
-**ATUALIZAÇÃO (20220304): A contituição dos grupos está disponível [aqui]**(https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7W8DWN7nqIehNu8iVlAwD82BJiTac2m0v2sZ4d56q-nybbrWNlSQ63RirHW5_wt4MFKfJLlfR3HNC/pubhtml?gid=592821258&single=true) 
+**ATUALIZAÇÃO (20220304): A contituição dos grupos já está disponível** [aqui](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7W8DWN7nqIehNu8iVlAwD82BJiTac2m0v2sZ4d56q-nybbrWNlSQ63RirHW5_wt4MFKfJLlfR3HNC/pubhtml?gid=592821258&single=true) 
 
 ## Resumo do Calendário da UC
 *(em atualização)*
