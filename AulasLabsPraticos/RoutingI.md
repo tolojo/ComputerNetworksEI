@@ -4,13 +4,13 @@ O Laboratório 2 tem como objetivo **Introduzir sistema de endereçamento e rout
 
 ***Pré-requisito: Três máquinas virtuais - Instalação de pelo menos uma máquina virtual do SEED Project (tal como indicado [aqui](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/AulasLabsPraticos.md)) e dois clones.***
 
-Os clones deverão ser realizados no VirtualBox. Para tal deverá escolher a opção `Clone`, nomear a máquina virtual e escolher a opção `MAC Adress Policy: Generate new MAC addresses for all network adapters`. No final escolher `Linked Clone` para poupar espaço de armazenamento. O outro tipo de clone duplica o espaço em disco gasto pela primeira máquina virtual; o Linked Clone apenas grava as diferenças em relação à máquina original.
+Relembra-se o uso de nomes como **UE01**, **UE02** e **UE03**, ou algo do género, para as máquinas virtuais. Na documentação serão usados esses identificadores.
+
+Os clones deverão ser realizados no VirtualBox e **sempre a partir da máquina original UE01**. Para tal deverá escolher a opção `Clone` nessa VM, nomear a máquina virtual (UE02 primeiro e UE03 na máquina seguinte) e escolher a opção `MAC Adress Policy: Generate new MAC addresses for all network adapters`. No final escolher `Linked Clone` para poupar espaço de armazenamento. O outro tipo de clone duplica o espaço em disco gasto pela primeira máquina virtual; o Linked Clone apenas grava as diferenças em relação à máquina original.
 
 <img src="seed-ubuntu-16-04-fig5.png" alt="Diagram 1" width="600"/>
 
 Os recursos necessários para as máquinas virtuais não necessitam de ser superiores a 1 processador / 512Mb RAM. No caso dos clones isso será mantido, de acordo com a máquina original.
-
-Relembra-se o uso de nomes como **UE01**, **UE02** e **UE03**, ou algo do género, para as máquinas virtuais. Na documentação serão usados esses identificadores
 
 ## 0. Topologia a implementar
 
