@@ -6,6 +6,8 @@ O Laboratório 2 tem como objetivo **Introduzir sistema de endereçamento e rout
 
 Os clones deverão ser realizados no VirtualBox. Para tal deverá escolher a opção `Clone`, nomear a máquina virtual e escolher a opção `MAC Adress Policy: Generate new MAC addresses for all network adapters`. No final escolher `Linked Clone` para poupar espaço de armazenamento. O outro tipo de clone duplica o espaço em disco gasto pela primeira máquina virtual; o Linked Clone apenas grava as diferenças em relação à máquina original.
 
+<img src="seed-ubuntu-16-04-fig5.png" alt="Diagram 1" width="600"/>
+
 Os recursos necessários para as máquinas virtuais não necessitam de ser superiores a 1 processador / 1Gb RAM.
 
 Aconselha-se o uso de nomes como **UE01**, **UE02** e **UE03**, ou algo do género, para as máquinas virtuais. Na documentação serão usados esses identificadores
