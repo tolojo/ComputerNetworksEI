@@ -29,11 +29,20 @@ De notar que, em principio, os nomes das placas de rede nas máquinas virtuais d
 
 ## 1. Interligar Máquinas Virtuais
 
+Na grande maioria das configurações a efetuar nos laboratórios irá utilizar uma janela de terminal. Se desejar poderá adicionar um *shortcut* ao *launcher* lateral:
+
+Deve clicar no botão direito do rato no *desktop* e escolher a opção *Open Terminal*
+
+<img src="seed-desktop-terminal-2.png" alt="O *terminal* é o primeiro icon no topo da barra lateral" width="600"/>
+
+Após o *Terminal* abrir, deverá clicar no botão direito do rato em cima do icon do *Terminal* e escolher a opção *Lock to Launcher*. 
+
+<img src="seed-desktop-terminal-3.png" alt="O *terminal* é o primeiro icon no topo da barra lateral" width="600"/>
+
+Após isso poderá arrastar o icon mais para cima ficando a carregar no botão esquerdo do rato e arrastando.
+
+
 ## 1.1 Interligar UE01 com UE02
-
-Na grande maioria das configurações a efetuar nos laboratórios, irá utilizar uma janela de terminal (que pode executar através do menu lateral so ambiente gráfico). 
-
-<img src="seed-desktop-terminal.png" alt="O *terminal* é o primeiro icon no topo da barra lateral" width="600"/>
 
 Para interligar estas duas máquinas virtuais, deve configurar os seguintes endereços em cada uma delas:
 
