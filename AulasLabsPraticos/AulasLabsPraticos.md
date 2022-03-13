@@ -61,12 +61,14 @@ Esta [página](https://seedsecuritylabs.org/labsetup.html) na secçãoo Ubuntu 1
 Instruções resumidas (podem não dispensar a consulta do manual referido anteriormente):
 
 1. Efetuar o download da imagem da máquina virtual em Linux/Ubuntu 16.04
-2. Descomprimir o ficheiro
-3. Criar uma Máquina Linux no VirtualBox com o nome que pretender (poderá desejar acrescentar ...01 no final, uma vez que necessitará de várias máquinas)
-4. Escolher preferivelmente a placa gráfica VBoxVGA
-5. Iniciar a máquina virtual (credenciais - user:seed; password:dees)
-6. Atualizar o sistema operativo: sudo apt update; sudo apt upgrade
-7. Atualizar o teclado para português: setxkbmap pt
+2. Criar uma Máquina Linux no VirtualBox com o nome que pretender, sugere-se UE01. Irá necessitará de criar várias máquinas.
+3. Descomprimir o ficheiro .zip que fez download para o mesmo diretorio da máquina virtual e adicionar o disco à VM UE01.
+
+
+5. Escolher preferivelmente a placa gráfica VBoxVGA
+6. Iniciar a máquina virtual (credenciais - user:seed; password:dees)
+7. Atualizar o sistema operativo: sudo apt update; sudo apt upgrade
+8. Atualizar o teclado para português: setxkbmap pt
 
 *Nota: É possível correr as máquinas dos SEED LABS na Cloud. [Neste repositório](https://github.com/seed-labs/seed-labs/blob/master/manuals/cloud/seedvm-cloud.md) da SEED Labs poderá verificar como o fazer. Não haverá suporte do Docente para esta configuração*
 
