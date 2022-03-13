@@ -8,9 +8,9 @@ Os clones deverão ser realizados no VirtualBox. Para tal deverá escolher a op�
 
 <img src="seed-ubuntu-16-04-fig5.png" alt="Diagram 1" width="600"/>
 
-Os recursos necessários para as máquinas virtuais não necessitam de ser superiores a 1 processador / 1Gb RAM.
+Os recursos necessários para as máquinas virtuais não necessitam de ser superiores a 1 processador / 512Mb RAM. No caso dos clones isso será mantido, de acordo com a máquina original.
 
-Aconselha-se o uso de nomes como **UE01**, **UE02** e **UE03**, ou algo do género, para as máquinas virtuais. Na documentação serão usados esses identificadores
+Relembra-se o uso de nomes como **UE01**, **UE02** e **UE03**, ou algo do género, para as máquinas virtuais. Na documentação serão usados esses identificadores
 
 ## 0. Topologia a implementar
 
