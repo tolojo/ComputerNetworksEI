@@ -62,7 +62,13 @@ Instruções resumidas (podem não dispensar a consulta do manual referido anter
 
 1. Efetuar o download da imagem da máquina virtual em Linux/Ubuntu 16.04
 2. Criar uma Máquina Linux no VirtualBox com o nome que pretender, sugere-se UE01. Irá necessitará de criar várias máquinas.
-3. Descomprimir o ficheiro .zip que fez download para o mesmo diretorio da máquina virtual e adicionar o disco à VM UE01.
+
+<img src="seed-ubuntu-16-04-fig1" alt="Desktop no PC" width="600"/>
+
+<img src="seed-ubuntu-16-04-fig2" alt="Desktop no PC" width="600"/>
+
+
+4. Descomprimir o ficheiro .zip que fez download para o mesmo diretorio da máquina virtual e adicionar o disco à VM UE01.
 
 
 5. Escolher preferivelmente a placa gráfica VBoxVGA
