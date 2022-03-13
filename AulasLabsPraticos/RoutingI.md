@@ -22,7 +22,17 @@ A primeira placa de rede de todas as máquinas deverá ser do tipo `Internal Net
 
 Ainda no mesmo local dos Settings, as primeiras placas de rede da **UE01** e **UE02** devem ser ligadas a um switch `switch01` (campo *Name*); a segunda placa de rede do **UE01** e a primeira placa de rede da **UE03** estão ligadas ao `switch02`.
 
-Escolher a opção `Promiscuous Mode: Allow VMs` em *Advanced*.
+Escolher a opção `Promiscuous Mode: Allow VMs` em *Advanced*. 
+
+Ver exemplos seguintes:
+
+Primeira placa (idêntico para UE01, UE02 e UE03):
+
+<img src="seed-ubuntu-16-04-nic-01.png" alt="Diagram 1" width="600"/>
+
+Segunda Placa (UE01):
+
+<img src="seed-ubuntu-16-04-nic-02.png" alt="Diagram 1" width="600"/>
 
 De notar que, em principio, os nomes das placas de rede nas máquinas virtuais deverao ser:
 - Primeira placa de rede: `enp0s3`
