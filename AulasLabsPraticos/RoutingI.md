@@ -174,6 +174,7 @@ Agora, na mesma máquina **UE02**, deverá colocar o endereço do **UE01** da me
 ```
 $ sudo ip route add default via 192.168.1.1
 ```
+*Nota: Se tiver várias possibilidades de ter rotas default, deve usar metrix X na parte final do comando*
 
 Para verificar se já tem conectividade deverá utilizar o ping:
 ```
