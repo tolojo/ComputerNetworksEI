@@ -1,6 +1,6 @@
 # Trabalhos Práticos (45%)
 
-Os trabalhos práticos são efetuados em [grupo](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/TrabsP/TrabsP-grupos.md).
+Os trabalhos práticos são efetuados em [grupo](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7W8DWN7nqIehNu8iVlAwD82BJiTac2m0v2sZ4d56q-nybbrWNlSQ63RirHW5_wt4MFKfJLlfR3HNC/pubhtml?gid=592821258&single=true).
 
 Consulte os enunciados e datas de entrega de cada uma das 4 componentes:
 
