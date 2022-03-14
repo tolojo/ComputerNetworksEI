@@ -1,4 +1,4 @@
-# Laboratório 1: Routing I
+# Laboratório 3: Routing I
 
 O Laboratório 2 tem como objetivo **Introduzir sistema de endereçamento e routing de pacotes IP** através de configurações em máquinas virtuais Linux (Ubuntu).
 
