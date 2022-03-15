@@ -56,6 +56,9 @@ Existem vários trabalhos a serem realizados para alunos em **avaliação contin
 | 12 | 18/19 mai | Apoio ao trabalho prático Networking/IoT; (possível salvaguarda para a realização de laboratórios atrasados, caso seja possível)|
 | 13 | 25/26 mai | Apresentações dos trabalhos práticos Networking/IoT|
 
+### Sumários
+Os sumários das aulas podem ser consultados [aqui](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/sumarios.md)
+
 ## Avaliação 
 
 ### 1. Trabalho Teórico (15%)
