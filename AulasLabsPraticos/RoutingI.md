@@ -230,10 +230,10 @@ Na verdade para a Internet não podem ser enviados endereços privados como os d
 
 Para realizar estas configurações, deve:
 ```
-$ sudo iptables -P FORWARD ACCEPT   
-$ sudo iptables -F FORWARD           
-$ sudo iptables -t nat -F            
-$ sudo iptables -t nat -A POSTROUTING  -o enp0s9 -j MASQUERADE   
+sudo iptables -P FORWARD ACCEPT   
+sudo iptables -F FORWARD           
+sudo iptables -t nat -F            
+sudo iptables -t nat -A POSTROUTING  -o enp0s9 -j MASQUERADE   
 ```
 
 Agora tente efetuar os pings anteriores novamente nas máquinas **UE02** e **UE03**.
@@ -297,7 +297,7 @@ iface enp0s3 inet static
     dns-nameservers 1.1.1.1
 ```
 
-Na **UE01** deve edutar ainda o ficheiro `/etc/sysctl.conf`:
+Na **UE01** deve editar ainda o ficheiro `/etc/sysctl.conf`:
 ```
 net.ipv4.ip_forward=1
 ```
