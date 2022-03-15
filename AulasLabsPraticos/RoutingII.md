@@ -15,6 +15,10 @@ Cortar ICMP
 
 Testar ICMP
 
+Apagar a regra colocada
+
+`$ sudo /sbin/iptables –D INPUT –p icmp –j DROP`
+
 ## 2. Capturar tráfego com *tcpdump*
 
 $ sudo tcpdump -i enp0s3
@@ -30,6 +34,8 @@ Use tcpdump
 
 Cut SSH
 
+`sudo /sbin/iptables –A INPUT –p tcp –-dport 22 –j DROP`
+
 Use tcpdump
 
 ## 4. Testar serviço *http (web)
@@ -40,4 +46,6 @@ Use tcpdump
 
 Cut Web
 
+`sudo /sbin/iptables –A INPUT –p tcp –-dport 80 –j DROP`
+`sudo /sbin/iptables –A INPUT –p tcp –-dport 443 –j DROP`
 Use tcpdump
