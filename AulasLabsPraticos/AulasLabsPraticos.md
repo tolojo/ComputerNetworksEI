@@ -85,7 +85,7 @@ Após adicionar, o disco deverá aparecer nas configuração de *Storage* da má
 6. Iniciar a máquina virtual (credenciais - user:seed; password:dees)
 7. Atualizar o sistema operativo: sudo apt update; sudo apt upgrade
 8. Atualizar o teclado para português: setxkbmap pt
-9. Após arrancar com a máquina, a componente de gestão de rede poderá retirar/alterar as configurações que irá efetuar nos laboratórios. Para evitar que isso aconteça deve desligar o automatismo: 1) após arrancar com a máquina, ir a *System Settings* (barra lateral, roda dentada); 2) Entrar em *Network*; 3) Escolher *Wired* e *Options*; 4) Escolher *IPv4 Settings* e alterar o *Method* para *Disabled*. Se efetuar esta operação após clonar as máquinas, deverá efetuar isso em todas as máquinas.
+9. Após arrancar com a máquina, a componente de gestão de rede poderá retirar/alterar as configurações que irá efetuar nos laboratórios. Para evitar que isso aconteça deve desligar o automatismo: 1) após arrancar com a máquina, ir a *System Settings* (barra lateral, roda dentada); 2) Entrar em *Network*; 3) Escolher *Wired* e *Options*; 4) Escolher *General* e retirar o visto de *Automatically connect to this network when it is available*; 5) Escolher *IPv4 Settings* e alterar o *Method* para *Disabled*. Se efetuar esta operação após clonar as máquinas, deverá efetuar isso em todas as máquinas mas na **UE01** não o deve fazer no terceiro interface (o que está ligado à Internet).
 
 *Nota: É possível correr as máquinas dos SEED LABS na Cloud. [Neste repositório](https://github.com/seed-labs/seed-labs/blob/master/manuals/cloud/seedvm-cloud.md) da SEED Labs poderá verificar como o fazer. Não haverá suporte do Docente para esta configuração*
 
