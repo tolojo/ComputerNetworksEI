@@ -18,7 +18,7 @@ Para apagar todas as regras de nat:
 
 `sudo /sbin/iptables -t nat –F`
 
-## 1. Utilização de *iptables*
+## 1. Exemplo de utilização de *iptables* 
 
 ### 1.1 Testar ICMP (pings)
 
@@ -51,12 +51,23 @@ Após o teste deve apagar a regra para impedir futuros problemas com testes de c
 
 `$ sudo /sbin/iptables –D INPUT –p icmp –j DROP`
 
-## 2. Capturar tráfego com *tcpdump*
+## 2. Utilização de *tcpdump* para capturar tráfego
 
-$ sudo tcpdump -i enp0s3
-$ sudo tcpdump -i enp0s3
-$ sudo tcpdump -i enp0s8
-$ sudo tcpdump -i enp0s8
+Em **UE01**:
+
+`$ sudo tcpdump -i enp0s3`
+
+`$ sudo tcpdump -i enp0s8`
+
+`$ sudo tcpdump -i enp0s9`
+
+Em **UE02**:
+
+`$ sudo tcpdump -i enp0s3`
+
+Em **UE03**:
+
+`$ sudo tcpdump -i enp0s3`
 
 ## 3. Testar serviço *ssh* (acesso remoto)
 
