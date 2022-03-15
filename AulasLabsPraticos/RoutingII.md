@@ -18,7 +18,7 @@ Para apagar todas as regras de nat:
 
 `sudo /sbin/iptables -t nat –F`
 
-## 1. Utilização de *iptables
+## 1. Utilização de *iptables*
 
 ### 1.1 Testar ICMP (pings)
 
@@ -47,12 +47,7 @@ no answer yet for icmp_seq=3
 no answer yet for icmp_seq=4
 ```
 
-
-
-
-Testar ICMP
-
-Apagar a regra colocada
+Após o teste deve apagar a regra para impedir futuros problemas com testes de conectividade.
 
 `$ sudo /sbin/iptables –D INPUT –p icmp –j DROP`
 
@@ -63,7 +58,7 @@ $ sudo tcpdump -i enp0s3
 $ sudo tcpdump -i enp0s8
 $ sudo tcpdump -i enp0s8
 
-## 3. Testar serviço *ssh (acesso remoto)
+## 3. Testar serviço *ssh* (acesso remoto)
 
 Test SSH
 
@@ -75,7 +70,7 @@ Cut SSH
 
 Use tcpdump
 
-## 4. Testar serviço *http (web)
+## 4. Testar serviço *http* (web)
 
 Test Web
 
