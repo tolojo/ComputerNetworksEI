@@ -4,8 +4,8 @@
 1. Laboratório 1: Cisco Packet Tracer I 
 2. Laboratório 2: Cisco Packet Tracer II
 3. Laboratório 3: Routing I (com máquinas virtuais) 
-5. Laboratório 4: Routing II (com NAT e acesso à Internet)
-6. Laboratório 5: Captura de Tráfego numa Rede  
+5. Laboratório 4: Routing II/Firewall (com máquinas virtuais)
+6. Laboratório 5: Captura de Tráfego numa Rede (com máquinas virtuais)
 7. Laboratório 6: Cisco Packet Tracer III
 
 ## 0. Preparação dos Laboratórios / Pré-Requisitos
