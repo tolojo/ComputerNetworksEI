@@ -39,6 +39,48 @@ De notar que, em principio, os nomes das placas de rede nas máquinas virtuais d
 - Segunda placa de rede: `enp0s8`
 - Terceira placa de rede: `enp0s9`
 
+Para ver os nomes das placas e respetivos endereços poderá utilizar o comando *ipconfig*. Exemplo do comando no **UE01** (onde existem mais placas de rede):
+
+```
+$ ifconfig
+enp0s3    Link encap:Ethernet  HWaddr 08:00:27:28:47:74  
+          inet addr:192.168.1.1  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fe28:4774/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:14241 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:19524 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1567100 (1.5 MB)  TX bytes:20944662 (20.9 MB)
+
+enp0s8    Link encap:Ethernet  HWaddr 08:00:27:e3:54:07  
+          inet addr:192.168.2.1  Bcast:192.168.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fee3:5407/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10766 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:15732 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1109168 (1.1 MB)  TX bytes:19180867 (19.1 MB)
+
+enp0s9    Link encap:Ethernet  HWaddr 08:00:27:d3:a8:8d  
+          inet addr:10.0.2.10  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fed3:a88d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:28609 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:12055 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:34979489 (34.9 MB)  TX bytes:1848149 (1.8 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1209 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1209 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:133900 (133.9 KB)  TX bytes:133900 (133.9 KB)
+
+```
+
 ## 1. Interligar Máquinas Virtuais
 
 Na grande maioria das configurações a efetuar nos laboratórios irá utilizar uma janela de terminal. Se desejar poderá adicionar um *shortcut* ao *launcher* lateral:
