@@ -18,7 +18,7 @@ Os recursos necessários para as máquinas virtuais não necessitam de ser super
 
 
 Nos Settings da VirtualBox deve adicionar três placas de rede em **UE01** e uma placa de rede em **UE02** e **UE03**.
-A primeira placa de rede de todas as máquinas deverá ser do tipo `Internal Network`; a segunda placa de rede do **UE01** deve ser também do tipo `Internal Network`; a terceira plada do **UE01** do tipo `NAT Network`.
+A primeira placa de rede de todas as máquinas deverá ser do tipo `Internal Network`; a segunda placa de rede do **UE01** deve ser também do tipo `Internal Network`; a terceira placa do **UE01** do tipo `NAT Network`.
 
 Ainda no mesmo local dos Settings, as primeiras placas de rede da **UE01** e **UE02** devem ser ligadas a um switch `switch01` (campo *Name*); a segunda placa de rede do **UE01** e a primeira placa de rede da **UE03** estão ligadas ao `switch02`.
 
@@ -30,7 +30,7 @@ Primeira placa (idêntico para UE01, UE02 e UE03):
 
 <img src="seed-ubuntu-16-04-nic-01.png" alt="Diagram 1" width="600"/>
 
-Segunda Placa (UE01):
+Terceira Placa (UE01):
 
 <img src="seed-ubuntu-16-04-nic-02.png" alt="Diagram 1" width="600"/>
 
