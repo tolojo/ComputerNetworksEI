@@ -295,9 +295,8 @@ Pode fazê-lo de uma das duas formas sugeridas anteriormente. Por exemplo:
 $ sudo gedit /etc/network/interfaces
 ```
 
+/etc/network/interfaces na UE01
 ```
-# /etc/network/interfaces na UE01
-
 auto lo
 iface lo inet loopback
 
@@ -317,9 +316,8 @@ auto enp0s9
 iface enp0s9 inet dhcp
 ```
 
+/etc/network/interfaces na UE02
 ```
-# /etc/network/interfaces na UE02
-
 auto lo
 iface lo inet loopback
 
@@ -331,9 +329,8 @@ iface enp0s3 inet static
     dns-nameservers 1.1.1.1
 ```
 
+/etc/network/interfaces na UE03
 ```
-# /etc/network/interfaces na UE03
-
 auto lo
 iface lo inet loopback
 
