@@ -288,7 +288,10 @@ Já deverá conseguir.
 
 ## 3. Garantir que as configurações ficam permanentes
 
-Se desligar as máquinas irá perder as configurações. Antes de o fazer edite o ficheiro `/etc/network/interfaces` e coloque as informações anteriromente configuradas (neste caso acrescentou-se um endereço de DNS Server para poder usar nomes de sites posteriromente):
+Se desligar as máquinas irá perder as configurações. Antes de o fazer edite o ficheiro `/etc/network/interfaces` e coloque as informações anteriromente configuradas (neste caso acrescentou-se um endereço de DNS Server para poder usar nomes de sites posteriromente).
+Pode fazê-lo de uma das duas formas sugeridas anteriormente. Por exemplo:
+
+`sudo gedit /etc/network/interfaces`
 
 ```
 # /etc/network/interfaces na UE01
