@@ -83,7 +83,7 @@ Após adicionar, o disco deverá aparecer nas configuração de *Storage* da má
 
 5. Poderá ter de escolher a placa gráfica VBoxVGA (por forma a poder alterar a resolução da placa gráfica)
 6. Iniciar a máquina virtual (credenciais - user:seed; password:dees)
-7. Atualizar o sistema operativo: sudo apt update; sudo apt upgrade
+7. Atualizar o sistema operativo: `sudo apt update; sudo apt upgrade`
 8. Atualizar o teclado para português:
   - Apenas na sessão: `setxkbmap pt`
   - Alteração permanente: `sudo dpkg-reconfigure keyboard-configuration` - aceitar o primeiro parametro que aparece por omissão (tipo de teclado); escolher na segunda questão o teclado português; escolher as outras opções todas por omissão até ao final.
