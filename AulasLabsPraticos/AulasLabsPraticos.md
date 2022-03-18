@@ -84,11 +84,17 @@ Após adicionar, o disco deverá aparecer nas configuração de *Storage* da má
 5. Poderá ter de escolher a placa gráfica VBoxVGA (por forma a poder alterar a resolução da placa gráfica)
 6. Iniciar a máquina virtual (credenciais - user:seed; password:dees)
 7. Atualizar o sistema operativo: sudo apt update; sudo apt upgrade
-8. Atualizar o teclado para português: setxkbmap pt
-9. Após arrancar com a máquina, a componente de gestão de rede poderá retirar/alterar as configurações que irá efetuar nos laboratórios. Para evitar que isso aconteça deve desligar o automatismo: 1) após arrancar com a máquina, ir a *System Settings* (barra lateral, roda dentada); 2) Entrar em *Network*; 3) Escolher *Wired* e *Options*; 4) Escolher *General* e retirar o visto de *Automatically connect to this network when it is available*; 5) Escolher *IPv4 Settings* e alterar o *Method* para *Disabled*. Se efetuar esta operação após clonar as máquinas, deverá efetuar isso em todas as máquinas mas na **UE01** não o deve fazer no terceiro interface (o que está ligado à Internet).
-10. Caso haja algum problema de incompatibilidade no arranque da máquina, por favor verifique que tem a *VT Technology* (VT-x) ativa na bios do seu computador. Normalmente essa opção encontra-se facilmente mas, por favor, consulte a documentação do fabricante caso seja necessário.
+8. Atualizar o teclado para português:
+  - Apenas na sessão: `setxkbmap pt`
+  - Alteração permanente: `sudo dpkg-reconfigure keyboard-configuration` - aceitar o primeiro parametro que aparece por omissão (tipo de teclado); escolher na segunda questão o teclado português; escolher as outras opções todas por omissão até ao final.
+10. Após arrancar com a máquina, a componente de gestão de rede poderá retirar/alterar as configurações que irá efetuar nos laboratórios. Para evitar que isso aconteça deve desligar o automatismo: 1) após arrancar com a máquina, ir a *System Settings* (barra lateral, roda dentada); 2) Entrar em *Network*; 3) Escolher *Wired* e *Options*; 4) Escolher *General* e retirar o visto de *Automatically connect to this network when it is available*; 5) Escolher *IPv4 Settings* e alterar o *Method* para *Disabled*. Se efetuar esta operação após clonar as máquinas, deverá efetuar isso em todas as máquinas mas na **UE01** não o deve fazer no terceiro interface (o que está ligado à Internet).
+11. Caso haja algum problema de incompatibilidade no arranque da máquina, por favor verifique que tem a *VT Technology* (VT-x) ativa na bios do seu computador. Normalmente essa opção encontra-se facilmente mas, por favor, consulte a documentação do fabricante caso seja necessário.
 
 *Nota: É possível correr as máquinas dos SEED LABS na Cloud. [Neste repositório](https://github.com/seed-labs/seed-labs/blob/master/manuals/cloud/seedvm-cloud.md) da SEED Labs poderá verificar como o fazer. Não haverá suporte do Docente para esta configuração*
+
+Informações uteis:
+- Para editar ficheiros de texto pode usar o `vi` dentro do *terminal* ou o `gedit` em modo gráfico (mais simpático e prático) - também pode invocar o `gedit` dentro de um terminal escrevendo o nome do comando.
+- Para desligar as máquinas pode fazer `shutdown -h now`; restart `shutdown -r now`
 
 # Laboratórios
 Para a calendarização prevista dos seguintes laboratórios ver as [aqui](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/README.md#planeamento-previsto-pode-sofrer-alteraçõesplaneamento) as datas.
