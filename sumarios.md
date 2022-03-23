@@ -9,11 +9,11 @@
 | 03 | 3 mar | Modelo OSI - camadas aplicacionais; Internet (história/breve); TCP/IP arquitetura, Unicast, Multicast; Realização do laboratório #2 - utilização de Packet Tracer.|
 | 04 | 10 mar | TCP/IP pacotes IP / layer IP; TCP/IP ICMP |
 | 05 | 17 mar | Protocolos TCP e UDP / layer transporte; TCP/IP endereçamento IPv4;  Realização do laboratório #2 - Endereçamento IP e Routing em máquinas virtuais Linux |
+| 06 | 24 mar | TCP/IP endereçamento IPv4 (inclui subnetting)|
 
-## Planeamento
+## Restantes aulas planeadas
 | Aula | Data | Aula |
 | :-----------: | :-----------: | :---------- |
-| 06 | 24 mar | TCP/IP endereçamento IPv4 (inclui subnetting)|
 | 07 | 7 abr | ***Laboratório 4 ([pré-requisito 0.2](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/AulasLabsPraticos.md#02-instalação-de-máquinas-virtuais-em-equipamentos-dos-alunos-labs-24-e-5) para elaborar o laboratório)*** |
 |   | 14 abr | *Páscoa*|
 | 08 | 21 abr | Protocolos (DNS, DHCP, HTTP, SNMP, etc) – essencial: saber exatemente como se resolvem os nomes; saber exatamente como se distribui endereçamento IP dinamicamente; IPv4 vs IPv6 enquadrar IPv6 como “obrigatório” nos dias de hoje|
@@ -25,7 +25,7 @@
 
 # Turma T02
 
-## Sumários
+## Restantes aulas planeadas
 | Aula | Data | Sumário |
 | :-----------: | :-----------: | :---------- |
 | 01 | 16 fev | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
@@ -33,11 +33,11 @@
 | 03 | 2 mar | Modelo OSI - camadas aplicacionais; Internet (história/breve); TCP/IP arquitetura, Unicast, Multicast; Realização do laboratório #2 - utilização de Packet Tracer.|
 | 04 | 9 mar | TCP/IP pacotes IP / layer IP; TCP/IP ICMP |
 | 05 | 16 mar | Protocolos TCP e UDP / layer transporte; TCP/IP endereçamento IPv4;  Realização do laboratório #2 - Endereçamento IP e Routing em máquinas virtuais Linux |
+| 06 | 23 mar | TCP/IP endereçamento IPv4 (inclui subnetting)|
 
 ## Planeamento
 | Aula | Data | Aula |
 | :-----------: | :-----------: | :---------- |
-| 06 | 23 mar | TCP/IP endereçamento IPv4 (inclui subnetting)|
 | 07 | 6 abr | ***Laboratório 4 ([pré-requisito 0.2](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/AulasLabsPraticos.md#02-instalação-de-máquinas-virtuais-em-equipamentos-dos-alunos-labs-24-e-5) para elaborar o laboratório)*** |
 |   | 13 abr | *Páscoa*|
 | 08 | 20 abr | Protocolos (DNS, DHCP, HTTP, SNMP, etc) – essencial: saber exatemente como se resolvem os nomes; saber exatamente como se distribui endereçamento IP dinamicamente; IPv4 vs IPv6 enquadrar IPv6 como “obrigatório” nos dias de hoje|
