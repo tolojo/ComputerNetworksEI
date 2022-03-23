@@ -40,7 +40,7 @@ De notar que, em principio, os nomes das placas de rede nas máquinas virtuais d
 - Segunda placa de rede: `enp0s8`
 - Terceira placa de rede: `enp0s9`
 
-Para ver os nomes das placas e respetivos endereços poderá utilizar o comando *ipconfig*. Exemplo do comando no **UE01** (onde existem mais placas de rede):
+Para ver os nomes das placas e respetivos endereços poderá utilizar o comando *ifconfig*. Exemplo do comando no **UE01** (onde existem mais placas de rede):
 
 ```
 $ ifconfig
