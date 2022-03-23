@@ -25,7 +25,7 @@
 
 # Turma T02
 
-## Restantes aulas planeadas
+## Sumários
 | Aula | Data | Sumário |
 | :-----------: | :-----------: | :---------- |
 | 01 | 16 fev | Apresentação; Introdução a Redes de Computadores & Aplicações; Introdução ao Modelo OSI  |
@@ -35,7 +35,7 @@
 | 05 | 16 mar | Protocolos TCP e UDP / layer transporte; TCP/IP endereçamento IPv4;  Realização do laboratório #2 - Endereçamento IP e Routing em máquinas virtuais Linux |
 | 06 | 23 mar | TCP/IP endereçamento IPv4 (inclui subnetting)|
 
-## Planeamento
+## Restantes aulas planeadas
 | Aula | Data | Aula |
 | :-----------: | :-----------: | :---------- |
 | 07 | 6 abr | ***Laboratório 4 ([pré-requisito 0.2](https://github.com/pmrosa-classes/ComputerNetworksEI/blob/main/AulasLabsPraticos/AulasLabsPraticos.md#02-instalação-de-máquinas-virtuais-em-equipamentos-dos-alunos-labs-24-e-5) para elaborar o laboratório)*** |
