@@ -294,6 +294,7 @@ Pode fazê-lo de uma das duas formas sugeridas anteriormente. Por exemplo:
 ```
 $ sudo gedit /etc/network/interfaces
 ```
+(pode ignorar os eventuais *warnings* que aparecerem no terminal após sair do `gedit`)
 
 /etc/network/interfaces na UE01
 ```
